@@ -1,0 +1,2 @@
+set(__QT_DEPLOY_TARGET_SecurityGuardManager_FILE /root/C-plus-learn/SecurityGuardManagement/build/SecurityGuardManager)
+set(__QT_DEPLOY_TARGET_SecurityGuardManager_TYPE EXECUTABLE)

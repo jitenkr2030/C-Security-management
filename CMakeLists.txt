@@ -1,0 +1,73 @@
+cmake_minimum_required(VERSION 3.20)
+project(SecurityGuardManager VERSION 1.0.0 LANGUAGES CXX)
+
+set(CMAKE_CXX_STANDARD 20)
+set(CMAKE_CXX_STANDARD_REQUIRED ON)
+set(CMAKE_AUTOMOC ON)
+set(CMAKE_AUTORCC ON)
+set(CMAKE_AUTOUIC ON)
+
+find_package(Qt6 REQUIRED COMPONENTS Widgets Sql PrintSupport)
+
+find_package(Qt6 QUIET COMPONENTS Charts)
+if(Qt6Charts_FOUND)
+    message(STATUS "Qt6 Charts found")
+else()
+    message(STATUS "Qt6 Charts not found - building without charts (OK)")
+endif()
+
+set(SOURCES
+    src/main.cpp
+    src/database/DatabaseManager.cpp
+    src/ui/LoginDialog.cpp
+    src/ui/MainWindow.cpp
+    src/ui/DashboardWidget.cpp
+    src/ui/GuardWidget.cpp
+    src/ui/GuardDialog.cpp
+    src/ui/ClientWidget.cpp
+    src/ui/ClientDialog.cpp
+    src/ui/SiteWidget.cpp
+    src/ui/SiteDialog.cpp
+    src/ui/AttendanceWidget.cpp
+    src/ui/StyleManager.cpp
+)
+
+set(HEADERS
+    src/database/DatabaseManager.h
+    src/ui/LoginDialog.h
+    src/ui/MainWindow.h
+    src/ui/DashboardWidget.h
+    src/ui/GuardWidget.h
+    src/ui/GuardDialog.h
+    src/ui/ClientWidget.h
+    src/ui/ClientDialog.h
+    src/ui/SiteWidget.h
+    src/ui/SiteDialog.h
+    src/ui/AttendanceWidget.h
+    src/ui/StyleManager.h
+)
+
+set(RESOURCES
+    src/resources/resources.qrc
+)
+
+add_executable(${PROJECT_NAME} ${SOURCES} ${HEADERS} ${RESOURCES})
+
+target_include_directories(${PROJECT_NAME} PRIVATE ${CMAKE_SOURCE_DIR}/src)
+
+target_link_libraries(${PROJECT_NAME} PRIVATE
+    Qt6::Widgets
+    Qt6::Sql
+    Qt6::PrintSupport
+)
+
+if(Qt6Charts_FOUND)
+    target_link_libraries(${PROJECT_NAME} PRIVATE Qt6::Charts)
+    target_compile_definitions(${PROJECT_NAME} PRIVATE HAS_QT_CHARTS)
+endif()
+
+if(WIN32)
+    set_target_properties(${PROJECT_NAME} PROPERTIES
+        WIN32_EXECUTABLE $<CONFIG:Release>
+    )
+endif()
