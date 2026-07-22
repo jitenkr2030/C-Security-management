@@ -53,10 +53,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /root/C-plus-learn/SecurityGuardManagement
+CMAKE_SOURCE_DIR = /root/cplusplus/C-Security-management
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /root/C-plus-learn/SecurityGuardManagement/build
+CMAKE_BINARY_DIR = /root/cplusplus/C-Security-management/build
 
 # Utility rule file for SecurityGuardManager_autogen_timestamp_deps.
 
@@ -81,6 +81,6 @@ CMakeFiles/SecurityGuardManager_autogen_timestamp_deps.dir/clean:
 .PHONY : CMakeFiles/SecurityGuardManager_autogen_timestamp_deps.dir/clean
 
 CMakeFiles/SecurityGuardManager_autogen_timestamp_deps.dir/depend:
-	cd /root/C-plus-learn/SecurityGuardManagement/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /root/C-plus-learn/SecurityGuardManagement /root/C-plus-learn/SecurityGuardManagement /root/C-plus-learn/SecurityGuardManagement/build /root/C-plus-learn/SecurityGuardManagement/build /root/C-plus-learn/SecurityGuardManagement/build/CMakeFiles/SecurityGuardManager_autogen_timestamp_deps.dir/DependInfo.cmake "--color=$(COLOR)"
+	cd /root/cplusplus/C-Security-management/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /root/cplusplus/C-Security-management /root/cplusplus/C-Security-management /root/cplusplus/C-Security-management/build /root/cplusplus/C-Security-management/build /root/cplusplus/C-Security-management/build/CMakeFiles/SecurityGuardManager_autogen_timestamp_deps.dir/DependInfo.cmake "--color=$(COLOR)"
 .PHONY : CMakeFiles/SecurityGuardManager_autogen_timestamp_deps.dir/depend
 

@@ -1,5 +1,5 @@
-/root/C-plus-learn/SecurityGuardManagement/build/SecurityGuardManager_autogen/YPKJ5OE7LN/moc_GuardDialog.cpp: /root/C-plus-learn/SecurityGuardManagement/src/ui/GuardDialog.h \
-  /root/C-plus-learn/SecurityGuardManagement/build/SecurityGuardManager_autogen/moc_predefs.h \
+/root/cplusplus/C-Security-management/build/SecurityGuardManager_autogen/YPKJ5OE7LN/moc_GuardDialog.cpp: /root/cplusplus/C-Security-management/src/ui/GuardDialog.h \
+  /root/cplusplus/C-Security-management/build/SecurityGuardManager_autogen/moc_predefs.h \
   /usr/include/aarch64-linux-gnu/asm/bitsperlong.h \
   /usr/include/aarch64-linux-gnu/asm/errno.h \
   /usr/include/aarch64-linux-gnu/asm/posix_types.h \

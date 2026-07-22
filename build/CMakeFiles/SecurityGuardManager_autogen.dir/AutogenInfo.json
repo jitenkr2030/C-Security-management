@@ -1,15 +1,15 @@
 {
-	"BUILD_DIR" : "/root/C-plus-learn/SecurityGuardManagement/build/SecurityGuardManager_autogen",
-	"CMAKE_BINARY_DIR" : "/root/C-plus-learn/SecurityGuardManagement/build",
-	"CMAKE_CURRENT_BINARY_DIR" : "/root/C-plus-learn/SecurityGuardManagement/build",
-	"CMAKE_CURRENT_SOURCE_DIR" : "/root/C-plus-learn/SecurityGuardManagement",
+	"BUILD_DIR" : "/root/cplusplus/C-Security-management/build/SecurityGuardManager_autogen",
+	"CMAKE_BINARY_DIR" : "/root/cplusplus/C-Security-management/build",
+	"CMAKE_CURRENT_BINARY_DIR" : "/root/cplusplus/C-Security-management/build",
+	"CMAKE_CURRENT_SOURCE_DIR" : "/root/cplusplus/C-Security-management",
 	"CMAKE_EXECUTABLE" : "/usr/bin/cmake",
 	"CMAKE_LIST_FILES" : 
 	[
-		"/root/C-plus-learn/SecurityGuardManagement/CMakeLists.txt",
+		"/root/cplusplus/C-Security-management/CMakeLists.txt",
 		"/usr/share/cmake-3.31/Modules/CMakeDetermineSystem.cmake",
 		"/usr/share/cmake-3.31/Modules/CMakeSystem.cmake.in",
-		"/root/C-plus-learn/SecurityGuardManagement/build/CMakeFiles/3.31.6/CMakeSystem.cmake",
+		"/root/cplusplus/C-Security-management/build/CMakeFiles/3.31.6/CMakeSystem.cmake",
 		"/usr/share/cmake-3.31/Modules/CMakeUnixFindMake.cmake",
 		"/usr/share/cmake-3.31/Modules/CMakeSystemSpecificInitialize.cmake",
 		"/usr/share/cmake-3.31/Modules/Platform/Linux-Initialize.cmake",
@@ -63,7 +63,7 @@
 		"/usr/share/cmake-3.31/Modules/CMakeFindBinUtils.cmake",
 		"/usr/share/cmake-3.31/Modules/Compiler/GNU-FindBinUtils.cmake",
 		"/usr/share/cmake-3.31/Modules/CMakeCXXCompiler.cmake.in",
-		"/root/C-plus-learn/SecurityGuardManagement/build/CMakeFiles/3.31.6/CMakeCXXCompiler.cmake",
+		"/root/cplusplus/C-Security-management/build/CMakeFiles/3.31.6/CMakeCXXCompiler.cmake",
 		"/usr/share/cmake-3.31/Modules/CMakeSystemSpecificInformation.cmake",
 		"/usr/share/cmake-3.31/Modules/CMakeGenericSystem.cmake",
 		"/usr/share/cmake-3.31/Modules/CMakeInitializeConfigs.cmake",
@@ -89,7 +89,7 @@
 		"/usr/share/cmake-3.31/Modules/CMakeDetermineCompilerSupport.cmake",
 		"/usr/share/cmake-3.31/Modules/Internal/FeatureTesting.cmake",
 		"/usr/share/cmake-3.31/Modules/CMakeCXXCompiler.cmake.in",
-		"/root/C-plus-learn/SecurityGuardManagement/build/CMakeFiles/3.31.6/CMakeCXXCompiler.cmake",
+		"/root/cplusplus/C-Security-management/build/CMakeFiles/3.31.6/CMakeCXXCompiler.cmake",
 		"/usr/share/cmake-3.31/Modules/Internal/CMakeCXXLinkerInformation.cmake",
 		"/usr/share/cmake-3.31/Modules/Internal/CMakeCommonLinkerInformation.cmake",
 		"/usr/share/cmake-3.31/Modules/Linker/GNU-CXX.cmake",
@@ -421,90 +421,132 @@
 		"/usr/lib/aarch64-linux-gnu/cmake/Qt6/QtPublicWindowsHelpers.cmake",
 		"/usr/share/cmake-3.31/Modules/CMakeFindDependencyMacro.cmake",
 		"/usr/lib/aarch64-linux-gnu/cmake/Qt6/Qt6Dependencies.cmake",
-		"/root/C-plus-learn/SecurityGuardManagement/src/resources/resources.qrc"
+		"/root/cplusplus/C-Security-management/src/resources/resources.qrc"
 	],
-	"CMAKE_SOURCE_DIR" : "/root/C-plus-learn/SecurityGuardManagement",
+	"CMAKE_SOURCE_DIR" : "/root/cplusplus/C-Security-management",
 	"CROSS_CONFIG" : false,
-	"DEP_FILE" : "/root/C-plus-learn/SecurityGuardManagement/build/SecurityGuardManager_autogen/deps",
+	"DEP_FILE" : "/root/cplusplus/C-Security-management/build/SecurityGuardManager_autogen/deps",
 	"DEP_FILE_RULE_NAME" : "SecurityGuardManager_autogen/timestamp",
 	"HEADERS" : 
 	[
 		[
-			"/root/C-plus-learn/SecurityGuardManagement/src/database/DatabaseManager.h",
+			"/root/cplusplus/C-Security-management/src/database/DatabaseManager.h",
 			"MU",
 			"M7KQ2GL7XF/moc_DatabaseManager.cpp",
 			null
 		],
 		[
-			"/root/C-plus-learn/SecurityGuardManagement/src/ui/AttendanceWidget.h",
+			"/root/cplusplus/C-Security-management/src/ui/AttendanceWidget.h",
 			"MU",
 			"YPKJ5OE7LN/moc_AttendanceWidget.cpp",
 			null
 		],
 		[
-			"/root/C-plus-learn/SecurityGuardManagement/src/ui/ClientDialog.h",
+			"/root/cplusplus/C-Security-management/src/ui/ClientDialog.h",
 			"MU",
 			"YPKJ5OE7LN/moc_ClientDialog.cpp",
 			null
 		],
 		[
-			"/root/C-plus-learn/SecurityGuardManagement/src/ui/ClientWidget.h",
+			"/root/cplusplus/C-Security-management/src/ui/ClientWidget.h",
 			"MU",
 			"YPKJ5OE7LN/moc_ClientWidget.cpp",
 			null
 		],
 		[
-			"/root/C-plus-learn/SecurityGuardManagement/src/ui/DashboardWidget.h",
+			"/root/cplusplus/C-Security-management/src/ui/DashboardWidget.h",
 			"MU",
 			"YPKJ5OE7LN/moc_DashboardWidget.cpp",
 			null
 		],
 		[
-			"/root/C-plus-learn/SecurityGuardManagement/src/ui/GuardDialog.h",
+			"/root/cplusplus/C-Security-management/src/ui/DutyDialog.h",
+			"MU",
+			"YPKJ5OE7LN/moc_DutyDialog.cpp",
+			null
+		],
+		[
+			"/root/cplusplus/C-Security-management/src/ui/DutyWidget.h",
+			"MU",
+			"YPKJ5OE7LN/moc_DutyWidget.cpp",
+			null
+		],
+		[
+			"/root/cplusplus/C-Security-management/src/ui/GuardDialog.h",
 			"MU",
 			"YPKJ5OE7LN/moc_GuardDialog.cpp",
 			null
 		],
 		[
-			"/root/C-plus-learn/SecurityGuardManagement/src/ui/GuardWidget.h",
+			"/root/cplusplus/C-Security-management/src/ui/GuardWidget.h",
 			"MU",
 			"YPKJ5OE7LN/moc_GuardWidget.cpp",
 			null
 		],
 		[
-			"/root/C-plus-learn/SecurityGuardManagement/src/ui/LoginDialog.h",
+			"/root/cplusplus/C-Security-management/src/ui/LeaveDialog.h",
+			"MU",
+			"YPKJ5OE7LN/moc_LeaveDialog.cpp",
+			null
+		],
+		[
+			"/root/cplusplus/C-Security-management/src/ui/LeaveWidget.h",
+			"MU",
+			"YPKJ5OE7LN/moc_LeaveWidget.cpp",
+			null
+		],
+		[
+			"/root/cplusplus/C-Security-management/src/ui/LoginDialog.h",
 			"MU",
 			"YPKJ5OE7LN/moc_LoginDialog.cpp",
 			null
 		],
 		[
-			"/root/C-plus-learn/SecurityGuardManagement/src/ui/MainWindow.h",
+			"/root/cplusplus/C-Security-management/src/ui/MainWindow.h",
 			"MU",
 			"YPKJ5OE7LN/moc_MainWindow.cpp",
 			null
 		],
 		[
-			"/root/C-plus-learn/SecurityGuardManagement/src/ui/SiteDialog.h",
+			"/root/cplusplus/C-Security-management/src/ui/SalaryWidget.h",
+			"MU",
+			"YPKJ5OE7LN/moc_SalaryWidget.cpp",
+			null
+		],
+		[
+			"/root/cplusplus/C-Security-management/src/ui/SiteDialog.h",
 			"MU",
 			"YPKJ5OE7LN/moc_SiteDialog.cpp",
 			null
 		],
 		[
-			"/root/C-plus-learn/SecurityGuardManagement/src/ui/SiteWidget.h",
+			"/root/cplusplus/C-Security-management/src/ui/SiteWidget.h",
 			"MU",
 			"YPKJ5OE7LN/moc_SiteWidget.cpp",
 			null
 		],
 		[
-			"/root/C-plus-learn/SecurityGuardManagement/src/ui/StyleManager.h",
+			"/root/cplusplus/C-Security-management/src/ui/StyleManager.h",
 			"MU",
 			"YPKJ5OE7LN/moc_StyleManager.cpp",
+			null
+		],
+		[
+			"/root/cplusplus/C-Security-management/src/ui/UniformDialog.h",
+			"MU",
+			"YPKJ5OE7LN/moc_UniformDialog.cpp",
+			null
+		],
+		[
+			"/root/cplusplus/C-Security-management/src/ui/UniformWidget.h",
+			"MU",
+			"YPKJ5OE7LN/moc_UniformWidget.cpp",
 			null
 		]
 	],
 	"HEADER_EXTENSIONS" : [ "h", "hh", "h++", "hm", "hpp", "hxx", "in", "txx" ],
-	"INCLUDE_DIR" : "/root/C-plus-learn/SecurityGuardManagement/build/SecurityGuardManager_autogen/include",
-	"MOC_COMPILATION_FILE" : "/root/C-plus-learn/SecurityGuardManagement/build/SecurityGuardManager_autogen/mocs_compilation.cpp",
+	"INCLUDE_DIR" : "/root/cplusplus/C-Security-management/build/SecurityGuardManager_autogen/include",
+	"MOC_COMPILATION_FILE" : "/root/cplusplus/C-Security-management/build/SecurityGuardManager_autogen/mocs_compilation.cpp",
 	"MOC_DEFINITIONS" : 
 	[
 		"QT_CORE_LIB",
@@ -523,7 +565,7 @@
 	],
 	"MOC_INCLUDES" : 
 	[
-		"/root/C-plus-learn/SecurityGuardManagement/src",
+		"/root/cplusplus/C-Security-management/src",
 		"/usr/include/aarch64-linux-gnu/qt6/QtWidgets",
 		"/usr/include/aarch64-linux-gnu/qt6",
 		"/usr/include/aarch64-linux-gnu/qt6/QtCore",
@@ -559,77 +601,112 @@
 		"-c",
 		"/usr/share/cmake-3.31/Modules/CMakeCXXCompilerABI.cpp"
 	],
-	"MOC_PREDEFS_FILE" : "/root/C-plus-learn/SecurityGuardManagement/build/SecurityGuardManager_autogen/moc_predefs.h",
+	"MOC_PREDEFS_FILE" : "/root/cplusplus/C-Security-management/build/SecurityGuardManager_autogen/moc_predefs.h",
 	"MOC_RELAXED_MODE" : false,
 	"MOC_SKIP" : [],
 	"MULTI_CONFIG" : false,
 	"PARALLEL" : 1,
-	"PARSE_CACHE_FILE" : "/root/C-plus-learn/SecurityGuardManagement/build/CMakeFiles/SecurityGuardManager_autogen.dir/ParseCache.txt",
+	"PARSE_CACHE_FILE" : "/root/cplusplus/C-Security-management/build/CMakeFiles/SecurityGuardManager_autogen.dir/ParseCache.txt",
 	"QT_MOC_EXECUTABLE" : "/usr/lib/qt6/libexec/moc",
 	"QT_UIC_EXECUTABLE" : "/usr/lib/qt6/libexec/uic",
 	"QT_VERSION_MAJOR" : 6,
 	"QT_VERSION_MINOR" : 9,
-	"SETTINGS_FILE" : "/root/C-plus-learn/SecurityGuardManagement/build/CMakeFiles/SecurityGuardManager_autogen.dir/AutogenUsed.txt",
+	"SETTINGS_FILE" : "/root/cplusplus/C-Security-management/build/CMakeFiles/SecurityGuardManager_autogen.dir/AutogenUsed.txt",
 	"SOURCES" : 
 	[
 		[
-			"/root/C-plus-learn/SecurityGuardManagement/src/database/DatabaseManager.cpp",
+			"/root/cplusplus/C-Security-management/src/database/DatabaseManager.cpp",
 			"MU",
 			null
 		],
-		[ "/root/C-plus-learn/SecurityGuardManagement/src/main.cpp", "MU", null ],
+		[ "/root/cplusplus/C-Security-management/src/main.cpp", "MU", null ],
 		[
-			"/root/C-plus-learn/SecurityGuardManagement/src/ui/AttendanceWidget.cpp",
-			"MU",
-			null
-		],
-		[
-			"/root/C-plus-learn/SecurityGuardManagement/src/ui/ClientDialog.cpp",
+			"/root/cplusplus/C-Security-management/src/ui/AttendanceWidget.cpp",
 			"MU",
 			null
 		],
 		[
-			"/root/C-plus-learn/SecurityGuardManagement/src/ui/ClientWidget.cpp",
+			"/root/cplusplus/C-Security-management/src/ui/ClientDialog.cpp",
 			"MU",
 			null
 		],
 		[
-			"/root/C-plus-learn/SecurityGuardManagement/src/ui/DashboardWidget.cpp",
+			"/root/cplusplus/C-Security-management/src/ui/ClientWidget.cpp",
 			"MU",
 			null
 		],
 		[
-			"/root/C-plus-learn/SecurityGuardManagement/src/ui/GuardDialog.cpp",
+			"/root/cplusplus/C-Security-management/src/ui/DashboardWidget.cpp",
 			"MU",
 			null
 		],
 		[
-			"/root/C-plus-learn/SecurityGuardManagement/src/ui/GuardWidget.cpp",
+			"/root/cplusplus/C-Security-management/src/ui/DutyDialog.cpp",
 			"MU",
 			null
 		],
 		[
-			"/root/C-plus-learn/SecurityGuardManagement/src/ui/LoginDialog.cpp",
+			"/root/cplusplus/C-Security-management/src/ui/DutyWidget.cpp",
 			"MU",
 			null
 		],
 		[
-			"/root/C-plus-learn/SecurityGuardManagement/src/ui/MainWindow.cpp",
+			"/root/cplusplus/C-Security-management/src/ui/GuardDialog.cpp",
 			"MU",
 			null
 		],
 		[
-			"/root/C-plus-learn/SecurityGuardManagement/src/ui/SiteDialog.cpp",
+			"/root/cplusplus/C-Security-management/src/ui/GuardWidget.cpp",
 			"MU",
 			null
 		],
 		[
-			"/root/C-plus-learn/SecurityGuardManagement/src/ui/SiteWidget.cpp",
+			"/root/cplusplus/C-Security-management/src/ui/LeaveDialog.cpp",
 			"MU",
 			null
 		],
 		[
-			"/root/C-plus-learn/SecurityGuardManagement/src/ui/StyleManager.cpp",
+			"/root/cplusplus/C-Security-management/src/ui/LeaveWidget.cpp",
+			"MU",
+			null
+		],
+		[
+			"/root/cplusplus/C-Security-management/src/ui/LoginDialog.cpp",
+			"MU",
+			null
+		],
+		[
+			"/root/cplusplus/C-Security-management/src/ui/MainWindow.cpp",
+			"MU",
+			null
+		],
+		[
+			"/root/cplusplus/C-Security-management/src/ui/SalaryWidget.cpp",
+			"MU",
+			null
+		],
+		[
+			"/root/cplusplus/C-Security-management/src/ui/SiteDialog.cpp",
+			"MU",
+			null
+		],
+		[
+			"/root/cplusplus/C-Security-management/src/ui/SiteWidget.cpp",
+			"MU",
+			null
+		],
+		[
+			"/root/cplusplus/C-Security-management/src/ui/StyleManager.cpp",
+			"MU",
+			null
+		],
+		[
+			"/root/cplusplus/C-Security-management/src/ui/UniformDialog.cpp",
+			"MU",
+			null
+		],
+		[
+			"/root/cplusplus/C-Security-management/src/ui/UniformWidget.cpp",
 			"MU",
 			null
 		]

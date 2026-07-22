@@ -1,7 +1,7 @@
 CMakeFiles/SecurityGuardManager.dir/src/ui/AttendanceWidget.cpp.o: \
- /root/C-plus-learn/SecurityGuardManagement/src/ui/AttendanceWidget.cpp \
+ /root/cplusplus/C-Security-management/src/ui/AttendanceWidget.cpp \
  /usr/include/stdc-predef.h \
- /root/C-plus-learn/SecurityGuardManagement/src/ui/AttendanceWidget.h \
+ /root/cplusplus/C-Security-management/src/ui/AttendanceWidget.h \
  /usr/include/aarch64-linux-gnu/qt6/QtWidgets/QWidget \
  /usr/include/aarch64-linux-gnu/qt6/QtWidgets/qwidget.h \
  /usr/include/aarch64-linux-gnu/qt6/QtWidgets/qtwidgetsglobal.h \
@@ -504,7 +504,7 @@ CMakeFiles/SecurityGuardManager.dir/src/ui/AttendanceWidget.cpp.o: \
  /usr/include/aarch64-linux-gnu/qt6/QtGui/qtextoption.h \
  /usr/include/aarch64-linux-gnu/qt6/QtCore/QMap \
  /usr/include/aarch64-linux-gnu/qt6/QtCore/qmap.h \
- /root/C-plus-learn/SecurityGuardManagement/src/database/DatabaseManager.h \
+ /root/cplusplus/C-Security-management/src/database/DatabaseManager.h \
  /usr/include/aarch64-linux-gnu/qt6/QtSql/QSqlDatabase \
  /usr/include/aarch64-linux-gnu/qt6/QtSql/qsqldatabase.h \
  /usr/include/aarch64-linux-gnu/qt6/QtSql/qtsqlglobal.h \

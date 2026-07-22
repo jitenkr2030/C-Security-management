@@ -1,7 +1,7 @@
 CMakeFiles/SecurityGuardManager.dir/src/ui/MainWindow.cpp.o: \
- /root/C-plus-learn/SecurityGuardManagement/src/ui/MainWindow.cpp \
+ /root/cplusplus/C-Security-management/src/ui/MainWindow.cpp \
  /usr/include/stdc-predef.h \
- /root/C-plus-learn/SecurityGuardManagement/src/ui/MainWindow.h \
+ /root/cplusplus/C-Security-management/src/ui/MainWindow.h \
  /usr/include/aarch64-linux-gnu/qt6/QtWidgets/QMainWindow \
  /usr/include/aarch64-linux-gnu/qt6/QtWidgets/qmainwindow.h \
  /usr/include/aarch64-linux-gnu/qt6/QtWidgets/qtwidgetsglobal.h \
@@ -477,12 +477,12 @@ CMakeFiles/SecurityGuardManager.dir/src/ui/MainWindow.cpp.o: \
  /usr/include/aarch64-linux-gnu/qt6/QtWidgets/qlayoutitem.h \
  /usr/include/aarch64-linux-gnu/qt6/QtWidgets/qboxlayout.h \
  /usr/include/aarch64-linux-gnu/qt6/QtWidgets/qgridlayout.h \
- /root/C-plus-learn/SecurityGuardManagement/src/ui/DashboardWidget.h \
+ /root/cplusplus/C-Security-management/src/ui/DashboardWidget.h \
  /usr/include/aarch64-linux-gnu/qt6/QtWidgets/QWidget \
  /usr/include/aarch64-linux-gnu/qt6/QtWidgets/qwidget.h \
  /usr/include/aarch64-linux-gnu/qt6/QtWidgets/QGridLayout \
  /usr/include/aarch64-linux-gnu/qt6/QtWidgets/qgridlayout.h \
- /root/C-plus-learn/SecurityGuardManagement/src/ui/GuardWidget.h \
+ /root/cplusplus/C-Security-management/src/ui/GuardWidget.h \
  /usr/include/aarch64-linux-gnu/qt6/QtWidgets/QTableWidget \
  /usr/include/aarch64-linux-gnu/qt6/QtWidgets/qtablewidget.h \
  /usr/include/aarch64-linux-gnu/qt6/QtWidgets/qtableview.h \
@@ -509,9 +509,9 @@ CMakeFiles/SecurityGuardManager.dir/src/ui/MainWindow.cpp.o: \
  /usr/include/aarch64-linux-gnu/qt6/QtGui/qtextoption.h \
  /usr/include/aarch64-linux-gnu/qt6/QtWidgets/QComboBox \
  /usr/include/aarch64-linux-gnu/qt6/QtWidgets/qcombobox.h \
- /root/C-plus-learn/SecurityGuardManagement/src/ui/ClientWidget.h \
- /root/C-plus-learn/SecurityGuardManagement/src/ui/SiteWidget.h \
- /root/C-plus-learn/SecurityGuardManagement/src/ui/AttendanceWidget.h \
+ /root/cplusplus/C-Security-management/src/ui/ClientWidget.h \
+ /root/cplusplus/C-Security-management/src/ui/SiteWidget.h \
+ /root/cplusplus/C-Security-management/src/ui/AttendanceWidget.h \
  /usr/include/aarch64-linux-gnu/qt6/QtWidgets/QDateEdit \
  /usr/include/aarch64-linux-gnu/qt6/QtWidgets/qdatetimeedit.h \
  /usr/include/aarch64-linux-gnu/qt6/QtCore/qtimezone.h \
@@ -521,6 +521,10 @@ CMakeFiles/SecurityGuardManager.dir/src/ui/MainWindow.cpp.o: \
  /usr/include/aarch64-linux-gnu/qt6/QtWidgets/qspinbox.h \
  /usr/include/aarch64-linux-gnu/qt6/QtCore/QMap \
  /usr/include/aarch64-linux-gnu/qt6/QtCore/qmap.h \
+ /root/cplusplus/C-Security-management/src/ui/DutyWidget.h \
+ /root/cplusplus/C-Security-management/src/ui/LeaveWidget.h \
+ /root/cplusplus/C-Security-management/src/ui/SalaryWidget.h \
+ /root/cplusplus/C-Security-management/src/ui/UniformWidget.h \
  /usr/include/aarch64-linux-gnu/qt6/QtWidgets/QApplication \
  /usr/include/aarch64-linux-gnu/qt6/QtWidgets/qapplication.h \
  /usr/include/aarch64-linux-gnu/qt6/QtCore/qcoreapplication.h \

@@ -29,6 +29,13 @@ set(SOURCES
     src/ui/SiteWidget.cpp
     src/ui/SiteDialog.cpp
     src/ui/AttendanceWidget.cpp
+    src/ui/DutyWidget.cpp
+    src/ui/DutyDialog.cpp
+    src/ui/LeaveWidget.cpp
+    src/ui/LeaveDialog.cpp
+    src/ui/SalaryWidget.cpp
+    src/ui/UniformWidget.cpp
+    src/ui/UniformDialog.cpp
     src/ui/StyleManager.cpp
 )
 
@@ -44,22 +51,23 @@ set(HEADERS
     src/ui/SiteWidget.h
     src/ui/SiteDialog.h
     src/ui/AttendanceWidget.h
+    src/ui/DutyWidget.h
+    src/ui/DutyDialog.h
+    src/ui/LeaveWidget.h
+    src/ui/LeaveDialog.h
+    src/ui/SalaryWidget.h
+    src/ui/UniformWidget.h
+    src/ui/UniformDialog.h
     src/ui/StyleManager.h
 )
 
-set(RESOURCES
-    src/resources/resources.qrc
-)
+set(RESOURCES src/resources/resources.qrc)
 
 add_executable(${PROJECT_NAME} ${SOURCES} ${HEADERS} ${RESOURCES})
 
 target_include_directories(${PROJECT_NAME} PRIVATE ${CMAKE_SOURCE_DIR}/src)
 
-target_link_libraries(${PROJECT_NAME} PRIVATE
-    Qt6::Widgets
-    Qt6::Sql
-    Qt6::PrintSupport
-)
+target_link_libraries(${PROJECT_NAME} PRIVATE Qt6::Widgets Qt6::Sql Qt6::PrintSupport)
 
 if(Qt6Charts_FOUND)
     target_link_libraries(${PROJECT_NAME} PRIVATE Qt6::Charts)
@@ -67,7 +75,5 @@ if(Qt6Charts_FOUND)
 endif()
 
 if(WIN32)
-    set_target_properties(${PROJECT_NAME} PROPERTIES
-        WIN32_EXECUTABLE $<CONFIG:Release>
-    )
+    set_target_properties(${PROJECT_NAME} PROPERTIES WIN32_EXECUTABLE $<CONFIG:Release>)
 endif()

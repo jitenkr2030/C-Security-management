@@ -53,10 +53,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /root/C-plus-learn/SecurityGuardManagement
+CMAKE_SOURCE_DIR = /root/cplusplus/C-Security-management
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /root/C-plus-learn/SecurityGuardManagement/build
+CMAKE_BINARY_DIR = /root/cplusplus/C-Security-management/build
 
 # Utility rule file for SecurityGuardManager_autogen.
 
@@ -71,9 +71,9 @@ CMakeFiles/SecurityGuardManager_autogen: SecurityGuardManager_autogen/timestamp
 SecurityGuardManager_autogen/timestamp: /usr/lib/qt6/libexec/moc
 SecurityGuardManager_autogen/timestamp: /usr/lib/qt6/libexec/uic
 SecurityGuardManager_autogen/timestamp: CMakeFiles/SecurityGuardManager_autogen.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/root/C-plus-learn/SecurityGuardManagement/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Automatic MOC and UIC for target SecurityGuardManager"
-	/usr/bin/cmake -E cmake_autogen /root/C-plus-learn/SecurityGuardManagement/build/CMakeFiles/SecurityGuardManager_autogen.dir/AutogenInfo.json Release
-	/usr/bin/cmake -E touch /root/C-plus-learn/SecurityGuardManagement/build/SecurityGuardManager_autogen/timestamp
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/root/cplusplus/C-Security-management/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Automatic MOC and UIC for target SecurityGuardManager"
+	/usr/bin/cmake -E cmake_autogen /root/cplusplus/C-Security-management/build/CMakeFiles/SecurityGuardManager_autogen.dir/AutogenInfo.json Release
+	/usr/bin/cmake -E touch /root/cplusplus/C-Security-management/build/SecurityGuardManager_autogen/timestamp
 
 CMakeFiles/SecurityGuardManager_autogen.dir/codegen:
 .PHONY : CMakeFiles/SecurityGuardManager_autogen.dir/codegen
@@ -92,6 +92,6 @@ CMakeFiles/SecurityGuardManager_autogen.dir/clean:
 .PHONY : CMakeFiles/SecurityGuardManager_autogen.dir/clean
 
 CMakeFiles/SecurityGuardManager_autogen.dir/depend:
-	cd /root/C-plus-learn/SecurityGuardManagement/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /root/C-plus-learn/SecurityGuardManagement /root/C-plus-learn/SecurityGuardManagement /root/C-plus-learn/SecurityGuardManagement/build /root/C-plus-learn/SecurityGuardManagement/build /root/C-plus-learn/SecurityGuardManagement/build/CMakeFiles/SecurityGuardManager_autogen.dir/DependInfo.cmake "--color=$(COLOR)"
+	cd /root/cplusplus/C-Security-management/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /root/cplusplus/C-Security-management /root/cplusplus/C-Security-management /root/cplusplus/C-Security-management/build /root/cplusplus/C-Security-management/build /root/cplusplus/C-Security-management/build/CMakeFiles/SecurityGuardManager_autogen.dir/DependInfo.cmake "--color=$(COLOR)"
 .PHONY : CMakeFiles/SecurityGuardManager_autogen.dir/depend
 

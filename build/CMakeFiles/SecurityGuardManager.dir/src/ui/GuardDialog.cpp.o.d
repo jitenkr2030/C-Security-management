@@ -1,7 +1,7 @@
 CMakeFiles/SecurityGuardManager.dir/src/ui/GuardDialog.cpp.o: \
- /root/C-plus-learn/SecurityGuardManagement/src/ui/GuardDialog.cpp \
+ /root/cplusplus/C-Security-management/src/ui/GuardDialog.cpp \
  /usr/include/stdc-predef.h \
- /root/C-plus-learn/SecurityGuardManagement/src/ui/GuardDialog.h \
+ /root/cplusplus/C-Security-management/src/ui/GuardDialog.h \
  /usr/include/aarch64-linux-gnu/qt6/QtWidgets/QDialog \
  /usr/include/aarch64-linux-gnu/qt6/QtWidgets/qdialog.h \
  /usr/include/aarch64-linux-gnu/qt6/QtWidgets/qtwidgetsglobal.h \
@@ -507,7 +507,7 @@ CMakeFiles/SecurityGuardManager.dir/src/ui/GuardDialog.cpp.o: \
  /usr/include/aarch64-linux-gnu/qt6/QtCore/qvariant.h \
  /usr/include/aarch64-linux-gnu/qt6/QtCore/QString \
  /usr/include/aarch64-linux-gnu/qt6/QtCore/qstring.h \
- /root/C-plus-learn/SecurityGuardManagement/src/database/DatabaseManager.h \
+ /root/cplusplus/C-Security-management/src/database/DatabaseManager.h \
  /usr/include/aarch64-linux-gnu/qt6/QtSql/QSqlDatabase \
  /usr/include/aarch64-linux-gnu/qt6/QtSql/qsqldatabase.h \
  /usr/include/aarch64-linux-gnu/qt6/QtSql/qtsqlglobal.h \

@@ -1,7 +1,7 @@
 CMakeFiles/SecurityGuardManager.dir/src/ui/SiteWidget.cpp.o: \
- /root/C-plus-learn/SecurityGuardManagement/src/ui/SiteWidget.cpp \
+ /root/cplusplus/C-Security-management/src/ui/SiteWidget.cpp \
  /usr/include/stdc-predef.h \
- /root/C-plus-learn/SecurityGuardManagement/src/ui/SiteWidget.h \
+ /root/cplusplus/C-Security-management/src/ui/SiteWidget.h \
  /usr/include/aarch64-linux-gnu/qt6/QtWidgets/QWidget \
  /usr/include/aarch64-linux-gnu/qt6/QtWidgets/qwidget.h \
  /usr/include/aarch64-linux-gnu/qt6/QtWidgets/qtwidgetsglobal.h \
@@ -495,7 +495,7 @@ CMakeFiles/SecurityGuardManager.dir/src/ui/SiteWidget.cpp.o: \
  /usr/include/aarch64-linux-gnu/qt6/QtWidgets/qlabel.h \
  /usr/include/aarch64-linux-gnu/qt6/QtGui/qpicture.h \
  /usr/include/aarch64-linux-gnu/qt6/QtCore/qiodevice.h \
- /root/C-plus-learn/SecurityGuardManagement/src/ui/SiteDialog.h \
+ /root/cplusplus/C-Security-management/src/ui/SiteDialog.h \
  /usr/include/aarch64-linux-gnu/qt6/QtWidgets/QDialog \
  /usr/include/aarch64-linux-gnu/qt6/QtWidgets/qdialog.h \
  /usr/include/aarch64-linux-gnu/qt6/QtWidgets/QSpinBox \
@@ -510,7 +510,7 @@ CMakeFiles/SecurityGuardManager.dir/src/ui/SiteWidget.cpp.o: \
  /usr/include/aarch64-linux-gnu/qt6/QtCore/qvariant.h \
  /usr/include/aarch64-linux-gnu/qt6/QtCore/QString \
  /usr/include/aarch64-linux-gnu/qt6/QtCore/qstring.h \
- /root/C-plus-learn/SecurityGuardManagement/src/database/DatabaseManager.h \
+ /root/cplusplus/C-Security-management/src/database/DatabaseManager.h \
  /usr/include/aarch64-linux-gnu/qt6/QtSql/QSqlDatabase \
  /usr/include/aarch64-linux-gnu/qt6/QtSql/qsqldatabase.h \
  /usr/include/aarch64-linux-gnu/qt6/QtSql/qtsqlglobal.h \

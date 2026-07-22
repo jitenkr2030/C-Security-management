@@ -15,6 +15,13 @@ SecurityGuardManager: \
   CMakeFiles/SecurityGuardManager.dir/src/ui/SiteWidget.cpp.o \
   CMakeFiles/SecurityGuardManager.dir/src/ui/SiteDialog.cpp.o \
   CMakeFiles/SecurityGuardManager.dir/src/ui/AttendanceWidget.cpp.o \
+  CMakeFiles/SecurityGuardManager.dir/src/ui/DutyWidget.cpp.o \
+  CMakeFiles/SecurityGuardManager.dir/src/ui/DutyDialog.cpp.o \
+  CMakeFiles/SecurityGuardManager.dir/src/ui/LeaveWidget.cpp.o \
+  CMakeFiles/SecurityGuardManager.dir/src/ui/LeaveDialog.cpp.o \
+  CMakeFiles/SecurityGuardManager.dir/src/ui/SalaryWidget.cpp.o \
+  CMakeFiles/SecurityGuardManager.dir/src/ui/UniformWidget.cpp.o \
+  CMakeFiles/SecurityGuardManager.dir/src/ui/UniformDialog.cpp.o \
   CMakeFiles/SecurityGuardManager.dir/src/ui/StyleManager.cpp.o \
   CMakeFiles/SecurityGuardManager.dir/SecurityGuardManager_autogen/F4FAE6NH3Q/qrc_resources.cpp.o \
   /usr/lib/aarch64-linux-gnu/libQt6Sql.so.6.9.2 \
@@ -118,6 +125,20 @@ CMakeFiles/SecurityGuardManager.dir/src/ui/SiteWidget.cpp.o:
 CMakeFiles/SecurityGuardManager.dir/src/ui/SiteDialog.cpp.o:
 
 CMakeFiles/SecurityGuardManager.dir/src/ui/AttendanceWidget.cpp.o:
+
+CMakeFiles/SecurityGuardManager.dir/src/ui/DutyWidget.cpp.o:
+
+CMakeFiles/SecurityGuardManager.dir/src/ui/DutyDialog.cpp.o:
+
+CMakeFiles/SecurityGuardManager.dir/src/ui/LeaveWidget.cpp.o:
+
+CMakeFiles/SecurityGuardManager.dir/src/ui/LeaveDialog.cpp.o:
+
+CMakeFiles/SecurityGuardManager.dir/src/ui/SalaryWidget.cpp.o:
+
+CMakeFiles/SecurityGuardManager.dir/src/ui/UniformWidget.cpp.o:
+
+CMakeFiles/SecurityGuardManager.dir/src/ui/UniformDialog.cpp.o:
 
 CMakeFiles/SecurityGuardManager.dir/src/ui/StyleManager.cpp.o:
 

@@ -1,5 +1,5 @@
 CMakeFiles/SecurityGuardManager.dir/src/main.cpp.o: \
- /root/C-plus-learn/SecurityGuardManagement/src/main.cpp \
+ /root/cplusplus/C-Security-management/src/main.cpp \
  /usr/include/stdc-predef.h \
  /usr/include/aarch64-linux-gnu/qt6/QtWidgets/QApplication \
  /usr/include/aarch64-linux-gnu/qt6/QtWidgets/qapplication.h \
@@ -472,7 +472,7 @@ CMakeFiles/SecurityGuardManager.dir/src/main.cpp.o: \
  /usr/include/aarch64-linux-gnu/qt6/QtCore/qtimezone.h \
  /usr/include/aarch64-linux-gnu/qt6/QtCore/QDebug \
  /usr/include/aarch64-linux-gnu/qt6/QtCore/qdebug.h \
- /root/C-plus-learn/SecurityGuardManagement/src/database/DatabaseManager.h \
+ /root/cplusplus/C-Security-management/src/database/DatabaseManager.h \
  /usr/include/aarch64-linux-gnu/qt6/QtSql/QSqlDatabase \
  /usr/include/aarch64-linux-gnu/qt6/QtSql/qsqldatabase.h \
  /usr/include/aarch64-linux-gnu/qt6/QtSql/qtsqlglobal.h \
@@ -499,8 +499,8 @@ CMakeFiles/SecurityGuardManager.dir/src/main.cpp.o: \
  /usr/include/aarch64-linux-gnu/qt6/QtCore/QString \
  /usr/include/aarch64-linux-gnu/qt6/QtCore/QStandardPaths \
  /usr/include/aarch64-linux-gnu/qt6/QtCore/qstandardpaths.h \
- /root/C-plus-learn/SecurityGuardManagement/src/ui/StyleManager.h \
- /root/C-plus-learn/SecurityGuardManagement/src/ui/LoginDialog.h \
+ /root/cplusplus/C-Security-management/src/ui/StyleManager.h \
+ /root/cplusplus/C-Security-management/src/ui/LoginDialog.h \
  /usr/include/aarch64-linux-gnu/qt6/QtWidgets/QDialog \
  /usr/include/aarch64-linux-gnu/qt6/QtWidgets/qdialog.h \
  /usr/include/aarch64-linux-gnu/qt6/QtWidgets/qwidget.h \
@@ -536,7 +536,7 @@ CMakeFiles/SecurityGuardManager.dir/src/main.cpp.o: \
  /usr/include/aarch64-linux-gnu/qt6/QtWidgets/qlayoutitem.h \
  /usr/include/aarch64-linux-gnu/qt6/QtWidgets/qboxlayout.h \
  /usr/include/aarch64-linux-gnu/qt6/QtWidgets/qgridlayout.h \
- /root/C-plus-learn/SecurityGuardManagement/src/ui/MainWindow.h \
+ /root/cplusplus/C-Security-management/src/ui/MainWindow.h \
  /usr/include/aarch64-linux-gnu/qt6/QtWidgets/QMainWindow \
  /usr/include/aarch64-linux-gnu/qt6/QtWidgets/qmainwindow.h \
  /usr/include/aarch64-linux-gnu/qt6/QtWidgets/qtabwidget.h \

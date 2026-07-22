@@ -243,7 +243,7 @@ void DutyDialog::saveDuty()
             {
                 {":gid",   guardId}, {":sid", siteId},
                 {":shift", shift},   {":start", startDate},
-                {":end",   endDate.isEmpty() ? QVariant(QVariant::String) : endDate},
+                {":end",   endDate.isEmpty() ? QVariant() : endDate},
                 {":perm",  permanent}, {":notes", notes},
                 {":id",    m_dutyId}
             }
@@ -255,7 +255,7 @@ void DutyDialog::saveDuty()
             {
                 {":gid",   guardId}, {":sid", siteId},
                 {":shift", shift},   {":start", startDate},
-                {":end",   endDate.isEmpty() ? QVariant(QVariant::String) : endDate},
+                {":end",   endDate.isEmpty() ? QVariant() : endDate},
                 {":perm",  permanent}, {":notes", notes}
             }
         );

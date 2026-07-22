@@ -11,6 +11,10 @@ class GuardWidget;
 class ClientWidget;
 class SiteWidget;
 class AttendanceWidget;
+class DutyWidget;
+class SalaryWidget;
+class LeaveWidget;
+class UniformWidget;
 
 class MainWindow : public QMainWindow
 {
@@ -26,6 +30,10 @@ private slots:
     void showClients();
     void showSites();
     void showAttendance();
+    void showDuty();
+    void showLeave();
+    void showSalary();
+    void showUniform();
     void handleLogout();
 
 private:
@@ -39,6 +47,10 @@ private:
     ClientWidget*      m_clients;
     SiteWidget*        m_sites;
     AttendanceWidget*  m_attendance;
+    DutyWidget*        m_duty;
+    LeaveWidget*       m_leave;
+    SalaryWidget*      m_salary;
+    UniformWidget*     m_uniform;
 
     QPushButton* m_btnDashboard;
     QPushButton* m_btnGuards;

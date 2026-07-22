@@ -1,5 +1,5 @@
 CMakeFiles/SecurityGuardManager.dir/src/database/DatabaseManager.cpp.o: \
- /root/C-plus-learn/SecurityGuardManagement/src/database/DatabaseManager.cpp \
+ /root/cplusplus/C-Security-management/src/database/DatabaseManager.cpp \
  /usr/include/stdc-predef.h \
  /usr/include/aarch64-linux-gnu/qt6/QtCore/QCoreApplication \
  /usr/include/aarch64-linux-gnu/qt6/QtCore/qcoreapplication.h \
@@ -414,7 +414,7 @@ CMakeFiles/SecurityGuardManager.dir/src/database/DatabaseManager.cpp.o: \
  /usr/include/aarch64-linux-gnu/qt6/QtSql/qtsql-config.h \
  /usr/include/aarch64-linux-gnu/qt6/QtSql/qtsqlexports.h \
  /usr/include/aarch64-linux-gnu/qt6/QtCore/qshareddata.h \
- /root/C-plus-learn/SecurityGuardManagement/src/database/DatabaseManager.h \
+ /root/cplusplus/C-Security-management/src/database/DatabaseManager.h \
  /usr/include/aarch64-linux-gnu/qt6/QtSql/QSqlDatabase \
  /usr/include/aarch64-linux-gnu/qt6/QtSql/qsqldatabase.h \
  /usr/include/aarch64-linux-gnu/qt6/QtCore/qmetaobject.h \

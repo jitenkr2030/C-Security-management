@@ -1,4 +1,4 @@
-# Install script for directory: /root/C-plus-learn/SecurityGuardManagement
+# Install script for directory: /root/cplusplus/C-Security-management
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -45,7 +45,7 @@ endif()
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
 if(CMAKE_INSTALL_LOCAL_ONLY)
-  file(WRITE "/root/C-plus-learn/SecurityGuardManagement/build/install_local_manifest.txt"
+  file(WRITE "/root/cplusplus/C-Security-management/build/install_local_manifest.txt"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")
 endif()
 if(CMAKE_INSTALL_COMPONENT)
@@ -61,6 +61,6 @@ else()
 endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
-  file(WRITE "/root/C-plus-learn/SecurityGuardManagement/build/${CMAKE_INSTALL_MANIFEST}"
+  file(WRITE "/root/cplusplus/C-Security-management/build/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")
 endif()

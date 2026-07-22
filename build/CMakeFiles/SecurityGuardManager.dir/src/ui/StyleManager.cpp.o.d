@@ -1,7 +1,7 @@
 CMakeFiles/SecurityGuardManager.dir/src/ui/StyleManager.cpp.o: \
- /root/C-plus-learn/SecurityGuardManagement/src/ui/StyleManager.cpp \
+ /root/cplusplus/C-Security-management/src/ui/StyleManager.cpp \
  /usr/include/stdc-predef.h \
- /root/C-plus-learn/SecurityGuardManagement/src/ui/StyleManager.h \
+ /root/cplusplus/C-Security-management/src/ui/StyleManager.h \
  /usr/include/aarch64-linux-gnu/qt6/QtCore/QString \
  /usr/include/aarch64-linux-gnu/qt6/QtCore/qstring.h \
  /usr/include/aarch64-linux-gnu/qt6/QtCore/qchar.h \

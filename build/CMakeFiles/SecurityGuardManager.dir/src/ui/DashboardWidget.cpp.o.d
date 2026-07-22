@@ -1,7 +1,7 @@
 CMakeFiles/SecurityGuardManager.dir/src/ui/DashboardWidget.cpp.o: \
- /root/C-plus-learn/SecurityGuardManagement/src/ui/DashboardWidget.cpp \
+ /root/cplusplus/C-Security-management/src/ui/DashboardWidget.cpp \
  /usr/include/stdc-predef.h \
- /root/C-plus-learn/SecurityGuardManagement/src/ui/DashboardWidget.h \
+ /root/cplusplus/C-Security-management/src/ui/DashboardWidget.h \
  /usr/include/aarch64-linux-gnu/qt6/QtWidgets/QWidget \
  /usr/include/aarch64-linux-gnu/qt6/QtWidgets/qwidget.h \
  /usr/include/aarch64-linux-gnu/qt6/QtWidgets/qtwidgetsglobal.h \
@@ -471,7 +471,7 @@ CMakeFiles/SecurityGuardManager.dir/src/ui/DashboardWidget.cpp.o: \
  /usr/include/aarch64-linux-gnu/qt6/QtCore/qiodevice.h \
  /usr/include/aarch64-linux-gnu/qt6/QtGui/qtextdocument.h \
  /usr/include/aarch64-linux-gnu/qt6/QtCore/qurl.h \
- /root/C-plus-learn/SecurityGuardManagement/src/database/DatabaseManager.h \
+ /root/cplusplus/C-Security-management/src/database/DatabaseManager.h \
  /usr/include/aarch64-linux-gnu/qt6/QtSql/QSqlDatabase \
  /usr/include/aarch64-linux-gnu/qt6/QtSql/qsqldatabase.h \
  /usr/include/aarch64-linux-gnu/qt6/QtSql/qtsqlglobal.h \
