@@ -472,6 +472,18 @@
 			null
 		],
 		[
+			"/root/cplusplus/C-Security-management/src/ui/EquipmentDialog.h",
+			"MU",
+			"YPKJ5OE7LN/moc_EquipmentDialog.cpp",
+			null
+		],
+		[
+			"/root/cplusplus/C-Security-management/src/ui/EquipmentWidget.h",
+			"MU",
+			"YPKJ5OE7LN/moc_EquipmentWidget.cpp",
+			null
+		],
+		[
 			"/root/cplusplus/C-Security-management/src/ui/GuardDialog.h",
 			"MU",
 			"YPKJ5OE7LN/moc_GuardDialog.cpp",
@@ -647,6 +659,16 @@
 		],
 		[
 			"/root/cplusplus/C-Security-management/src/ui/DutyWidget.cpp",
+			"MU",
+			null
+		],
+		[
+			"/root/cplusplus/C-Security-management/src/ui/EquipmentDialog.cpp",
+			"MU",
+			null
+		],
+		[
+			"/root/cplusplus/C-Security-management/src/ui/EquipmentWidget.cpp",
 			"MU",
 			null
 		],

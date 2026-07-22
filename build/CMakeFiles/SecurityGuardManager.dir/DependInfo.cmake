@@ -18,6 +18,8 @@ set(CMAKE_DEPENDS_DEPENDENCY_FILES
   "/root/cplusplus/C-Security-management/src/ui/DashboardWidget.cpp" "CMakeFiles/SecurityGuardManager.dir/src/ui/DashboardWidget.cpp.o" "gcc" "CMakeFiles/SecurityGuardManager.dir/src/ui/DashboardWidget.cpp.o.d"
   "/root/cplusplus/C-Security-management/src/ui/DutyDialog.cpp" "CMakeFiles/SecurityGuardManager.dir/src/ui/DutyDialog.cpp.o" "gcc" "CMakeFiles/SecurityGuardManager.dir/src/ui/DutyDialog.cpp.o.d"
   "/root/cplusplus/C-Security-management/src/ui/DutyWidget.cpp" "CMakeFiles/SecurityGuardManager.dir/src/ui/DutyWidget.cpp.o" "gcc" "CMakeFiles/SecurityGuardManager.dir/src/ui/DutyWidget.cpp.o.d"
+  "/root/cplusplus/C-Security-management/src/ui/EquipmentDialog.cpp" "CMakeFiles/SecurityGuardManager.dir/src/ui/EquipmentDialog.cpp.o" "gcc" "CMakeFiles/SecurityGuardManager.dir/src/ui/EquipmentDialog.cpp.o.d"
+  "/root/cplusplus/C-Security-management/src/ui/EquipmentWidget.cpp" "CMakeFiles/SecurityGuardManager.dir/src/ui/EquipmentWidget.cpp.o" "gcc" "CMakeFiles/SecurityGuardManager.dir/src/ui/EquipmentWidget.cpp.o.d"
   "/root/cplusplus/C-Security-management/src/ui/GuardDialog.cpp" "CMakeFiles/SecurityGuardManager.dir/src/ui/GuardDialog.cpp.o" "gcc" "CMakeFiles/SecurityGuardManager.dir/src/ui/GuardDialog.cpp.o.d"
   "/root/cplusplus/C-Security-management/src/ui/GuardWidget.cpp" "CMakeFiles/SecurityGuardManager.dir/src/ui/GuardWidget.cpp.o" "gcc" "CMakeFiles/SecurityGuardManager.dir/src/ui/GuardWidget.cpp.o.d"
   "/root/cplusplus/C-Security-management/src/ui/LeaveDialog.cpp" "CMakeFiles/SecurityGuardManager.dir/src/ui/LeaveDialog.cpp.o" "gcc" "CMakeFiles/SecurityGuardManager.dir/src/ui/LeaveDialog.cpp.o.d"

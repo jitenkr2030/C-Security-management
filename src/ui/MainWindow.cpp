@@ -8,6 +8,7 @@
 #include "LeaveWidget.h"
 #include "SalaryWidget.h"
 #include "UniformWidget.h"
+#include "EquipmentWidget.h"
 
 #include <QApplication>
 #include <QScreen>
@@ -48,6 +49,7 @@ void MainWindow::buildUI()
     m_leave      = new LeaveWidget(nullptr, m_userId);
     m_salary     = new SalaryWidget;
     m_uniform    = new UniformWidget;
+    m_equipment  = new EquipmentWidget;
 
     m_stack->addWidget(m_dashboard);   // 0
     m_stack->addWidget(m_guards);      // 1
@@ -58,6 +60,7 @@ void MainWindow::buildUI()
     m_stack->addWidget(m_leave);       // 6
     m_stack->addWidget(m_salary);      // 7
     m_stack->addWidget(m_uniform);     // 8
+    m_stack->addWidget(m_equipment);   // 9
 
     auto ph = [](const QString& title) {
         auto* w = new QWidget;
@@ -71,7 +74,6 @@ void MainWindow::buildUI()
         return w;
     };
 
-    m_stack->addWidget(ph("Equipment"));        // 9
     m_stack->addWidget(ph("Visitor Register"));  // 10
     m_stack->addWidget(ph("Vehicle Register"));  // 11
     m_stack->addWidget(ph("Incidents"));         // 12
@@ -196,15 +198,16 @@ void MainWindow::setActiveNavButton(QPushButton* activeBtn)
     for (auto* btn : allBtns) { if (btn) btn->setChecked(btn == activeBtn); }
 }
 
-void MainWindow::showDashboard() { m_stack->setCurrentIndex(0); setActiveNavButton(m_btnDashboard); m_dashboard->refresh(); }
-void MainWindow::showGuards() { m_stack->setCurrentIndex(1); setActiveNavButton(m_btnGuards); m_guards->refresh(); }
-void MainWindow::showClients() { m_stack->setCurrentIndex(2); setActiveNavButton(m_btnClients); m_clients->refresh(); }
-void MainWindow::showSites() { m_stack->setCurrentIndex(3); setActiveNavButton(m_btnSites); m_sites->refresh(); }
+void MainWindow::showDashboard()  { m_stack->setCurrentIndex(0); setActiveNavButton(m_btnDashboard); m_dashboard->refresh(); }
+void MainWindow::showGuards()     { m_stack->setCurrentIndex(1); setActiveNavButton(m_btnGuards); m_guards->refresh(); }
+void MainWindow::showClients()    { m_stack->setCurrentIndex(2); setActiveNavButton(m_btnClients); m_clients->refresh(); }
+void MainWindow::showSites()      { m_stack->setCurrentIndex(3); setActiveNavButton(m_btnSites); m_sites->refresh(); }
 void MainWindow::showAttendance() { m_stack->setCurrentIndex(4); setActiveNavButton(m_btnAttendance); m_attendance->refresh(); }
-void MainWindow::showDuty() { m_stack->setCurrentIndex(5); setActiveNavButton(m_btnDuty); m_duty->refresh(); }
-void MainWindow::showLeave() { m_stack->setCurrentIndex(6); setActiveNavButton(m_btnLeave); m_leave->refresh(); }
-void MainWindow::showSalary() { m_stack->setCurrentIndex(7); setActiveNavButton(m_btnSalary); m_salary->refresh(); }
-void MainWindow::showUniform() { m_stack->setCurrentIndex(8); setActiveNavButton(m_btnUniform); m_uniform->refresh(); }
+void MainWindow::showDuty()       { m_stack->setCurrentIndex(5); setActiveNavButton(m_btnDuty); m_duty->refresh(); }
+void MainWindow::showLeave()      { m_stack->setCurrentIndex(6); setActiveNavButton(m_btnLeave); m_leave->refresh(); }
+void MainWindow::showSalary()     { m_stack->setCurrentIndex(7); setActiveNavButton(m_btnSalary); m_salary->refresh(); }
+void MainWindow::showUniform()    { m_stack->setCurrentIndex(8); setActiveNavButton(m_btnUniform); m_uniform->refresh(); }
+void MainWindow::showEquipment()  { m_stack->setCurrentIndex(9); setActiveNavButton(m_btnEquipment); m_equipment->refresh(); }
 
 void MainWindow::handleLogout()
 {

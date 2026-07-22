@@ -5,6 +5,8 @@
 #include "YPKJ5OE7LN/moc_DashboardWidget.cpp"
 #include "YPKJ5OE7LN/moc_DutyDialog.cpp"
 #include "YPKJ5OE7LN/moc_DutyWidget.cpp"
+#include "YPKJ5OE7LN/moc_EquipmentDialog.cpp"
+#include "YPKJ5OE7LN/moc_EquipmentWidget.cpp"
 #include "YPKJ5OE7LN/moc_GuardDialog.cpp"
 #include "YPKJ5OE7LN/moc_GuardWidget.cpp"
 #include "YPKJ5OE7LN/moc_LeaveDialog.cpp"

@@ -15,6 +15,7 @@ class DutyWidget;
 class SalaryWidget;
 class LeaveWidget;
 class UniformWidget;
+class EquipmentWidget;
 
 class MainWindow : public QMainWindow
 {
@@ -34,6 +35,7 @@ private slots:
     void showLeave();
     void showSalary();
     void showUniform();
+    void showEquipment();
     void handleLogout();
 
 private:
@@ -51,6 +53,7 @@ private:
     LeaveWidget*       m_leave;
     SalaryWidget*      m_salary;
     UniformWidget*     m_uniform;
+    EquipmentWidget*   m_equipment;
 
     QPushButton* m_btnDashboard;
     QPushButton* m_btnGuards;

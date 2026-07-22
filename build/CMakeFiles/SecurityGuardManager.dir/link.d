@@ -22,6 +22,8 @@ SecurityGuardManager: \
   CMakeFiles/SecurityGuardManager.dir/src/ui/SalaryWidget.cpp.o \
   CMakeFiles/SecurityGuardManager.dir/src/ui/UniformWidget.cpp.o \
   CMakeFiles/SecurityGuardManager.dir/src/ui/UniformDialog.cpp.o \
+  CMakeFiles/SecurityGuardManager.dir/src/ui/EquipmentWidget.cpp.o \
+  CMakeFiles/SecurityGuardManager.dir/src/ui/EquipmentDialog.cpp.o \
   CMakeFiles/SecurityGuardManager.dir/src/ui/StyleManager.cpp.o \
   CMakeFiles/SecurityGuardManager.dir/SecurityGuardManager_autogen/F4FAE6NH3Q/qrc_resources.cpp.o \
   /usr/lib/aarch64-linux-gnu/libQt6Sql.so.6.9.2 \
@@ -139,6 +141,10 @@ CMakeFiles/SecurityGuardManager.dir/src/ui/SalaryWidget.cpp.o:
 CMakeFiles/SecurityGuardManager.dir/src/ui/UniformWidget.cpp.o:
 
 CMakeFiles/SecurityGuardManager.dir/src/ui/UniformDialog.cpp.o:
+
+CMakeFiles/SecurityGuardManager.dir/src/ui/EquipmentWidget.cpp.o:
+
+CMakeFiles/SecurityGuardManager.dir/src/ui/EquipmentDialog.cpp.o:
 
 CMakeFiles/SecurityGuardManager.dir/src/ui/StyleManager.cpp.o:
 

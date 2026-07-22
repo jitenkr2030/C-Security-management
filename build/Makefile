@@ -395,6 +395,54 @@ src/ui/DutyWidget.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/SecurityGuardManager.dir/build.make CMakeFiles/SecurityGuardManager.dir/src/ui/DutyWidget.cpp.s
 .PHONY : src/ui/DutyWidget.cpp.s
 
+src/ui/EquipmentDialog.o: src/ui/EquipmentDialog.cpp.o
+.PHONY : src/ui/EquipmentDialog.o
+
+# target to build an object file
+src/ui/EquipmentDialog.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/SecurityGuardManager.dir/build.make CMakeFiles/SecurityGuardManager.dir/src/ui/EquipmentDialog.cpp.o
+.PHONY : src/ui/EquipmentDialog.cpp.o
+
+src/ui/EquipmentDialog.i: src/ui/EquipmentDialog.cpp.i
+.PHONY : src/ui/EquipmentDialog.i
+
+# target to preprocess a source file
+src/ui/EquipmentDialog.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/SecurityGuardManager.dir/build.make CMakeFiles/SecurityGuardManager.dir/src/ui/EquipmentDialog.cpp.i
+.PHONY : src/ui/EquipmentDialog.cpp.i
+
+src/ui/EquipmentDialog.s: src/ui/EquipmentDialog.cpp.s
+.PHONY : src/ui/EquipmentDialog.s
+
+# target to generate assembly for a file
+src/ui/EquipmentDialog.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/SecurityGuardManager.dir/build.make CMakeFiles/SecurityGuardManager.dir/src/ui/EquipmentDialog.cpp.s
+.PHONY : src/ui/EquipmentDialog.cpp.s
+
+src/ui/EquipmentWidget.o: src/ui/EquipmentWidget.cpp.o
+.PHONY : src/ui/EquipmentWidget.o
+
+# target to build an object file
+src/ui/EquipmentWidget.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/SecurityGuardManager.dir/build.make CMakeFiles/SecurityGuardManager.dir/src/ui/EquipmentWidget.cpp.o
+.PHONY : src/ui/EquipmentWidget.cpp.o
+
+src/ui/EquipmentWidget.i: src/ui/EquipmentWidget.cpp.i
+.PHONY : src/ui/EquipmentWidget.i
+
+# target to preprocess a source file
+src/ui/EquipmentWidget.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/SecurityGuardManager.dir/build.make CMakeFiles/SecurityGuardManager.dir/src/ui/EquipmentWidget.cpp.i
+.PHONY : src/ui/EquipmentWidget.cpp.i
+
+src/ui/EquipmentWidget.s: src/ui/EquipmentWidget.cpp.s
+.PHONY : src/ui/EquipmentWidget.s
+
+# target to generate assembly for a file
+src/ui/EquipmentWidget.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/SecurityGuardManager.dir/build.make CMakeFiles/SecurityGuardManager.dir/src/ui/EquipmentWidget.cpp.s
+.PHONY : src/ui/EquipmentWidget.cpp.s
+
 src/ui/GuardDialog.o: src/ui/GuardDialog.cpp.o
 .PHONY : src/ui/GuardDialog.o
 
@@ -724,6 +772,12 @@ help:
 	@echo "... src/ui/DutyWidget.o"
 	@echo "... src/ui/DutyWidget.i"
 	@echo "... src/ui/DutyWidget.s"
+	@echo "... src/ui/EquipmentDialog.o"
+	@echo "... src/ui/EquipmentDialog.i"
+	@echo "... src/ui/EquipmentDialog.s"
+	@echo "... src/ui/EquipmentWidget.o"
+	@echo "... src/ui/EquipmentWidget.i"
+	@echo "... src/ui/EquipmentWidget.s"
 	@echo "... src/ui/GuardDialog.o"
 	@echo "... src/ui/GuardDialog.i"
 	@echo "... src/ui/GuardDialog.s"

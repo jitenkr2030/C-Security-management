@@ -36,6 +36,8 @@ set(SOURCES
     src/ui/SalaryWidget.cpp
     src/ui/UniformWidget.cpp
     src/ui/UniformDialog.cpp
+    src/ui/EquipmentWidget.cpp
+    src/ui/EquipmentDialog.cpp
     src/ui/StyleManager.cpp
 )
 
@@ -58,6 +60,8 @@ set(HEADERS
     src/ui/SalaryWidget.h
     src/ui/UniformWidget.h
     src/ui/UniformDialog.h
+    src/ui/EquipmentWidget.h
+    src/ui/EquipmentDialog.h
     src/ui/StyleManager.h
 )
 

@@ -19,6 +19,10 @@ SecurityGuardManager_autogen/timestamp: \
 	/root/cplusplus/C-Security-management/src/ui/DutyDialog.h \
 	/root/cplusplus/C-Security-management/src/ui/DutyWidget.cpp \
 	/root/cplusplus/C-Security-management/src/ui/DutyWidget.h \
+	/root/cplusplus/C-Security-management/src/ui/EquipmentDialog.cpp \
+	/root/cplusplus/C-Security-management/src/ui/EquipmentDialog.h \
+	/root/cplusplus/C-Security-management/src/ui/EquipmentWidget.cpp \
+	/root/cplusplus/C-Security-management/src/ui/EquipmentWidget.h \
 	/root/cplusplus/C-Security-management/src/ui/GuardDialog.cpp \
 	/root/cplusplus/C-Security-management/src/ui/GuardDialog.h \
 	/root/cplusplus/C-Security-management/src/ui/GuardWidget.cpp \
