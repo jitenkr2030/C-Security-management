@@ -347,6 +347,54 @@ src/ui/DashboardWidget.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/SecurityGuardManager.dir/build.make CMakeFiles/SecurityGuardManager.dir/src/ui/DashboardWidget.cpp.s
 .PHONY : src/ui/DashboardWidget.cpp.s
 
+src/ui/DocumentDialog.o: src/ui/DocumentDialog.cpp.o
+.PHONY : src/ui/DocumentDialog.o
+
+# target to build an object file
+src/ui/DocumentDialog.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/SecurityGuardManager.dir/build.make CMakeFiles/SecurityGuardManager.dir/src/ui/DocumentDialog.cpp.o
+.PHONY : src/ui/DocumentDialog.cpp.o
+
+src/ui/DocumentDialog.i: src/ui/DocumentDialog.cpp.i
+.PHONY : src/ui/DocumentDialog.i
+
+# target to preprocess a source file
+src/ui/DocumentDialog.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/SecurityGuardManager.dir/build.make CMakeFiles/SecurityGuardManager.dir/src/ui/DocumentDialog.cpp.i
+.PHONY : src/ui/DocumentDialog.cpp.i
+
+src/ui/DocumentDialog.s: src/ui/DocumentDialog.cpp.s
+.PHONY : src/ui/DocumentDialog.s
+
+# target to generate assembly for a file
+src/ui/DocumentDialog.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/SecurityGuardManager.dir/build.make CMakeFiles/SecurityGuardManager.dir/src/ui/DocumentDialog.cpp.s
+.PHONY : src/ui/DocumentDialog.cpp.s
+
+src/ui/DocumentWidget.o: src/ui/DocumentWidget.cpp.o
+.PHONY : src/ui/DocumentWidget.o
+
+# target to build an object file
+src/ui/DocumentWidget.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/SecurityGuardManager.dir/build.make CMakeFiles/SecurityGuardManager.dir/src/ui/DocumentWidget.cpp.o
+.PHONY : src/ui/DocumentWidget.cpp.o
+
+src/ui/DocumentWidget.i: src/ui/DocumentWidget.cpp.i
+.PHONY : src/ui/DocumentWidget.i
+
+# target to preprocess a source file
+src/ui/DocumentWidget.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/SecurityGuardManager.dir/build.make CMakeFiles/SecurityGuardManager.dir/src/ui/DocumentWidget.cpp.i
+.PHONY : src/ui/DocumentWidget.cpp.i
+
+src/ui/DocumentWidget.s: src/ui/DocumentWidget.cpp.s
+.PHONY : src/ui/DocumentWidget.s
+
+# target to generate assembly for a file
+src/ui/DocumentWidget.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/SecurityGuardManager.dir/build.make CMakeFiles/SecurityGuardManager.dir/src/ui/DocumentWidget.cpp.s
+.PHONY : src/ui/DocumentWidget.cpp.s
+
 src/ui/DutyDialog.o: src/ui/DutyDialog.cpp.o
 .PHONY : src/ui/DutyDialog.o
 
@@ -490,6 +538,54 @@ src/ui/GuardWidget.s: src/ui/GuardWidget.cpp.s
 src/ui/GuardWidget.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/SecurityGuardManager.dir/build.make CMakeFiles/SecurityGuardManager.dir/src/ui/GuardWidget.cpp.s
 .PHONY : src/ui/GuardWidget.cpp.s
+
+src/ui/IncidentDialog.o: src/ui/IncidentDialog.cpp.o
+.PHONY : src/ui/IncidentDialog.o
+
+# target to build an object file
+src/ui/IncidentDialog.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/SecurityGuardManager.dir/build.make CMakeFiles/SecurityGuardManager.dir/src/ui/IncidentDialog.cpp.o
+.PHONY : src/ui/IncidentDialog.cpp.o
+
+src/ui/IncidentDialog.i: src/ui/IncidentDialog.cpp.i
+.PHONY : src/ui/IncidentDialog.i
+
+# target to preprocess a source file
+src/ui/IncidentDialog.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/SecurityGuardManager.dir/build.make CMakeFiles/SecurityGuardManager.dir/src/ui/IncidentDialog.cpp.i
+.PHONY : src/ui/IncidentDialog.cpp.i
+
+src/ui/IncidentDialog.s: src/ui/IncidentDialog.cpp.s
+.PHONY : src/ui/IncidentDialog.s
+
+# target to generate assembly for a file
+src/ui/IncidentDialog.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/SecurityGuardManager.dir/build.make CMakeFiles/SecurityGuardManager.dir/src/ui/IncidentDialog.cpp.s
+.PHONY : src/ui/IncidentDialog.cpp.s
+
+src/ui/IncidentWidget.o: src/ui/IncidentWidget.cpp.o
+.PHONY : src/ui/IncidentWidget.o
+
+# target to build an object file
+src/ui/IncidentWidget.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/SecurityGuardManager.dir/build.make CMakeFiles/SecurityGuardManager.dir/src/ui/IncidentWidget.cpp.o
+.PHONY : src/ui/IncidentWidget.cpp.o
+
+src/ui/IncidentWidget.i: src/ui/IncidentWidget.cpp.i
+.PHONY : src/ui/IncidentWidget.i
+
+# target to preprocess a source file
+src/ui/IncidentWidget.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/SecurityGuardManager.dir/build.make CMakeFiles/SecurityGuardManager.dir/src/ui/IncidentWidget.cpp.i
+.PHONY : src/ui/IncidentWidget.cpp.i
+
+src/ui/IncidentWidget.s: src/ui/IncidentWidget.cpp.s
+.PHONY : src/ui/IncidentWidget.s
+
+# target to generate assembly for a file
+src/ui/IncidentWidget.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/SecurityGuardManager.dir/build.make CMakeFiles/SecurityGuardManager.dir/src/ui/IncidentWidget.cpp.s
+.PHONY : src/ui/IncidentWidget.cpp.s
 
 src/ui/LeaveDialog.o: src/ui/LeaveDialog.cpp.o
 .PHONY : src/ui/LeaveDialog.o
@@ -683,6 +779,54 @@ src/ui/StyleManager.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/SecurityGuardManager.dir/build.make CMakeFiles/SecurityGuardManager.dir/src/ui/StyleManager.cpp.s
 .PHONY : src/ui/StyleManager.cpp.s
 
+src/ui/TrainingDialog.o: src/ui/TrainingDialog.cpp.o
+.PHONY : src/ui/TrainingDialog.o
+
+# target to build an object file
+src/ui/TrainingDialog.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/SecurityGuardManager.dir/build.make CMakeFiles/SecurityGuardManager.dir/src/ui/TrainingDialog.cpp.o
+.PHONY : src/ui/TrainingDialog.cpp.o
+
+src/ui/TrainingDialog.i: src/ui/TrainingDialog.cpp.i
+.PHONY : src/ui/TrainingDialog.i
+
+# target to preprocess a source file
+src/ui/TrainingDialog.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/SecurityGuardManager.dir/build.make CMakeFiles/SecurityGuardManager.dir/src/ui/TrainingDialog.cpp.i
+.PHONY : src/ui/TrainingDialog.cpp.i
+
+src/ui/TrainingDialog.s: src/ui/TrainingDialog.cpp.s
+.PHONY : src/ui/TrainingDialog.s
+
+# target to generate assembly for a file
+src/ui/TrainingDialog.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/SecurityGuardManager.dir/build.make CMakeFiles/SecurityGuardManager.dir/src/ui/TrainingDialog.cpp.s
+.PHONY : src/ui/TrainingDialog.cpp.s
+
+src/ui/TrainingWidget.o: src/ui/TrainingWidget.cpp.o
+.PHONY : src/ui/TrainingWidget.o
+
+# target to build an object file
+src/ui/TrainingWidget.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/SecurityGuardManager.dir/build.make CMakeFiles/SecurityGuardManager.dir/src/ui/TrainingWidget.cpp.o
+.PHONY : src/ui/TrainingWidget.cpp.o
+
+src/ui/TrainingWidget.i: src/ui/TrainingWidget.cpp.i
+.PHONY : src/ui/TrainingWidget.i
+
+# target to preprocess a source file
+src/ui/TrainingWidget.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/SecurityGuardManager.dir/build.make CMakeFiles/SecurityGuardManager.dir/src/ui/TrainingWidget.cpp.i
+.PHONY : src/ui/TrainingWidget.cpp.i
+
+src/ui/TrainingWidget.s: src/ui/TrainingWidget.cpp.s
+.PHONY : src/ui/TrainingWidget.s
+
+# target to generate assembly for a file
+src/ui/TrainingWidget.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/SecurityGuardManager.dir/build.make CMakeFiles/SecurityGuardManager.dir/src/ui/TrainingWidget.cpp.s
+.PHONY : src/ui/TrainingWidget.cpp.s
+
 src/ui/UniformDialog.o: src/ui/UniformDialog.cpp.o
 .PHONY : src/ui/UniformDialog.o
 
@@ -731,6 +875,102 @@ src/ui/UniformWidget.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/SecurityGuardManager.dir/build.make CMakeFiles/SecurityGuardManager.dir/src/ui/UniformWidget.cpp.s
 .PHONY : src/ui/UniformWidget.cpp.s
 
+src/ui/VehicleDialog.o: src/ui/VehicleDialog.cpp.o
+.PHONY : src/ui/VehicleDialog.o
+
+# target to build an object file
+src/ui/VehicleDialog.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/SecurityGuardManager.dir/build.make CMakeFiles/SecurityGuardManager.dir/src/ui/VehicleDialog.cpp.o
+.PHONY : src/ui/VehicleDialog.cpp.o
+
+src/ui/VehicleDialog.i: src/ui/VehicleDialog.cpp.i
+.PHONY : src/ui/VehicleDialog.i
+
+# target to preprocess a source file
+src/ui/VehicleDialog.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/SecurityGuardManager.dir/build.make CMakeFiles/SecurityGuardManager.dir/src/ui/VehicleDialog.cpp.i
+.PHONY : src/ui/VehicleDialog.cpp.i
+
+src/ui/VehicleDialog.s: src/ui/VehicleDialog.cpp.s
+.PHONY : src/ui/VehicleDialog.s
+
+# target to generate assembly for a file
+src/ui/VehicleDialog.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/SecurityGuardManager.dir/build.make CMakeFiles/SecurityGuardManager.dir/src/ui/VehicleDialog.cpp.s
+.PHONY : src/ui/VehicleDialog.cpp.s
+
+src/ui/VehicleWidget.o: src/ui/VehicleWidget.cpp.o
+.PHONY : src/ui/VehicleWidget.o
+
+# target to build an object file
+src/ui/VehicleWidget.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/SecurityGuardManager.dir/build.make CMakeFiles/SecurityGuardManager.dir/src/ui/VehicleWidget.cpp.o
+.PHONY : src/ui/VehicleWidget.cpp.o
+
+src/ui/VehicleWidget.i: src/ui/VehicleWidget.cpp.i
+.PHONY : src/ui/VehicleWidget.i
+
+# target to preprocess a source file
+src/ui/VehicleWidget.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/SecurityGuardManager.dir/build.make CMakeFiles/SecurityGuardManager.dir/src/ui/VehicleWidget.cpp.i
+.PHONY : src/ui/VehicleWidget.cpp.i
+
+src/ui/VehicleWidget.s: src/ui/VehicleWidget.cpp.s
+.PHONY : src/ui/VehicleWidget.s
+
+# target to generate assembly for a file
+src/ui/VehicleWidget.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/SecurityGuardManager.dir/build.make CMakeFiles/SecurityGuardManager.dir/src/ui/VehicleWidget.cpp.s
+.PHONY : src/ui/VehicleWidget.cpp.s
+
+src/ui/VisitorDialog.o: src/ui/VisitorDialog.cpp.o
+.PHONY : src/ui/VisitorDialog.o
+
+# target to build an object file
+src/ui/VisitorDialog.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/SecurityGuardManager.dir/build.make CMakeFiles/SecurityGuardManager.dir/src/ui/VisitorDialog.cpp.o
+.PHONY : src/ui/VisitorDialog.cpp.o
+
+src/ui/VisitorDialog.i: src/ui/VisitorDialog.cpp.i
+.PHONY : src/ui/VisitorDialog.i
+
+# target to preprocess a source file
+src/ui/VisitorDialog.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/SecurityGuardManager.dir/build.make CMakeFiles/SecurityGuardManager.dir/src/ui/VisitorDialog.cpp.i
+.PHONY : src/ui/VisitorDialog.cpp.i
+
+src/ui/VisitorDialog.s: src/ui/VisitorDialog.cpp.s
+.PHONY : src/ui/VisitorDialog.s
+
+# target to generate assembly for a file
+src/ui/VisitorDialog.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/SecurityGuardManager.dir/build.make CMakeFiles/SecurityGuardManager.dir/src/ui/VisitorDialog.cpp.s
+.PHONY : src/ui/VisitorDialog.cpp.s
+
+src/ui/VisitorWidget.o: src/ui/VisitorWidget.cpp.o
+.PHONY : src/ui/VisitorWidget.o
+
+# target to build an object file
+src/ui/VisitorWidget.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/SecurityGuardManager.dir/build.make CMakeFiles/SecurityGuardManager.dir/src/ui/VisitorWidget.cpp.o
+.PHONY : src/ui/VisitorWidget.cpp.o
+
+src/ui/VisitorWidget.i: src/ui/VisitorWidget.cpp.i
+.PHONY : src/ui/VisitorWidget.i
+
+# target to preprocess a source file
+src/ui/VisitorWidget.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/SecurityGuardManager.dir/build.make CMakeFiles/SecurityGuardManager.dir/src/ui/VisitorWidget.cpp.i
+.PHONY : src/ui/VisitorWidget.cpp.i
+
+src/ui/VisitorWidget.s: src/ui/VisitorWidget.cpp.s
+.PHONY : src/ui/VisitorWidget.s
+
+# target to generate assembly for a file
+src/ui/VisitorWidget.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/SecurityGuardManager.dir/build.make CMakeFiles/SecurityGuardManager.dir/src/ui/VisitorWidget.cpp.s
+.PHONY : src/ui/VisitorWidget.cpp.s
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -766,6 +1006,12 @@ help:
 	@echo "... src/ui/DashboardWidget.o"
 	@echo "... src/ui/DashboardWidget.i"
 	@echo "... src/ui/DashboardWidget.s"
+	@echo "... src/ui/DocumentDialog.o"
+	@echo "... src/ui/DocumentDialog.i"
+	@echo "... src/ui/DocumentDialog.s"
+	@echo "... src/ui/DocumentWidget.o"
+	@echo "... src/ui/DocumentWidget.i"
+	@echo "... src/ui/DocumentWidget.s"
 	@echo "... src/ui/DutyDialog.o"
 	@echo "... src/ui/DutyDialog.i"
 	@echo "... src/ui/DutyDialog.s"
@@ -784,6 +1030,12 @@ help:
 	@echo "... src/ui/GuardWidget.o"
 	@echo "... src/ui/GuardWidget.i"
 	@echo "... src/ui/GuardWidget.s"
+	@echo "... src/ui/IncidentDialog.o"
+	@echo "... src/ui/IncidentDialog.i"
+	@echo "... src/ui/IncidentDialog.s"
+	@echo "... src/ui/IncidentWidget.o"
+	@echo "... src/ui/IncidentWidget.i"
+	@echo "... src/ui/IncidentWidget.s"
 	@echo "... src/ui/LeaveDialog.o"
 	@echo "... src/ui/LeaveDialog.i"
 	@echo "... src/ui/LeaveDialog.s"
@@ -808,12 +1060,30 @@ help:
 	@echo "... src/ui/StyleManager.o"
 	@echo "... src/ui/StyleManager.i"
 	@echo "... src/ui/StyleManager.s"
+	@echo "... src/ui/TrainingDialog.o"
+	@echo "... src/ui/TrainingDialog.i"
+	@echo "... src/ui/TrainingDialog.s"
+	@echo "... src/ui/TrainingWidget.o"
+	@echo "... src/ui/TrainingWidget.i"
+	@echo "... src/ui/TrainingWidget.s"
 	@echo "... src/ui/UniformDialog.o"
 	@echo "... src/ui/UniformDialog.i"
 	@echo "... src/ui/UniformDialog.s"
 	@echo "... src/ui/UniformWidget.o"
 	@echo "... src/ui/UniformWidget.i"
 	@echo "... src/ui/UniformWidget.s"
+	@echo "... src/ui/VehicleDialog.o"
+	@echo "... src/ui/VehicleDialog.i"
+	@echo "... src/ui/VehicleDialog.s"
+	@echo "... src/ui/VehicleWidget.o"
+	@echo "... src/ui/VehicleWidget.i"
+	@echo "... src/ui/VehicleWidget.s"
+	@echo "... src/ui/VisitorDialog.o"
+	@echo "... src/ui/VisitorDialog.i"
+	@echo "... src/ui/VisitorDialog.s"
+	@echo "... src/ui/VisitorWidget.o"
+	@echo "... src/ui/VisitorWidget.i"
+	@echo "... src/ui/VisitorWidget.s"
 .PHONY : help
 
 

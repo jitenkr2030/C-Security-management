@@ -526,6 +526,11 @@ CMakeFiles/SecurityGuardManager.dir/src/ui/MainWindow.cpp.o: \
  /root/cplusplus/C-Security-management/src/ui/SalaryWidget.h \
  /root/cplusplus/C-Security-management/src/ui/UniformWidget.h \
  /root/cplusplus/C-Security-management/src/ui/EquipmentWidget.h \
+ /root/cplusplus/C-Security-management/src/ui/VisitorWidget.h \
+ /root/cplusplus/C-Security-management/src/ui/VehicleWidget.h \
+ /root/cplusplus/C-Security-management/src/ui/IncidentWidget.h \
+ /root/cplusplus/C-Security-management/src/ui/TrainingWidget.h \
+ /root/cplusplus/C-Security-management/src/ui/DocumentWidget.h \
  /usr/include/aarch64-linux-gnu/qt6/QtWidgets/QApplication \
  /usr/include/aarch64-linux-gnu/qt6/QtWidgets/qapplication.h \
  /usr/include/aarch64-linux-gnu/qt6/QtCore/qcoreapplication.h \

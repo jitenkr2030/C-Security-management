@@ -51,6 +51,11 @@ template <> constexpr inline auto MainWindow::qt_create_metaobjectdata<qt_meta_t
         "showSalary",
         "showUniform",
         "showEquipment",
+        "showVisitors",
+        "showVehicles",
+        "showIncidents",
+        "showTraining",
+        "showDocuments",
         "handleLogout"
     };
 
@@ -75,8 +80,18 @@ template <> constexpr inline auto MainWindow::qt_create_metaobjectdata<qt_meta_t
         QtMocHelpers::SlotData<void()>(10, 2, QMC::AccessPrivate, QMetaType::Void),
         // Slot 'showEquipment'
         QtMocHelpers::SlotData<void()>(11, 2, QMC::AccessPrivate, QMetaType::Void),
-        // Slot 'handleLogout'
+        // Slot 'showVisitors'
         QtMocHelpers::SlotData<void()>(12, 2, QMC::AccessPrivate, QMetaType::Void),
+        // Slot 'showVehicles'
+        QtMocHelpers::SlotData<void()>(13, 2, QMC::AccessPrivate, QMetaType::Void),
+        // Slot 'showIncidents'
+        QtMocHelpers::SlotData<void()>(14, 2, QMC::AccessPrivate, QMetaType::Void),
+        // Slot 'showTraining'
+        QtMocHelpers::SlotData<void()>(15, 2, QMC::AccessPrivate, QMetaType::Void),
+        // Slot 'showDocuments'
+        QtMocHelpers::SlotData<void()>(16, 2, QMC::AccessPrivate, QMetaType::Void),
+        // Slot 'handleLogout'
+        QtMocHelpers::SlotData<void()>(17, 2, QMC::AccessPrivate, QMetaType::Void),
     };
     QtMocHelpers::UintData qt_properties {
     };
@@ -110,7 +125,12 @@ void MainWindow::qt_static_metacall(QObject *_o, QMetaObject::Call _c, int _id, 
         case 7: _t->showSalary(); break;
         case 8: _t->showUniform(); break;
         case 9: _t->showEquipment(); break;
-        case 10: _t->handleLogout(); break;
+        case 10: _t->showVisitors(); break;
+        case 11: _t->showVehicles(); break;
+        case 12: _t->showIncidents(); break;
+        case 13: _t->showTraining(); break;
+        case 14: _t->showDocuments(); break;
+        case 15: _t->handleLogout(); break;
         default: ;
         }
     }
@@ -136,14 +156,14 @@ int MainWindow::qt_metacall(QMetaObject::Call _c, int _id, void **_a)
     if (_id < 0)
         return _id;
     if (_c == QMetaObject::InvokeMetaMethod) {
-        if (_id < 11)
+        if (_id < 16)
             qt_static_metacall(this, _c, _id, _a);
-        _id -= 11;
+        _id -= 16;
     }
     if (_c == QMetaObject::RegisterMethodArgumentMetaType) {
-        if (_id < 11)
+        if (_id < 16)
             *reinterpret_cast<QMetaType *>(_a[0]) = QMetaType();
-        _id -= 11;
+        _id -= 16;
     }
     return _id;
 }
