@@ -275,6 +275,54 @@ src/ui/AlertWidget.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/SecurityGuardManager.dir/build.make CMakeFiles/SecurityGuardManager.dir/src/ui/AlertWidget.cpp.s
 .PHONY : src/ui/AlertWidget.cpp.s
 
+src/ui/AnnouncementDialog.o: src/ui/AnnouncementDialog.cpp.o
+.PHONY : src/ui/AnnouncementDialog.o
+
+# target to build an object file
+src/ui/AnnouncementDialog.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/SecurityGuardManager.dir/build.make CMakeFiles/SecurityGuardManager.dir/src/ui/AnnouncementDialog.cpp.o
+.PHONY : src/ui/AnnouncementDialog.cpp.o
+
+src/ui/AnnouncementDialog.i: src/ui/AnnouncementDialog.cpp.i
+.PHONY : src/ui/AnnouncementDialog.i
+
+# target to preprocess a source file
+src/ui/AnnouncementDialog.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/SecurityGuardManager.dir/build.make CMakeFiles/SecurityGuardManager.dir/src/ui/AnnouncementDialog.cpp.i
+.PHONY : src/ui/AnnouncementDialog.cpp.i
+
+src/ui/AnnouncementDialog.s: src/ui/AnnouncementDialog.cpp.s
+.PHONY : src/ui/AnnouncementDialog.s
+
+# target to generate assembly for a file
+src/ui/AnnouncementDialog.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/SecurityGuardManager.dir/build.make CMakeFiles/SecurityGuardManager.dir/src/ui/AnnouncementDialog.cpp.s
+.PHONY : src/ui/AnnouncementDialog.cpp.s
+
+src/ui/AnnouncementWidget.o: src/ui/AnnouncementWidget.cpp.o
+.PHONY : src/ui/AnnouncementWidget.o
+
+# target to build an object file
+src/ui/AnnouncementWidget.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/SecurityGuardManager.dir/build.make CMakeFiles/SecurityGuardManager.dir/src/ui/AnnouncementWidget.cpp.o
+.PHONY : src/ui/AnnouncementWidget.cpp.o
+
+src/ui/AnnouncementWidget.i: src/ui/AnnouncementWidget.cpp.i
+.PHONY : src/ui/AnnouncementWidget.i
+
+# target to preprocess a source file
+src/ui/AnnouncementWidget.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/SecurityGuardManager.dir/build.make CMakeFiles/SecurityGuardManager.dir/src/ui/AnnouncementWidget.cpp.i
+.PHONY : src/ui/AnnouncementWidget.cpp.i
+
+src/ui/AnnouncementWidget.s: src/ui/AnnouncementWidget.cpp.s
+.PHONY : src/ui/AnnouncementWidget.s
+
+# target to generate assembly for a file
+src/ui/AnnouncementWidget.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/SecurityGuardManager.dir/build.make CMakeFiles/SecurityGuardManager.dir/src/ui/AnnouncementWidget.cpp.s
+.PHONY : src/ui/AnnouncementWidget.cpp.s
+
 src/ui/AttendanceWidget.o: src/ui/AttendanceWidget.cpp.o
 .PHONY : src/ui/AttendanceWidget.o
 
@@ -827,6 +875,30 @@ src/ui/MainWindow.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/SecurityGuardManager.dir/build.make CMakeFiles/SecurityGuardManager.dir/src/ui/MainWindow.cpp.s
 .PHONY : src/ui/MainWindow.cpp.s
 
+src/ui/PayrollWidget.o: src/ui/PayrollWidget.cpp.o
+.PHONY : src/ui/PayrollWidget.o
+
+# target to build an object file
+src/ui/PayrollWidget.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/SecurityGuardManager.dir/build.make CMakeFiles/SecurityGuardManager.dir/src/ui/PayrollWidget.cpp.o
+.PHONY : src/ui/PayrollWidget.cpp.o
+
+src/ui/PayrollWidget.i: src/ui/PayrollWidget.cpp.i
+.PHONY : src/ui/PayrollWidget.i
+
+# target to preprocess a source file
+src/ui/PayrollWidget.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/SecurityGuardManager.dir/build.make CMakeFiles/SecurityGuardManager.dir/src/ui/PayrollWidget.cpp.i
+.PHONY : src/ui/PayrollWidget.cpp.i
+
+src/ui/PayrollWidget.s: src/ui/PayrollWidget.cpp.s
+.PHONY : src/ui/PayrollWidget.s
+
+# target to generate assembly for a file
+src/ui/PayrollWidget.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/SecurityGuardManager.dir/build.make CMakeFiles/SecurityGuardManager.dir/src/ui/PayrollWidget.cpp.s
+.PHONY : src/ui/PayrollWidget.cpp.s
+
 src/ui/ReportsWidget.o: src/ui/ReportsWidget.cpp.o
 .PHONY : src/ui/ReportsWidget.o
 
@@ -1213,6 +1285,12 @@ help:
 	@echo "... src/ui/AlertWidget.o"
 	@echo "... src/ui/AlertWidget.i"
 	@echo "... src/ui/AlertWidget.s"
+	@echo "... src/ui/AnnouncementDialog.o"
+	@echo "... src/ui/AnnouncementDialog.i"
+	@echo "... src/ui/AnnouncementDialog.s"
+	@echo "... src/ui/AnnouncementWidget.o"
+	@echo "... src/ui/AnnouncementWidget.i"
+	@echo "... src/ui/AnnouncementWidget.s"
 	@echo "... src/ui/AttendanceWidget.o"
 	@echo "... src/ui/AttendanceWidget.i"
 	@echo "... src/ui/AttendanceWidget.s"
@@ -1282,6 +1360,9 @@ help:
 	@echo "... src/ui/MainWindow.o"
 	@echo "... src/ui/MainWindow.i"
 	@echo "... src/ui/MainWindow.s"
+	@echo "... src/ui/PayrollWidget.o"
+	@echo "... src/ui/PayrollWidget.i"
+	@echo "... src/ui/PayrollWidget.s"
 	@echo "... src/ui/ReportsWidget.o"
 	@echo "... src/ui/ReportsWidget.i"
 	@echo "... src/ui/ReportsWidget.s"

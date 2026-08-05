@@ -9,6 +9,10 @@ SecurityGuardManager_autogen/timestamp: \
 	/root/cplusplus/C-Security-management/src/resources/resources.qrc \
 	/root/cplusplus/C-Security-management/src/ui/AlertWidget.cpp \
 	/root/cplusplus/C-Security-management/src/ui/AlertWidget.h \
+	/root/cplusplus/C-Security-management/src/ui/AnnouncementDialog.cpp \
+	/root/cplusplus/C-Security-management/src/ui/AnnouncementDialog.h \
+	/root/cplusplus/C-Security-management/src/ui/AnnouncementWidget.cpp \
+	/root/cplusplus/C-Security-management/src/ui/AnnouncementWidget.h \
 	/root/cplusplus/C-Security-management/src/ui/AttendanceWidget.cpp \
 	/root/cplusplus/C-Security-management/src/ui/AttendanceWidget.h \
 	/root/cplusplus/C-Security-management/src/ui/BackupWidget.cpp \
@@ -55,6 +59,8 @@ SecurityGuardManager_autogen/timestamp: \
 	/root/cplusplus/C-Security-management/src/ui/LoginDialog.h \
 	/root/cplusplus/C-Security-management/src/ui/MainWindow.cpp \
 	/root/cplusplus/C-Security-management/src/ui/MainWindow.h \
+	/root/cplusplus/C-Security-management/src/ui/PayrollWidget.cpp \
+	/root/cplusplus/C-Security-management/src/ui/PayrollWidget.h \
 	/root/cplusplus/C-Security-management/src/ui/ReportsWidget.cpp \
 	/root/cplusplus/C-Security-management/src/ui/ReportsWidget.h \
 	/root/cplusplus/C-Security-management/src/ui/SalaryWidget.cpp \

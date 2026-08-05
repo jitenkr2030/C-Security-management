@@ -9,7 +9,8 @@ class DashboardWidget; class GuardWidget; class ClientWidget; class SiteWidget;
 class AttendanceWidget; class DutyWidget; class SalaryWidget; class LeaveWidget;
 class UniformWidget; class EquipmentWidget; class VisitorWidget; class VehicleWidget;
 class IncidentWidget; class TrainingWidget; class DocumentWidget;
-class ComplaintWidget; class FineWidget; class AlertWidget;
+class ComplaintWidget; class FineWidget; class AlertWidget; class PayrollWidget;
+class AnnouncementWidget;
 class ReportsWidget; class SearchWidget; class BackupWidget; class SettingsWidget;
 
 class MainWindow : public QMainWindow
@@ -22,7 +23,8 @@ private slots:
     void showAttendance(); void showDuty(); void showLeave(); void showSalary();
     void showUniform(); void showEquipment(); void showVisitors(); void showVehicles();
     void showIncidents(); void showTraining(); void showDocuments();
-    void showComplaints(); void showFines(); void showAlerts();
+    void showComplaints(); void showFines(); void showAlerts(); void showPayroll();
+    void showAnnouncements();
     void showReports(); void showSearch(); void showBackup(); void showSettings();
     void handleLogout();
 private:
@@ -37,6 +39,7 @@ private:
     EquipmentWidget* m_equipment; VisitorWidget* m_visitors; VehicleWidget* m_vehicles;
     IncidentWidget* m_incidents; TrainingWidget* m_training; DocumentWidget* m_documents;
     ComplaintWidget* m_complaints; FineWidget* m_fines; AlertWidget* m_alerts;
+    PayrollWidget* m_payroll; AnnouncementWidget* m_announcements;
     ReportsWidget* m_reports; SearchWidget* m_search; BackupWidget* m_backup;
     SettingsWidget* m_settings;
 
@@ -46,6 +49,7 @@ private:
     QPushButton* m_btnEquipment; QPushButton* m_btnVisitors; QPushButton* m_btnVehicles;
     QPushButton* m_btnIncidents; QPushButton* m_btnTraining; QPushButton* m_btnDocuments;
     QPushButton* m_btnComplaints; QPushButton* m_btnFines; QPushButton* m_btnAlerts;
+    QPushButton* m_btnPayroll; QPushButton* m_btnAnnouncements;
     QPushButton* m_btnReports; QPushButton* m_btnSearch; QPushButton* m_btnBackup;
     QPushButton* m_btnSettings;
 

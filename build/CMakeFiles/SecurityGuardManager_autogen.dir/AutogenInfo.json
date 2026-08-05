@@ -442,6 +442,18 @@
 			null
 		],
 		[
+			"/root/cplusplus/C-Security-management/src/ui/AnnouncementDialog.h",
+			"MU",
+			"YPKJ5OE7LN/moc_AnnouncementDialog.cpp",
+			null
+		],
+		[
+			"/root/cplusplus/C-Security-management/src/ui/AnnouncementWidget.h",
+			"MU",
+			"YPKJ5OE7LN/moc_AnnouncementWidget.cpp",
+			null
+		],
+		[
 			"/root/cplusplus/C-Security-management/src/ui/AttendanceWidget.h",
 			"MU",
 			"YPKJ5OE7LN/moc_AttendanceWidget.cpp",
@@ -577,6 +589,12 @@
 			"/root/cplusplus/C-Security-management/src/ui/MainWindow.h",
 			"MU",
 			"YPKJ5OE7LN/moc_MainWindow.cpp",
+			null
+		],
+		[
+			"/root/cplusplus/C-Security-management/src/ui/PayrollWidget.h",
+			"MU",
+			"YPKJ5OE7LN/moc_PayrollWidget.cpp",
 			null
 		],
 		[
@@ -752,6 +770,16 @@
 			null
 		],
 		[
+			"/root/cplusplus/C-Security-management/src/ui/AnnouncementDialog.cpp",
+			"MU",
+			null
+		],
+		[
+			"/root/cplusplus/C-Security-management/src/ui/AnnouncementWidget.cpp",
+			"MU",
+			null
+		],
+		[
 			"/root/cplusplus/C-Security-management/src/ui/AttendanceWidget.cpp",
 			"MU",
 			null
@@ -863,6 +891,11 @@
 		],
 		[
 			"/root/cplusplus/C-Security-management/src/ui/MainWindow.cpp",
+			"MU",
+			null
+		],
+		[
+			"/root/cplusplus/C-Security-management/src/ui/PayrollWidget.cpp",
 			"MU",
 			null
 		],

@@ -500,13 +500,22 @@ CMakeFiles/SecurityGuardManager.dir/SecurityGuardManager_autogen/mocs_compilatio
  /usr/include/aarch64-linux-gnu/qt6/QtCore/qtmocconstants.h \
  /usr/include/aarch64-linux-gnu/qt6/QtCore/q20algorithm.h \
  /usr/include/aarch64-linux-gnu/qt6/QtCore/q23type_traits.h \
- /root/cplusplus/C-Security-management/build/SecurityGuardManager_autogen/YPKJ5OE7LN/moc_AttendanceWidget.cpp \
- /root/cplusplus/C-Security-management/build/SecurityGuardManager_autogen/YPKJ5OE7LN/../../../src/ui/AttendanceWidget.h \
- /usr/include/aarch64-linux-gnu/qt6/QtWidgets/QDateEdit \
+ /root/cplusplus/C-Security-management/build/SecurityGuardManager_autogen/YPKJ5OE7LN/moc_AnnouncementDialog.cpp \
+ /root/cplusplus/C-Security-management/build/SecurityGuardManager_autogen/YPKJ5OE7LN/../../../src/ui/AnnouncementDialog.h \
+ /usr/include/aarch64-linux-gnu/qt6/QtWidgets/QDialog \
+ /usr/include/aarch64-linux-gnu/qt6/QtWidgets/qdialog.h \
+ /usr/include/aarch64-linux-gnu/qt6/QtWidgets/QTextEdit \
+ /usr/include/aarch64-linux-gnu/qt6/QtWidgets/qtextedit.h \
+ /usr/include/aarch64-linux-gnu/qt6/QtWidgets/QDateTimeEdit \
  /usr/include/aarch64-linux-gnu/qt6/QtWidgets/qdatetimeedit.h \
  /usr/include/aarch64-linux-gnu/qt6/QtCore/qtimezone.h \
  /usr/include/aarch64-linux-gnu/qt6/QtCore/qdatetime.h \
  /usr/include/aarch64-linux-gnu/qt6/QtCore/qcalendar.h \
+ /root/cplusplus/C-Security-management/build/SecurityGuardManager_autogen/YPKJ5OE7LN/moc_AnnouncementWidget.cpp \
+ /root/cplusplus/C-Security-management/build/SecurityGuardManager_autogen/YPKJ5OE7LN/../../../src/ui/AnnouncementWidget.h \
+ /root/cplusplus/C-Security-management/build/SecurityGuardManager_autogen/YPKJ5OE7LN/moc_AttendanceWidget.cpp \
+ /root/cplusplus/C-Security-management/build/SecurityGuardManager_autogen/YPKJ5OE7LN/../../../src/ui/AttendanceWidget.h \
+ /usr/include/aarch64-linux-gnu/qt6/QtWidgets/QDateEdit \
  /usr/include/aarch64-linux-gnu/qt6/QtWidgets/QSpinBox \
  /usr/include/aarch64-linux-gnu/qt6/QtWidgets/qspinbox.h \
  /usr/include/aarch64-linux-gnu/qt6/QtCore/QMap \
@@ -515,11 +524,7 @@ CMakeFiles/SecurityGuardManager.dir/SecurityGuardManager_autogen/mocs_compilatio
  /root/cplusplus/C-Security-management/build/SecurityGuardManager_autogen/YPKJ5OE7LN/../../../src/ui/BackupWidget.h \
  /root/cplusplus/C-Security-management/build/SecurityGuardManager_autogen/YPKJ5OE7LN/moc_ClientDialog.cpp \
  /root/cplusplus/C-Security-management/build/SecurityGuardManager_autogen/YPKJ5OE7LN/../../../src/ui/ClientDialog.h \
- /usr/include/aarch64-linux-gnu/qt6/QtWidgets/QDialog \
- /usr/include/aarch64-linux-gnu/qt6/QtWidgets/qdialog.h \
  /usr/include/aarch64-linux-gnu/qt6/QtWidgets/QDoubleSpinBox \
- /usr/include/aarch64-linux-gnu/qt6/QtWidgets/QTextEdit \
- /usr/include/aarch64-linux-gnu/qt6/QtWidgets/qtextedit.h \
  /usr/include/aarch64-linux-gnu/qt6/QtCore/QVariantMap \
  /usr/include/aarch64-linux-gnu/qt6/QtCore/qvariantmap.h \
  /usr/include/aarch64-linux-gnu/qt6/QtCore/QMap \
@@ -565,7 +570,6 @@ CMakeFiles/SecurityGuardManager.dir/SecurityGuardManager_autogen/mocs_compilatio
  /root/cplusplus/C-Security-management/build/SecurityGuardManager_autogen/YPKJ5OE7LN/../../../src/ui/GuardWidget.h \
  /root/cplusplus/C-Security-management/build/SecurityGuardManager_autogen/YPKJ5OE7LN/moc_IncidentDialog.cpp \
  /root/cplusplus/C-Security-management/build/SecurityGuardManager_autogen/YPKJ5OE7LN/../../../src/ui/IncidentDialog.h \
- /usr/include/aarch64-linux-gnu/qt6/QtWidgets/QDateTimeEdit \
  /root/cplusplus/C-Security-management/build/SecurityGuardManager_autogen/YPKJ5OE7LN/moc_IncidentWidget.cpp \
  /root/cplusplus/C-Security-management/build/SecurityGuardManager_autogen/YPKJ5OE7LN/../../../src/ui/IncidentWidget.h \
  /root/cplusplus/C-Security-management/build/SecurityGuardManager_autogen/YPKJ5OE7LN/moc_LeaveDialog.cpp \
@@ -582,6 +586,8 @@ CMakeFiles/SecurityGuardManager.dir/SecurityGuardManager_autogen/mocs_compilatio
  /usr/include/aarch64-linux-gnu/qt6/QtWidgets/qmainwindow.h \
  /usr/include/aarch64-linux-gnu/qt6/QtWidgets/QStackedWidget \
  /usr/include/aarch64-linux-gnu/qt6/QtWidgets/qstackedwidget.h \
+ /root/cplusplus/C-Security-management/build/SecurityGuardManager_autogen/YPKJ5OE7LN/moc_PayrollWidget.cpp \
+ /root/cplusplus/C-Security-management/build/SecurityGuardManager_autogen/YPKJ5OE7LN/../../../src/ui/PayrollWidget.h \
  /root/cplusplus/C-Security-management/build/SecurityGuardManager_autogen/YPKJ5OE7LN/moc_ReportsWidget.cpp \
  /root/cplusplus/C-Security-management/build/SecurityGuardManager_autogen/YPKJ5OE7LN/../../../src/ui/ReportsWidget.h \
  /root/cplusplus/C-Security-management/build/SecurityGuardManager_autogen/YPKJ5OE7LN/moc_SalaryWidget.cpp \

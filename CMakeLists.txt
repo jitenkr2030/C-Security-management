@@ -36,7 +36,13 @@ set(SOURCES
     src/ui/FineWidget.cpp
     src/ui/FineDialog.cpp
     src/ui/AlertWidget.cpp
+    src/ui/PayrollWidget.cpp
+    src/ui/AnnouncementWidget.cpp
+    src/ui/AnnouncementDialog.cpp
     src/ui/AlertWidget.cpp
+    src/ui/PayrollWidget.cpp
+    src/ui/AnnouncementWidget.cpp
+    src/ui/AnnouncementDialog.cpp
     src/ui/SearchWidget.cpp
     src/ui/BackupWidget.cpp
     src/ui/SettingsWidget.cpp
@@ -66,7 +72,13 @@ set(HEADERS
     src/ui/FineWidget.h
     src/ui/FineDialog.h
     src/ui/AlertWidget.h
+    src/ui/PayrollWidget.h
+    src/ui/AnnouncementWidget.h
+    src/ui/AnnouncementDialog.h
     src/ui/AlertWidget.h
+    src/ui/PayrollWidget.h
+    src/ui/AnnouncementWidget.h
+    src/ui/AnnouncementDialog.h
     src/ui/SearchWidget.h
     src/ui/BackupWidget.h
     src/ui/SettingsWidget.h
