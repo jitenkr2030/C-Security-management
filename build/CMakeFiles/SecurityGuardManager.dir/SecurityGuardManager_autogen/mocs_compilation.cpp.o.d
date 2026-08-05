@@ -509,6 +509,8 @@ CMakeFiles/SecurityGuardManager.dir/SecurityGuardManager_autogen/mocs_compilatio
  /usr/include/aarch64-linux-gnu/qt6/QtCore/qtmocconstants.h \
  /usr/include/aarch64-linux-gnu/qt6/QtCore/q20algorithm.h \
  /usr/include/aarch64-linux-gnu/qt6/QtCore/q23type_traits.h \
+ /root/cplusplus/C-Security-management/build/SecurityGuardManager_autogen/YPKJ5OE7LN/moc_BackupWidget.cpp \
+ /root/cplusplus/C-Security-management/build/SecurityGuardManager_autogen/YPKJ5OE7LN/../../../src/ui/BackupWidget.h \
  /root/cplusplus/C-Security-management/build/SecurityGuardManager_autogen/YPKJ5OE7LN/moc_ClientDialog.cpp \
  /root/cplusplus/C-Security-management/build/SecurityGuardManager_autogen/YPKJ5OE7LN/../../../src/ui/ClientDialog.h \
  /usr/include/aarch64-linux-gnu/qt6/QtWidgets/QDialog \
@@ -525,6 +527,10 @@ CMakeFiles/SecurityGuardManager.dir/SecurityGuardManager_autogen/mocs_compilatio
  /usr/include/aarch64-linux-gnu/qt6/QtCore/qstring.h \
  /root/cplusplus/C-Security-management/build/SecurityGuardManager_autogen/YPKJ5OE7LN/moc_ClientWidget.cpp \
  /root/cplusplus/C-Security-management/build/SecurityGuardManager_autogen/YPKJ5OE7LN/../../../src/ui/ClientWidget.h \
+ /root/cplusplus/C-Security-management/build/SecurityGuardManager_autogen/YPKJ5OE7LN/moc_ComplaintDialog.cpp \
+ /root/cplusplus/C-Security-management/build/SecurityGuardManager_autogen/YPKJ5OE7LN/../../../src/ui/ComplaintDialog.h \
+ /root/cplusplus/C-Security-management/build/SecurityGuardManager_autogen/YPKJ5OE7LN/moc_ComplaintWidget.cpp \
+ /root/cplusplus/C-Security-management/build/SecurityGuardManager_autogen/YPKJ5OE7LN/../../../src/ui/ComplaintWidget.h \
  /root/cplusplus/C-Security-management/build/SecurityGuardManager_autogen/YPKJ5OE7LN/moc_DashboardWidget.cpp \
  /root/cplusplus/C-Security-management/build/SecurityGuardManager_autogen/YPKJ5OE7LN/../../../src/ui/DashboardWidget.h \
  /usr/include/aarch64-linux-gnu/qt6/QtWidgets/QGridLayout \
@@ -547,6 +553,10 @@ CMakeFiles/SecurityGuardManager.dir/SecurityGuardManager_autogen/mocs_compilatio
  /root/cplusplus/C-Security-management/build/SecurityGuardManager_autogen/YPKJ5OE7LN/../../../src/ui/EquipmentDialog.h \
  /root/cplusplus/C-Security-management/build/SecurityGuardManager_autogen/YPKJ5OE7LN/moc_EquipmentWidget.cpp \
  /root/cplusplus/C-Security-management/build/SecurityGuardManager_autogen/YPKJ5OE7LN/../../../src/ui/EquipmentWidget.h \
+ /root/cplusplus/C-Security-management/build/SecurityGuardManager_autogen/YPKJ5OE7LN/moc_FineDialog.cpp \
+ /root/cplusplus/C-Security-management/build/SecurityGuardManager_autogen/YPKJ5OE7LN/../../../src/ui/FineDialog.h \
+ /root/cplusplus/C-Security-management/build/SecurityGuardManager_autogen/YPKJ5OE7LN/moc_FineWidget.cpp \
+ /root/cplusplus/C-Security-management/build/SecurityGuardManager_autogen/YPKJ5OE7LN/../../../src/ui/FineWidget.h \
  /root/cplusplus/C-Security-management/build/SecurityGuardManager_autogen/YPKJ5OE7LN/moc_GuardDialog.cpp \
  /root/cplusplus/C-Security-management/build/SecurityGuardManager_autogen/YPKJ5OE7LN/../../../src/ui/GuardDialog.h \
  /root/cplusplus/C-Security-management/build/SecurityGuardManager_autogen/YPKJ5OE7LN/moc_GuardWidget.cpp \
@@ -570,8 +580,14 @@ CMakeFiles/SecurityGuardManager.dir/SecurityGuardManager_autogen/mocs_compilatio
  /usr/include/aarch64-linux-gnu/qt6/QtWidgets/qmainwindow.h \
  /usr/include/aarch64-linux-gnu/qt6/QtWidgets/QStackedWidget \
  /usr/include/aarch64-linux-gnu/qt6/QtWidgets/qstackedwidget.h \
+ /root/cplusplus/C-Security-management/build/SecurityGuardManager_autogen/YPKJ5OE7LN/moc_ReportsWidget.cpp \
+ /root/cplusplus/C-Security-management/build/SecurityGuardManager_autogen/YPKJ5OE7LN/../../../src/ui/ReportsWidget.h \
  /root/cplusplus/C-Security-management/build/SecurityGuardManager_autogen/YPKJ5OE7LN/moc_SalaryWidget.cpp \
  /root/cplusplus/C-Security-management/build/SecurityGuardManager_autogen/YPKJ5OE7LN/../../../src/ui/SalaryWidget.h \
+ /root/cplusplus/C-Security-management/build/SecurityGuardManager_autogen/YPKJ5OE7LN/moc_SearchWidget.cpp \
+ /root/cplusplus/C-Security-management/build/SecurityGuardManager_autogen/YPKJ5OE7LN/../../../src/ui/SearchWidget.h \
+ /root/cplusplus/C-Security-management/build/SecurityGuardManager_autogen/YPKJ5OE7LN/moc_SettingsWidget.cpp \
+ /root/cplusplus/C-Security-management/build/SecurityGuardManager_autogen/YPKJ5OE7LN/../../../src/ui/SettingsWidget.h \
  /root/cplusplus/C-Security-management/build/SecurityGuardManager_autogen/YPKJ5OE7LN/moc_SiteDialog.cpp \
  /root/cplusplus/C-Security-management/build/SecurityGuardManager_autogen/YPKJ5OE7LN/../../../src/ui/SiteDialog.h \
  /root/cplusplus/C-Security-management/build/SecurityGuardManager_autogen/YPKJ5OE7LN/moc_SiteWidget.cpp \

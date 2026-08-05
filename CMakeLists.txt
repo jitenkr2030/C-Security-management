@@ -30,6 +30,14 @@ set(SOURCES
     src/ui/IncidentWidget.cpp src/ui/IncidentDialog.cpp
     src/ui/TrainingWidget.cpp src/ui/TrainingDialog.cpp
     src/ui/DocumentWidget.cpp src/ui/DocumentDialog.cpp
+    src/ui/ReportsWidget.cpp
+    src/ui/ComplaintWidget.cpp
+    src/ui/ComplaintDialog.cpp
+    src/ui/FineWidget.cpp
+    src/ui/FineDialog.cpp
+    src/ui/SearchWidget.cpp
+    src/ui/BackupWidget.cpp
+    src/ui/SettingsWidget.cpp
     src/ui/StyleManager.cpp
 )
 
@@ -50,6 +58,14 @@ set(HEADERS
     src/ui/IncidentWidget.h src/ui/IncidentDialog.h
     src/ui/TrainingWidget.h src/ui/TrainingDialog.h
     src/ui/DocumentWidget.h src/ui/DocumentDialog.h
+    src/ui/ReportsWidget.h
+    src/ui/ComplaintWidget.h
+    src/ui/ComplaintDialog.h
+    src/ui/FineWidget.h
+    src/ui/FineDialog.h
+    src/ui/SearchWidget.h
+    src/ui/BackupWidget.h
+    src/ui/SettingsWidget.h
     src/ui/StyleManager.h
 )
 

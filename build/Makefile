@@ -275,6 +275,30 @@ src/ui/AttendanceWidget.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/SecurityGuardManager.dir/build.make CMakeFiles/SecurityGuardManager.dir/src/ui/AttendanceWidget.cpp.s
 .PHONY : src/ui/AttendanceWidget.cpp.s
 
+src/ui/BackupWidget.o: src/ui/BackupWidget.cpp.o
+.PHONY : src/ui/BackupWidget.o
+
+# target to build an object file
+src/ui/BackupWidget.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/SecurityGuardManager.dir/build.make CMakeFiles/SecurityGuardManager.dir/src/ui/BackupWidget.cpp.o
+.PHONY : src/ui/BackupWidget.cpp.o
+
+src/ui/BackupWidget.i: src/ui/BackupWidget.cpp.i
+.PHONY : src/ui/BackupWidget.i
+
+# target to preprocess a source file
+src/ui/BackupWidget.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/SecurityGuardManager.dir/build.make CMakeFiles/SecurityGuardManager.dir/src/ui/BackupWidget.cpp.i
+.PHONY : src/ui/BackupWidget.cpp.i
+
+src/ui/BackupWidget.s: src/ui/BackupWidget.cpp.s
+.PHONY : src/ui/BackupWidget.s
+
+# target to generate assembly for a file
+src/ui/BackupWidget.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/SecurityGuardManager.dir/build.make CMakeFiles/SecurityGuardManager.dir/src/ui/BackupWidget.cpp.s
+.PHONY : src/ui/BackupWidget.cpp.s
+
 src/ui/ClientDialog.o: src/ui/ClientDialog.cpp.o
 .PHONY : src/ui/ClientDialog.o
 
@@ -322,6 +346,54 @@ src/ui/ClientWidget.s: src/ui/ClientWidget.cpp.s
 src/ui/ClientWidget.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/SecurityGuardManager.dir/build.make CMakeFiles/SecurityGuardManager.dir/src/ui/ClientWidget.cpp.s
 .PHONY : src/ui/ClientWidget.cpp.s
+
+src/ui/ComplaintDialog.o: src/ui/ComplaintDialog.cpp.o
+.PHONY : src/ui/ComplaintDialog.o
+
+# target to build an object file
+src/ui/ComplaintDialog.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/SecurityGuardManager.dir/build.make CMakeFiles/SecurityGuardManager.dir/src/ui/ComplaintDialog.cpp.o
+.PHONY : src/ui/ComplaintDialog.cpp.o
+
+src/ui/ComplaintDialog.i: src/ui/ComplaintDialog.cpp.i
+.PHONY : src/ui/ComplaintDialog.i
+
+# target to preprocess a source file
+src/ui/ComplaintDialog.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/SecurityGuardManager.dir/build.make CMakeFiles/SecurityGuardManager.dir/src/ui/ComplaintDialog.cpp.i
+.PHONY : src/ui/ComplaintDialog.cpp.i
+
+src/ui/ComplaintDialog.s: src/ui/ComplaintDialog.cpp.s
+.PHONY : src/ui/ComplaintDialog.s
+
+# target to generate assembly for a file
+src/ui/ComplaintDialog.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/SecurityGuardManager.dir/build.make CMakeFiles/SecurityGuardManager.dir/src/ui/ComplaintDialog.cpp.s
+.PHONY : src/ui/ComplaintDialog.cpp.s
+
+src/ui/ComplaintWidget.o: src/ui/ComplaintWidget.cpp.o
+.PHONY : src/ui/ComplaintWidget.o
+
+# target to build an object file
+src/ui/ComplaintWidget.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/SecurityGuardManager.dir/build.make CMakeFiles/SecurityGuardManager.dir/src/ui/ComplaintWidget.cpp.o
+.PHONY : src/ui/ComplaintWidget.cpp.o
+
+src/ui/ComplaintWidget.i: src/ui/ComplaintWidget.cpp.i
+.PHONY : src/ui/ComplaintWidget.i
+
+# target to preprocess a source file
+src/ui/ComplaintWidget.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/SecurityGuardManager.dir/build.make CMakeFiles/SecurityGuardManager.dir/src/ui/ComplaintWidget.cpp.i
+.PHONY : src/ui/ComplaintWidget.cpp.i
+
+src/ui/ComplaintWidget.s: src/ui/ComplaintWidget.cpp.s
+.PHONY : src/ui/ComplaintWidget.s
+
+# target to generate assembly for a file
+src/ui/ComplaintWidget.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/SecurityGuardManager.dir/build.make CMakeFiles/SecurityGuardManager.dir/src/ui/ComplaintWidget.cpp.s
+.PHONY : src/ui/ComplaintWidget.cpp.s
 
 src/ui/DashboardWidget.o: src/ui/DashboardWidget.cpp.o
 .PHONY : src/ui/DashboardWidget.o
@@ -490,6 +562,54 @@ src/ui/EquipmentWidget.s: src/ui/EquipmentWidget.cpp.s
 src/ui/EquipmentWidget.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/SecurityGuardManager.dir/build.make CMakeFiles/SecurityGuardManager.dir/src/ui/EquipmentWidget.cpp.s
 .PHONY : src/ui/EquipmentWidget.cpp.s
+
+src/ui/FineDialog.o: src/ui/FineDialog.cpp.o
+.PHONY : src/ui/FineDialog.o
+
+# target to build an object file
+src/ui/FineDialog.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/SecurityGuardManager.dir/build.make CMakeFiles/SecurityGuardManager.dir/src/ui/FineDialog.cpp.o
+.PHONY : src/ui/FineDialog.cpp.o
+
+src/ui/FineDialog.i: src/ui/FineDialog.cpp.i
+.PHONY : src/ui/FineDialog.i
+
+# target to preprocess a source file
+src/ui/FineDialog.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/SecurityGuardManager.dir/build.make CMakeFiles/SecurityGuardManager.dir/src/ui/FineDialog.cpp.i
+.PHONY : src/ui/FineDialog.cpp.i
+
+src/ui/FineDialog.s: src/ui/FineDialog.cpp.s
+.PHONY : src/ui/FineDialog.s
+
+# target to generate assembly for a file
+src/ui/FineDialog.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/SecurityGuardManager.dir/build.make CMakeFiles/SecurityGuardManager.dir/src/ui/FineDialog.cpp.s
+.PHONY : src/ui/FineDialog.cpp.s
+
+src/ui/FineWidget.o: src/ui/FineWidget.cpp.o
+.PHONY : src/ui/FineWidget.o
+
+# target to build an object file
+src/ui/FineWidget.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/SecurityGuardManager.dir/build.make CMakeFiles/SecurityGuardManager.dir/src/ui/FineWidget.cpp.o
+.PHONY : src/ui/FineWidget.cpp.o
+
+src/ui/FineWidget.i: src/ui/FineWidget.cpp.i
+.PHONY : src/ui/FineWidget.i
+
+# target to preprocess a source file
+src/ui/FineWidget.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/SecurityGuardManager.dir/build.make CMakeFiles/SecurityGuardManager.dir/src/ui/FineWidget.cpp.i
+.PHONY : src/ui/FineWidget.cpp.i
+
+src/ui/FineWidget.s: src/ui/FineWidget.cpp.s
+.PHONY : src/ui/FineWidget.s
+
+# target to generate assembly for a file
+src/ui/FineWidget.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/SecurityGuardManager.dir/build.make CMakeFiles/SecurityGuardManager.dir/src/ui/FineWidget.cpp.s
+.PHONY : src/ui/FineWidget.cpp.s
 
 src/ui/GuardDialog.o: src/ui/GuardDialog.cpp.o
 .PHONY : src/ui/GuardDialog.o
@@ -683,6 +803,30 @@ src/ui/MainWindow.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/SecurityGuardManager.dir/build.make CMakeFiles/SecurityGuardManager.dir/src/ui/MainWindow.cpp.s
 .PHONY : src/ui/MainWindow.cpp.s
 
+src/ui/ReportsWidget.o: src/ui/ReportsWidget.cpp.o
+.PHONY : src/ui/ReportsWidget.o
+
+# target to build an object file
+src/ui/ReportsWidget.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/SecurityGuardManager.dir/build.make CMakeFiles/SecurityGuardManager.dir/src/ui/ReportsWidget.cpp.o
+.PHONY : src/ui/ReportsWidget.cpp.o
+
+src/ui/ReportsWidget.i: src/ui/ReportsWidget.cpp.i
+.PHONY : src/ui/ReportsWidget.i
+
+# target to preprocess a source file
+src/ui/ReportsWidget.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/SecurityGuardManager.dir/build.make CMakeFiles/SecurityGuardManager.dir/src/ui/ReportsWidget.cpp.i
+.PHONY : src/ui/ReportsWidget.cpp.i
+
+src/ui/ReportsWidget.s: src/ui/ReportsWidget.cpp.s
+.PHONY : src/ui/ReportsWidget.s
+
+# target to generate assembly for a file
+src/ui/ReportsWidget.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/SecurityGuardManager.dir/build.make CMakeFiles/SecurityGuardManager.dir/src/ui/ReportsWidget.cpp.s
+.PHONY : src/ui/ReportsWidget.cpp.s
+
 src/ui/SalaryWidget.o: src/ui/SalaryWidget.cpp.o
 .PHONY : src/ui/SalaryWidget.o
 
@@ -706,6 +850,54 @@ src/ui/SalaryWidget.s: src/ui/SalaryWidget.cpp.s
 src/ui/SalaryWidget.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/SecurityGuardManager.dir/build.make CMakeFiles/SecurityGuardManager.dir/src/ui/SalaryWidget.cpp.s
 .PHONY : src/ui/SalaryWidget.cpp.s
+
+src/ui/SearchWidget.o: src/ui/SearchWidget.cpp.o
+.PHONY : src/ui/SearchWidget.o
+
+# target to build an object file
+src/ui/SearchWidget.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/SecurityGuardManager.dir/build.make CMakeFiles/SecurityGuardManager.dir/src/ui/SearchWidget.cpp.o
+.PHONY : src/ui/SearchWidget.cpp.o
+
+src/ui/SearchWidget.i: src/ui/SearchWidget.cpp.i
+.PHONY : src/ui/SearchWidget.i
+
+# target to preprocess a source file
+src/ui/SearchWidget.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/SecurityGuardManager.dir/build.make CMakeFiles/SecurityGuardManager.dir/src/ui/SearchWidget.cpp.i
+.PHONY : src/ui/SearchWidget.cpp.i
+
+src/ui/SearchWidget.s: src/ui/SearchWidget.cpp.s
+.PHONY : src/ui/SearchWidget.s
+
+# target to generate assembly for a file
+src/ui/SearchWidget.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/SecurityGuardManager.dir/build.make CMakeFiles/SecurityGuardManager.dir/src/ui/SearchWidget.cpp.s
+.PHONY : src/ui/SearchWidget.cpp.s
+
+src/ui/SettingsWidget.o: src/ui/SettingsWidget.cpp.o
+.PHONY : src/ui/SettingsWidget.o
+
+# target to build an object file
+src/ui/SettingsWidget.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/SecurityGuardManager.dir/build.make CMakeFiles/SecurityGuardManager.dir/src/ui/SettingsWidget.cpp.o
+.PHONY : src/ui/SettingsWidget.cpp.o
+
+src/ui/SettingsWidget.i: src/ui/SettingsWidget.cpp.i
+.PHONY : src/ui/SettingsWidget.i
+
+# target to preprocess a source file
+src/ui/SettingsWidget.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/SecurityGuardManager.dir/build.make CMakeFiles/SecurityGuardManager.dir/src/ui/SettingsWidget.cpp.i
+.PHONY : src/ui/SettingsWidget.cpp.i
+
+src/ui/SettingsWidget.s: src/ui/SettingsWidget.cpp.s
+.PHONY : src/ui/SettingsWidget.s
+
+# target to generate assembly for a file
+src/ui/SettingsWidget.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/SecurityGuardManager.dir/build.make CMakeFiles/SecurityGuardManager.dir/src/ui/SettingsWidget.cpp.s
+.PHONY : src/ui/SettingsWidget.cpp.s
 
 src/ui/SiteDialog.o: src/ui/SiteDialog.cpp.o
 .PHONY : src/ui/SiteDialog.o
@@ -997,12 +1189,21 @@ help:
 	@echo "... src/ui/AttendanceWidget.o"
 	@echo "... src/ui/AttendanceWidget.i"
 	@echo "... src/ui/AttendanceWidget.s"
+	@echo "... src/ui/BackupWidget.o"
+	@echo "... src/ui/BackupWidget.i"
+	@echo "... src/ui/BackupWidget.s"
 	@echo "... src/ui/ClientDialog.o"
 	@echo "... src/ui/ClientDialog.i"
 	@echo "... src/ui/ClientDialog.s"
 	@echo "... src/ui/ClientWidget.o"
 	@echo "... src/ui/ClientWidget.i"
 	@echo "... src/ui/ClientWidget.s"
+	@echo "... src/ui/ComplaintDialog.o"
+	@echo "... src/ui/ComplaintDialog.i"
+	@echo "... src/ui/ComplaintDialog.s"
+	@echo "... src/ui/ComplaintWidget.o"
+	@echo "... src/ui/ComplaintWidget.i"
+	@echo "... src/ui/ComplaintWidget.s"
 	@echo "... src/ui/DashboardWidget.o"
 	@echo "... src/ui/DashboardWidget.i"
 	@echo "... src/ui/DashboardWidget.s"
@@ -1024,6 +1225,12 @@ help:
 	@echo "... src/ui/EquipmentWidget.o"
 	@echo "... src/ui/EquipmentWidget.i"
 	@echo "... src/ui/EquipmentWidget.s"
+	@echo "... src/ui/FineDialog.o"
+	@echo "... src/ui/FineDialog.i"
+	@echo "... src/ui/FineDialog.s"
+	@echo "... src/ui/FineWidget.o"
+	@echo "... src/ui/FineWidget.i"
+	@echo "... src/ui/FineWidget.s"
 	@echo "... src/ui/GuardDialog.o"
 	@echo "... src/ui/GuardDialog.i"
 	@echo "... src/ui/GuardDialog.s"
@@ -1048,9 +1255,18 @@ help:
 	@echo "... src/ui/MainWindow.o"
 	@echo "... src/ui/MainWindow.i"
 	@echo "... src/ui/MainWindow.s"
+	@echo "... src/ui/ReportsWidget.o"
+	@echo "... src/ui/ReportsWidget.i"
+	@echo "... src/ui/ReportsWidget.s"
 	@echo "... src/ui/SalaryWidget.o"
 	@echo "... src/ui/SalaryWidget.i"
 	@echo "... src/ui/SalaryWidget.s"
+	@echo "... src/ui/SearchWidget.o"
+	@echo "... src/ui/SearchWidget.i"
+	@echo "... src/ui/SearchWidget.s"
+	@echo "... src/ui/SettingsWidget.o"
+	@echo "... src/ui/SettingsWidget.i"
+	@echo "... src/ui/SettingsWidget.s"
 	@echo "... src/ui/SiteDialog.o"
 	@echo "... src/ui/SiteDialog.i"
 	@echo "... src/ui/SiteDialog.s"

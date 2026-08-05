@@ -531,6 +531,13 @@ CMakeFiles/SecurityGuardManager.dir/src/ui/MainWindow.cpp.o: \
  /root/cplusplus/C-Security-management/src/ui/IncidentWidget.h \
  /root/cplusplus/C-Security-management/src/ui/TrainingWidget.h \
  /root/cplusplus/C-Security-management/src/ui/DocumentWidget.h \
+ /root/cplusplus/C-Security-management/src/ui/ComplaintWidget.h \
+ /root/cplusplus/C-Security-management/src/ui/FineWidget.h \
+ /root/cplusplus/C-Security-management/src/ui/ReportsWidget.h \
+ /root/cplusplus/C-Security-management/src/ui/SearchWidget.h \
+ /root/cplusplus/C-Security-management/src/ui/BackupWidget.h \
+ /root/cplusplus/C-Security-management/src/ui/SettingsWidget.h \
+ /usr/include/aarch64-linux-gnu/qt6/QtWidgets/QDoubleSpinBox \
  /usr/include/aarch64-linux-gnu/qt6/QtWidgets/QApplication \
  /usr/include/aarch64-linux-gnu/qt6/QtWidgets/qapplication.h \
  /usr/include/aarch64-linux-gnu/qt6/QtCore/qcoreapplication.h \
@@ -564,4 +571,6 @@ CMakeFiles/SecurityGuardManager.dir/src/ui/MainWindow.cpp.o: \
  /usr/include/aarch64-linux-gnu/qt6/QtWidgets/QMessageBox \
  /usr/include/aarch64-linux-gnu/qt6/QtWidgets/qmessagebox.h \
  /usr/include/aarch64-linux-gnu/qt6/QtWidgets/qdialog.h \
- /usr/include/aarch64-linux-gnu/qt6/QtWidgets/qdialogbuttonbox.h
+ /usr/include/aarch64-linux-gnu/qt6/QtWidgets/qdialogbuttonbox.h \
+ /usr/include/aarch64-linux-gnu/qt6/QtWidgets/QScrollArea \
+ /usr/include/aarch64-linux-gnu/qt6/QtWidgets/qscrollarea.h

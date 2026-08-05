@@ -493,6 +493,175 @@ void DatabaseManager::createTables()
             )
     )";
 
+
+    // Complaints / Feedback
+    statements << R"(
+        CREATE TABLE IF NOT EXISTS Complaints (
+                id              INTEGER PRIMARY KEY AUTOINCREMENT,
+                complaint_code  TEXT NOT NULL UNIQUE,
+                complaint_type  TEXT NOT NULL DEFAULT 'Client',
+                category        TEXT DEFAULT 'General',
+                source          TEXT DEFAULT 'Client',
+                client_id       INTEGER,
+                site_id         INTEGER,
+                guard_id        INTEGER,
+                complainant_name TEXT,
+                complainant_contact TEXT,
+                subject         TEXT NOT NULL,
+                description     TEXT,
+                severity        TEXT DEFAULT 'Medium',
+                status          TEXT DEFAULT 'Open',
+                assigned_to     TEXT,
+                resolution      TEXT,
+                resolved_date   TEXT,
+                created_at      TEXT NOT NULL DEFAULT (datetime('now','localtime'))
+            )
+    )";
+
+    // Fines / Deductions Ledger
+    statements << R"(
+        CREATE TABLE IF NOT EXISTS Fines (
+                id              INTEGER PRIMARY KEY AUTOINCREMENT,
+                guard_id        INTEGER NOT NULL,
+                fine_type       TEXT NOT NULL,
+                reason          TEXT NOT NULL,
+                amount          REAL DEFAULT 0,
+                fine_date       TEXT NOT NULL,
+                deduction_month INTEGER,
+                deduction_year  INTEGER,
+                status          TEXT DEFAULT 'Pending',
+                approved_by     TEXT,
+                notes           TEXT,
+                created_at      TEXT NOT NULL DEFAULT (datetime('now','localtime'))
+            )
+    )";
+
+    // Payroll
+    statements << R"(
+        CREATE TABLE IF NOT EXISTS Payroll (
+                id              INTEGER PRIMARY KEY AUTOINCREMENT,
+                guard_id        INTEGER NOT NULL,
+                month           INTEGER NOT NULL,
+                year            INTEGER NOT NULL,
+                basic_salary    REAL DEFAULT 0,
+                hra             REAL DEFAULT 0,
+                da              REAL DEFAULT 0,
+                overtime_hours  REAL DEFAULT 0,
+                overtime_pay    REAL DEFAULT 0,
+                other_allowances REAL DEFAULT 0,
+                gross_salary    REAL DEFAULT 0,
+                pf_deduction    REAL DEFAULT 0,
+                esic_deduction  REAL DEFAULT 0,
+                pt_deduction    REAL DEFAULT 0,
+                advance         REAL DEFAULT 0,
+                penalty         REAL DEFAULT 0,
+                fines           REAL DEFAULT 0,
+                other_deductions REAL DEFAULT 0,
+                total_deduction REAL DEFAULT 0,
+                net_salary      REAL DEFAULT 0,
+                payment_status  TEXT DEFAULT 'Pending',
+                payment_date    TEXT,
+                payment_mode    TEXT DEFAULT 'Bank Transfer',
+                payslip_path    TEXT,
+                generated_at    TEXT NOT NULL DEFAULT (datetime('now','localtime'))
+            )
+    )";
+
+    // Announcements / Circulars
+    statements << R"(
+        CREATE TABLE IF NOT EXISTS Announcements (
+                id              INTEGER PRIMARY KEY AUTOINCREMENT,
+                title           TEXT NOT NULL,
+                message         TEXT NOT NULL,
+                target_type     TEXT DEFAULT 'All',
+                target_id       INTEGER DEFAULT 0,
+                priority        TEXT DEFAULT 'Normal',
+                published_by    TEXT,
+                published_at    TEXT NOT NULL DEFAULT (datetime('now','localtime')),
+                expires_at      TEXT,
+                status          TEXT DEFAULT 'Active'
+            )
+    )";
+
+    // Photo Gallery
+    statements << R"(
+        CREATE TABLE IF NOT EXISTS Photos (
+                id              INTEGER PRIMARY KEY AUTOINCREMENT,
+                category        TEXT DEFAULT 'Other',
+                title           TEXT,
+                file_path       TEXT NOT NULL,
+                related_type    TEXT,
+                related_id      INTEGER,
+                site_id         INTEGER,
+                taken_date      TEXT,
+                uploaded_by     TEXT,
+                notes           TEXT,
+                created_at      TEXT NOT NULL DEFAULT (datetime('now','localtime'))
+            )
+    )";
+
+    // Client Billing / Invoices
+    statements << R"(
+        CREATE TABLE IF NOT EXISTS Invoices (
+                id              INTEGER PRIMARY KEY AUTOINCREMENT,
+                invoice_code    TEXT NOT NULL UNIQUE,
+                client_id       INTEGER NOT NULL,
+                invoice_month   INTEGER NOT NULL,
+                invoice_year    INTEGER NOT NULL,
+                site_id         INTEGER,
+                guards_deployed INTEGER DEFAULT 0,
+                working_days    INTEGER DEFAULT 26,
+                per_guard_rate  REAL DEFAULT 0,
+                total_guard_charges REAL DEFAULT 0,
+                equipment_charges REAL DEFAULT 0,
+                other_charges   REAL DEFAULT 0,
+                subtotal        REAL DEFAULT 0,
+                gst_rate        REAL DEFAULT 18,
+                gst_amount      REAL DEFAULT 0,
+                total_amount    REAL DEFAULT 0,
+                status          TEXT DEFAULT 'Draft',
+                invoice_date    TEXT,
+                due_date        TEXT,
+                payment_date    TEXT,
+                notes           TEXT,
+                invoice_path    TEXT,
+                created_at      TEXT NOT NULL DEFAULT (datetime('now','localtime'))
+            )
+    )";
+
+    // Helpdesk / Tickets
+    statements << R"(
+        CREATE TABLE IF NOT EXISTS Tickets (
+                id              INTEGER PRIMARY KEY AUTOINCREMENT,
+                ticket_code     TEXT NOT NULL UNIQUE,
+                category        TEXT DEFAULT 'General',
+                priority        TEXT DEFAULT 'Medium',
+                subject         TEXT NOT NULL,
+                description     TEXT,
+                raised_by       TEXT,
+                assigned_to     TEXT,
+                status          TEXT DEFAULT 'Open',
+                resolution      TEXT,
+                resolved_date   TEXT,
+                created_at      TEXT NOT NULL DEFAULT (datetime('now','localtime'))
+            )
+    )";
+
+    // Audit Log
+    statements << R"(
+        CREATE TABLE IF NOT EXISTS AuditLog (
+                id              INTEGER PRIMARY KEY AUTOINCREMENT,
+                user_id         INTEGER,
+                username        TEXT,
+                action          TEXT NOT NULL,
+                module          TEXT NOT NULL,
+                record_id       INTEGER,
+                details         TEXT,
+                ip_address      TEXT,
+                created_at      TEXT NOT NULL DEFAULT (datetime('now','localtime'))
+            )
+    )";
+
     // Backup Log
     statements << R"(
         CREATE TABLE IF NOT EXISTS BackupLog (

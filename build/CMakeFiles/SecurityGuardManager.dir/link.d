@@ -34,6 +34,14 @@ SecurityGuardManager: \
   CMakeFiles/SecurityGuardManager.dir/src/ui/TrainingDialog.cpp.o \
   CMakeFiles/SecurityGuardManager.dir/src/ui/DocumentWidget.cpp.o \
   CMakeFiles/SecurityGuardManager.dir/src/ui/DocumentDialog.cpp.o \
+  CMakeFiles/SecurityGuardManager.dir/src/ui/ReportsWidget.cpp.o \
+  CMakeFiles/SecurityGuardManager.dir/src/ui/ComplaintWidget.cpp.o \
+  CMakeFiles/SecurityGuardManager.dir/src/ui/ComplaintDialog.cpp.o \
+  CMakeFiles/SecurityGuardManager.dir/src/ui/FineWidget.cpp.o \
+  CMakeFiles/SecurityGuardManager.dir/src/ui/FineDialog.cpp.o \
+  CMakeFiles/SecurityGuardManager.dir/src/ui/SearchWidget.cpp.o \
+  CMakeFiles/SecurityGuardManager.dir/src/ui/BackupWidget.cpp.o \
+  CMakeFiles/SecurityGuardManager.dir/src/ui/SettingsWidget.cpp.o \
   CMakeFiles/SecurityGuardManager.dir/src/ui/StyleManager.cpp.o \
   CMakeFiles/SecurityGuardManager.dir/SecurityGuardManager_autogen/F4FAE6NH3Q/qrc_resources.cpp.o \
   /usr/lib/aarch64-linux-gnu/libQt6Sql.so.6.9.2 \
@@ -175,6 +183,22 @@ CMakeFiles/SecurityGuardManager.dir/src/ui/TrainingDialog.cpp.o:
 CMakeFiles/SecurityGuardManager.dir/src/ui/DocumentWidget.cpp.o:
 
 CMakeFiles/SecurityGuardManager.dir/src/ui/DocumentDialog.cpp.o:
+
+CMakeFiles/SecurityGuardManager.dir/src/ui/ReportsWidget.cpp.o:
+
+CMakeFiles/SecurityGuardManager.dir/src/ui/ComplaintWidget.cpp.o:
+
+CMakeFiles/SecurityGuardManager.dir/src/ui/ComplaintDialog.cpp.o:
+
+CMakeFiles/SecurityGuardManager.dir/src/ui/FineWidget.cpp.o:
+
+CMakeFiles/SecurityGuardManager.dir/src/ui/FineDialog.cpp.o:
+
+CMakeFiles/SecurityGuardManager.dir/src/ui/SearchWidget.cpp.o:
+
+CMakeFiles/SecurityGuardManager.dir/src/ui/BackupWidget.cpp.o:
+
+CMakeFiles/SecurityGuardManager.dir/src/ui/SettingsWidget.cpp.o:
 
 CMakeFiles/SecurityGuardManager.dir/src/ui/StyleManager.cpp.o:
 
