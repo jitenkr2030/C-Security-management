@@ -16,6 +16,7 @@
 #include "DocumentWidget.h"
 #include "ComplaintWidget.h"
 #include "FineWidget.h"
+#include "AlertWidget.h"
 #include "ReportsWidget.h"
 #include "SearchWidget.h"
 #include "BackupWidget.h"
@@ -65,6 +66,7 @@ void MainWindow::buildUI()
     m_documents = new DocumentWidget;
     m_complaints = new ComplaintWidget;
     m_fines = new FineWidget;
+    m_alerts = new AlertWidget;
     m_reports = new ReportsWidget;
     m_search = new SearchWidget;
     m_backup = new BackupWidget;
@@ -87,10 +89,11 @@ void MainWindow::buildUI()
     m_stack->addWidget(m_documents);   // 14
     m_stack->addWidget(m_complaints);  // 15
     m_stack->addWidget(m_fines);       // 16
-    m_stack->addWidget(m_reports);     // 17
-    m_stack->addWidget(m_search);      // 18
-    m_stack->addWidget(m_backup);      // 19
-    m_stack->addWidget(m_settings);    // 20
+    m_stack->addWidget(m_alerts);      // 17
+    m_stack->addWidget(m_reports);     // 18
+    m_stack->addWidget(m_search);      // 19
+    m_stack->addWidget(m_backup);      // 20
+    m_stack->addWidget(m_settings);    // 21
 
     mainLayout->addWidget(m_stack, 1);
     setCentralWidget(centralWidget);
@@ -110,7 +113,7 @@ QWidget* MainWindow::createSidebar()
     sidebarLayout->setContentsMargins(0, 0, 0, 0);
     sidebarLayout->setSpacing(0);
 
-    // Fixed header (not scrollable)
+    // Fixed header
     auto* headerWidget = new QWidget;
     auto* headerLayout = new QVBoxLayout(headerWidget);
     headerLayout->setContentsMargins(0, 12, 0, 0);
@@ -123,7 +126,7 @@ QWidget* MainWindow::createSidebar()
     headerLayout->addWidget(sub);
     sidebarLayout->addWidget(headerWidget);
 
-    // Scrollable nav area
+    // Scrollable nav
     auto* scrollArea = new QScrollArea;
     scrollArea->setWidgetResizable(true);
     scrollArea->setHorizontalScrollBarPolicy(Qt::ScrollBarAlwaysOff);
@@ -186,19 +189,20 @@ QWidget* MainWindow::createSidebar()
     m_btnDocuments = makeBtn("  Documents", 14);
     m_btnComplaints = makeBtn("  Complaints", 15);
     m_btnFines = makeBtn("  Fines & Deductions", 16);
+    m_btnAlerts = makeBtn("  Alerts & Notifications", 17);
 
     addSection("TOOLS");
-    m_btnReports = makeBtn("  Reports", 17);
-    m_btnSearch = makeBtn("  Search", 18);
-    m_btnBackup = makeBtn("  Backup", 19);
-    m_btnSettings = makeBtn("  Settings", 20);
+    m_btnReports = makeBtn("  Reports", 18);
+    m_btnSearch = makeBtn("  Search", 19);
+    m_btnBackup = makeBtn("  Backup", 20);
+    m_btnSettings = makeBtn("  Settings", 21);
 
     navLayout->addStretch();
 
     scrollArea->setWidget(navWidget);
     sidebarLayout->addWidget(scrollArea, 1);
 
-    // Fixed footer (not scrollable)
+    // Fixed footer
     auto* footerWidget = new QWidget;
     auto* footerLayout = new QVBoxLayout(footerWidget);
     footerLayout->setContentsMargins(0, 0, 0, 0);
@@ -234,8 +238,9 @@ void MainWindow::setActiveNavButton(QPushButton* activeBtn)
         m_btnDashboard, m_btnGuards, m_btnClients, m_btnSites,
         m_btnAttendance, m_btnDuty, m_btnLeave, m_btnSalary,
         m_btnUniform, m_btnEquipment, m_btnVisitors, m_btnVehicles,
-        m_btnIncidents, m_btnTraining, m_btnDocuments, m_btnComplaints,
-        m_btnFines, m_btnReports, m_btnSearch, m_btnBackup, m_btnSettings
+        m_btnIncidents, m_btnTraining, m_btnDocuments,
+        m_btnComplaints, m_btnFines, m_btnAlerts,
+        m_btnReports, m_btnSearch, m_btnBackup, m_btnSettings
     };
     for (auto* btn : allBtns) { if (btn) btn->setChecked(btn == activeBtn); }
 }
@@ -257,10 +262,11 @@ void MainWindow::showTraining()    { m_stack->setCurrentIndex(13); setActiveNavB
 void MainWindow::showDocuments()   { m_stack->setCurrentIndex(14); setActiveNavButton(m_btnDocuments); m_documents->refresh(); }
 void MainWindow::showComplaints()  { m_stack->setCurrentIndex(15); setActiveNavButton(m_btnComplaints); m_complaints->refresh(); }
 void MainWindow::showFines()       { m_stack->setCurrentIndex(16); setActiveNavButton(m_btnFines); m_fines->refresh(); }
-void MainWindow::showReports()     { m_stack->setCurrentIndex(17); setActiveNavButton(m_btnReports); m_reports->refresh(); }
-void MainWindow::showSearch()      { m_stack->setCurrentIndex(18); setActiveNavButton(m_btnSearch); m_search->refresh(); }
-void MainWindow::showBackup()      { m_stack->setCurrentIndex(19); setActiveNavButton(m_btnBackup); m_backup->refresh(); }
-void MainWindow::showSettings()    { m_stack->setCurrentIndex(20); setActiveNavButton(m_btnSettings); m_settings->refresh(); }
+void MainWindow::showAlerts()      { m_stack->setCurrentIndex(17); setActiveNavButton(m_btnAlerts); m_alerts->refresh(); }
+void MainWindow::showReports()     { m_stack->setCurrentIndex(18); setActiveNavButton(m_btnReports); m_reports->refresh(); }
+void MainWindow::showSearch()      { m_stack->setCurrentIndex(19); setActiveNavButton(m_btnSearch); m_search->refresh(); }
+void MainWindow::showBackup()      { m_stack->setCurrentIndex(20); setActiveNavButton(m_btnBackup); m_backup->refresh(); }
+void MainWindow::showSettings()    { m_stack->setCurrentIndex(21); setActiveNavButton(m_btnSettings); m_settings->refresh(); }
 
 void MainWindow::handleLogout()
 {

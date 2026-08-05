@@ -11,6 +11,8 @@ file(REMOVE_RECURSE
   "CMakeFiles/SecurityGuardManager.dir/src/database/DatabaseManager.cpp.o.d"
   "CMakeFiles/SecurityGuardManager.dir/src/main.cpp.o"
   "CMakeFiles/SecurityGuardManager.dir/src/main.cpp.o.d"
+  "CMakeFiles/SecurityGuardManager.dir/src/ui/AlertWidget.cpp.o"
+  "CMakeFiles/SecurityGuardManager.dir/src/ui/AlertWidget.cpp.o.d"
   "CMakeFiles/SecurityGuardManager.dir/src/ui/AttendanceWidget.cpp.o"
   "CMakeFiles/SecurityGuardManager.dir/src/ui/AttendanceWidget.cpp.o.d"
   "CMakeFiles/SecurityGuardManager.dir/src/ui/BackupWidget.cpp.o"

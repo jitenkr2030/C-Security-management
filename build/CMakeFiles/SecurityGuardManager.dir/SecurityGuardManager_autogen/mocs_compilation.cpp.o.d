@@ -1,8 +1,8 @@
 CMakeFiles/SecurityGuardManager.dir/SecurityGuardManager_autogen/mocs_compilation.cpp.o: \
  /root/cplusplus/C-Security-management/build/SecurityGuardManager_autogen/mocs_compilation.cpp \
  /usr/include/stdc-predef.h \
- /root/cplusplus/C-Security-management/build/SecurityGuardManager_autogen/YPKJ5OE7LN/moc_AttendanceWidget.cpp \
- /root/cplusplus/C-Security-management/build/SecurityGuardManager_autogen/YPKJ5OE7LN/../../../src/ui/AttendanceWidget.h \
+ /root/cplusplus/C-Security-management/build/SecurityGuardManager_autogen/YPKJ5OE7LN/moc_AlertWidget.cpp \
+ /root/cplusplus/C-Security-management/build/SecurityGuardManager_autogen/YPKJ5OE7LN/../../../src/ui/AlertWidget.h \
  /usr/include/aarch64-linux-gnu/qt6/QtWidgets/QWidget \
  /usr/include/aarch64-linux-gnu/qt6/QtWidgets/qwidget.h \
  /usr/include/aarch64-linux-gnu/qt6/QtWidgets/qtwidgetsglobal.h \
@@ -481,13 +481,6 @@ CMakeFiles/SecurityGuardManager.dir/SecurityGuardManager_autogen/mocs_compilatio
  /usr/include/aarch64-linux-gnu/qt6/QtWidgets/qrubberband.h \
  /usr/include/aarch64-linux-gnu/qt6/QtWidgets/QComboBox \
  /usr/include/aarch64-linux-gnu/qt6/QtWidgets/qcombobox.h \
- /usr/include/aarch64-linux-gnu/qt6/QtWidgets/QDateEdit \
- /usr/include/aarch64-linux-gnu/qt6/QtWidgets/qdatetimeedit.h \
- /usr/include/aarch64-linux-gnu/qt6/QtCore/qtimezone.h \
- /usr/include/aarch64-linux-gnu/qt6/QtCore/qdatetime.h \
- /usr/include/aarch64-linux-gnu/qt6/QtCore/qcalendar.h \
- /usr/include/aarch64-linux-gnu/qt6/QtWidgets/QSpinBox \
- /usr/include/aarch64-linux-gnu/qt6/QtWidgets/qspinbox.h \
  /usr/include/aarch64-linux-gnu/qt6/QtWidgets/QPushButton \
  /usr/include/aarch64-linux-gnu/qt6/QtWidgets/qpushbutton.h \
  /usr/include/aarch64-linux-gnu/qt6/QtWidgets/qabstractbutton.h \
@@ -503,12 +496,21 @@ CMakeFiles/SecurityGuardManager.dir/SecurityGuardManager_autogen/mocs_compilatio
  /usr/include/aarch64-linux-gnu/qt6/QtGui/qtextformat.h \
  /usr/include/aarch64-linux-gnu/qt6/QtGui/qpen.h \
  /usr/include/aarch64-linux-gnu/qt6/QtGui/qtextoption.h \
- /usr/include/aarch64-linux-gnu/qt6/QtCore/QMap \
- /usr/include/aarch64-linux-gnu/qt6/QtCore/qmap.h \
  /usr/include/aarch64-linux-gnu/qt6/QtCore/qtmochelpers.h \
  /usr/include/aarch64-linux-gnu/qt6/QtCore/qtmocconstants.h \
  /usr/include/aarch64-linux-gnu/qt6/QtCore/q20algorithm.h \
  /usr/include/aarch64-linux-gnu/qt6/QtCore/q23type_traits.h \
+ /root/cplusplus/C-Security-management/build/SecurityGuardManager_autogen/YPKJ5OE7LN/moc_AttendanceWidget.cpp \
+ /root/cplusplus/C-Security-management/build/SecurityGuardManager_autogen/YPKJ5OE7LN/../../../src/ui/AttendanceWidget.h \
+ /usr/include/aarch64-linux-gnu/qt6/QtWidgets/QDateEdit \
+ /usr/include/aarch64-linux-gnu/qt6/QtWidgets/qdatetimeedit.h \
+ /usr/include/aarch64-linux-gnu/qt6/QtCore/qtimezone.h \
+ /usr/include/aarch64-linux-gnu/qt6/QtCore/qdatetime.h \
+ /usr/include/aarch64-linux-gnu/qt6/QtCore/qcalendar.h \
+ /usr/include/aarch64-linux-gnu/qt6/QtWidgets/QSpinBox \
+ /usr/include/aarch64-linux-gnu/qt6/QtWidgets/qspinbox.h \
+ /usr/include/aarch64-linux-gnu/qt6/QtCore/QMap \
+ /usr/include/aarch64-linux-gnu/qt6/QtCore/qmap.h \
  /root/cplusplus/C-Security-management/build/SecurityGuardManager_autogen/YPKJ5OE7LN/moc_BackupWidget.cpp \
  /root/cplusplus/C-Security-management/build/SecurityGuardManager_autogen/YPKJ5OE7LN/../../../src/ui/BackupWidget.h \
  /root/cplusplus/C-Security-management/build/SecurityGuardManager_autogen/YPKJ5OE7LN/moc_ClientDialog.cpp \

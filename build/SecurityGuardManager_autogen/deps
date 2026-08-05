@@ -7,6 +7,8 @@ SecurityGuardManager_autogen/timestamp: \
 	/root/cplusplus/C-Security-management/src/database/DatabaseManager.h \
 	/root/cplusplus/C-Security-management/src/main.cpp \
 	/root/cplusplus/C-Security-management/src/resources/resources.qrc \
+	/root/cplusplus/C-Security-management/src/ui/AlertWidget.cpp \
+	/root/cplusplus/C-Security-management/src/ui/AlertWidget.h \
 	/root/cplusplus/C-Security-management/src/ui/AttendanceWidget.cpp \
 	/root/cplusplus/C-Security-management/src/ui/AttendanceWidget.h \
 	/root/cplusplus/C-Security-management/src/ui/BackupWidget.cpp \

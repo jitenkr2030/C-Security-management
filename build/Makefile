@@ -251,6 +251,30 @@ src/main.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/SecurityGuardManager.dir/build.make CMakeFiles/SecurityGuardManager.dir/src/main.cpp.s
 .PHONY : src/main.cpp.s
 
+src/ui/AlertWidget.o: src/ui/AlertWidget.cpp.o
+.PHONY : src/ui/AlertWidget.o
+
+# target to build an object file
+src/ui/AlertWidget.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/SecurityGuardManager.dir/build.make CMakeFiles/SecurityGuardManager.dir/src/ui/AlertWidget.cpp.o
+.PHONY : src/ui/AlertWidget.cpp.o
+
+src/ui/AlertWidget.i: src/ui/AlertWidget.cpp.i
+.PHONY : src/ui/AlertWidget.i
+
+# target to preprocess a source file
+src/ui/AlertWidget.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/SecurityGuardManager.dir/build.make CMakeFiles/SecurityGuardManager.dir/src/ui/AlertWidget.cpp.i
+.PHONY : src/ui/AlertWidget.cpp.i
+
+src/ui/AlertWidget.s: src/ui/AlertWidget.cpp.s
+.PHONY : src/ui/AlertWidget.s
+
+# target to generate assembly for a file
+src/ui/AlertWidget.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/SecurityGuardManager.dir/build.make CMakeFiles/SecurityGuardManager.dir/src/ui/AlertWidget.cpp.s
+.PHONY : src/ui/AlertWidget.cpp.s
+
 src/ui/AttendanceWidget.o: src/ui/AttendanceWidget.cpp.o
 .PHONY : src/ui/AttendanceWidget.o
 
@@ -1186,6 +1210,9 @@ help:
 	@echo "... src/main.o"
 	@echo "... src/main.i"
 	@echo "... src/main.s"
+	@echo "... src/ui/AlertWidget.o"
+	@echo "... src/ui/AlertWidget.i"
+	@echo "... src/ui/AlertWidget.s"
 	@echo "... src/ui/AttendanceWidget.o"
 	@echo "... src/ui/AttendanceWidget.i"
 	@echo "... src/ui/AttendanceWidget.s"

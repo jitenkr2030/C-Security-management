@@ -12,6 +12,7 @@ set(CMAKE_DEPENDS_DEPENDENCY_FILES
   "/root/cplusplus/C-Security-management/build/SecurityGuardManager_autogen/mocs_compilation.cpp" "CMakeFiles/SecurityGuardManager.dir/SecurityGuardManager_autogen/mocs_compilation.cpp.o" "gcc" "CMakeFiles/SecurityGuardManager.dir/SecurityGuardManager_autogen/mocs_compilation.cpp.o.d"
   "/root/cplusplus/C-Security-management/src/database/DatabaseManager.cpp" "CMakeFiles/SecurityGuardManager.dir/src/database/DatabaseManager.cpp.o" "gcc" "CMakeFiles/SecurityGuardManager.dir/src/database/DatabaseManager.cpp.o.d"
   "/root/cplusplus/C-Security-management/src/main.cpp" "CMakeFiles/SecurityGuardManager.dir/src/main.cpp.o" "gcc" "CMakeFiles/SecurityGuardManager.dir/src/main.cpp.o.d"
+  "/root/cplusplus/C-Security-management/src/ui/AlertWidget.cpp" "CMakeFiles/SecurityGuardManager.dir/src/ui/AlertWidget.cpp.o" "gcc" "CMakeFiles/SecurityGuardManager.dir/src/ui/AlertWidget.cpp.o.d"
   "/root/cplusplus/C-Security-management/src/ui/AttendanceWidget.cpp" "CMakeFiles/SecurityGuardManager.dir/src/ui/AttendanceWidget.cpp.o" "gcc" "CMakeFiles/SecurityGuardManager.dir/src/ui/AttendanceWidget.cpp.o.d"
   "/root/cplusplus/C-Security-management/src/ui/BackupWidget.cpp" "CMakeFiles/SecurityGuardManager.dir/src/ui/BackupWidget.cpp.o" "gcc" "CMakeFiles/SecurityGuardManager.dir/src/ui/BackupWidget.cpp.o.d"
   "/root/cplusplus/C-Security-management/src/ui/ClientDialog.cpp" "CMakeFiles/SecurityGuardManager.dir/src/ui/ClientDialog.cpp.o" "gcc" "CMakeFiles/SecurityGuardManager.dir/src/ui/ClientDialog.cpp.o.d"

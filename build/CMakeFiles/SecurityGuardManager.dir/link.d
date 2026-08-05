@@ -39,6 +39,7 @@ SecurityGuardManager: \
   CMakeFiles/SecurityGuardManager.dir/src/ui/ComplaintDialog.cpp.o \
   CMakeFiles/SecurityGuardManager.dir/src/ui/FineWidget.cpp.o \
   CMakeFiles/SecurityGuardManager.dir/src/ui/FineDialog.cpp.o \
+  CMakeFiles/SecurityGuardManager.dir/src/ui/AlertWidget.cpp.o \
   CMakeFiles/SecurityGuardManager.dir/src/ui/SearchWidget.cpp.o \
   CMakeFiles/SecurityGuardManager.dir/src/ui/BackupWidget.cpp.o \
   CMakeFiles/SecurityGuardManager.dir/src/ui/SettingsWidget.cpp.o \
@@ -193,6 +194,8 @@ CMakeFiles/SecurityGuardManager.dir/src/ui/ComplaintDialog.cpp.o:
 CMakeFiles/SecurityGuardManager.dir/src/ui/FineWidget.cpp.o:
 
 CMakeFiles/SecurityGuardManager.dir/src/ui/FineDialog.cpp.o:
+
+CMakeFiles/SecurityGuardManager.dir/src/ui/AlertWidget.cpp.o:
 
 CMakeFiles/SecurityGuardManager.dir/src/ui/SearchWidget.cpp.o:
 

@@ -436,6 +436,12 @@
 			null
 		],
 		[
+			"/root/cplusplus/C-Security-management/src/ui/AlertWidget.h",
+			"MU",
+			"YPKJ5OE7LN/moc_AlertWidget.cpp",
+			null
+		],
+		[
 			"/root/cplusplus/C-Security-management/src/ui/AttendanceWidget.h",
 			"MU",
 			"YPKJ5OE7LN/moc_AttendanceWidget.cpp",
@@ -740,6 +746,11 @@
 			null
 		],
 		[ "/root/cplusplus/C-Security-management/src/main.cpp", "MU", null ],
+		[
+			"/root/cplusplus/C-Security-management/src/ui/AlertWidget.cpp",
+			"MU",
+			null
+		],
 		[
 			"/root/cplusplus/C-Security-management/src/ui/AttendanceWidget.cpp",
 			"MU",

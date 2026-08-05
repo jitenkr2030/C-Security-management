@@ -35,6 +35,8 @@ set(SOURCES
     src/ui/ComplaintDialog.cpp
     src/ui/FineWidget.cpp
     src/ui/FineDialog.cpp
+    src/ui/AlertWidget.cpp
+    src/ui/AlertWidget.cpp
     src/ui/SearchWidget.cpp
     src/ui/BackupWidget.cpp
     src/ui/SettingsWidget.cpp
@@ -63,6 +65,8 @@ set(HEADERS
     src/ui/ComplaintDialog.h
     src/ui/FineWidget.h
     src/ui/FineDialog.h
+    src/ui/AlertWidget.h
+    src/ui/AlertWidget.h
     src/ui/SearchWidget.h
     src/ui/BackupWidget.h
     src/ui/SettingsWidget.h
