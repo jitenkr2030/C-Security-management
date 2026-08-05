@@ -51,6 +51,8 @@ SecurityGuardManager: \
   CMakeFiles/SecurityGuardManager.dir/src/ui/TicketDialog.cpp.o \
   CMakeFiles/SecurityGuardManager.dir/src/ui/AuditLogWidget.cpp.o \
   CMakeFiles/SecurityGuardManager.dir/src/ui/RoleManagerWidget.cpp.o \
+  CMakeFiles/SecurityGuardManager.dir/src/ui/ComplianceWidget.cpp.o \
+  CMakeFiles/SecurityGuardManager.dir/src/ui/ComplianceDialog.cpp.o \
   CMakeFiles/SecurityGuardManager.dir/src/ui/PermissionManager.cpp.o \
   CMakeFiles/SecurityGuardManager.dir/src/ui/SearchWidget.cpp.o \
   CMakeFiles/SecurityGuardManager.dir/src/ui/BackupWidget.cpp.o \
@@ -230,6 +232,10 @@ CMakeFiles/SecurityGuardManager.dir/src/ui/TicketDialog.cpp.o:
 CMakeFiles/SecurityGuardManager.dir/src/ui/AuditLogWidget.cpp.o:
 
 CMakeFiles/SecurityGuardManager.dir/src/ui/RoleManagerWidget.cpp.o:
+
+CMakeFiles/SecurityGuardManager.dir/src/ui/ComplianceWidget.cpp.o:
+
+CMakeFiles/SecurityGuardManager.dir/src/ui/ComplianceDialog.cpp.o:
 
 CMakeFiles/SecurityGuardManager.dir/src/ui/PermissionManager.cpp.o:
 

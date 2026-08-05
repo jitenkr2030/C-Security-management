@@ -1,9 +1,9 @@
-CMakeFiles/SecurityGuardManager.dir/src/ui/MainWindow.cpp.o: \
- /root/cplusplus/C-Security-management/src/ui/MainWindow.cpp \
+CMakeFiles/SecurityGuardManager.dir/src/ui/ComplianceWidget.cpp.o: \
+ /root/cplusplus/C-Security-management/src/ui/ComplianceWidget.cpp \
  /usr/include/stdc-predef.h \
- /root/cplusplus/C-Security-management/src/ui/MainWindow.h \
- /usr/include/aarch64-linux-gnu/qt6/QtWidgets/QMainWindow \
- /usr/include/aarch64-linux-gnu/qt6/QtWidgets/qmainwindow.h \
+ /root/cplusplus/C-Security-management/src/ui/ComplianceWidget.h \
+ /usr/include/aarch64-linux-gnu/qt6/QtWidgets/QWidget \
+ /usr/include/aarch64-linux-gnu/qt6/QtWidgets/qwidget.h \
  /usr/include/aarch64-linux-gnu/qt6/QtWidgets/qtwidgetsglobal.h \
  /usr/include/aarch64-linux-gnu/qt6/QtGui/qtguiglobal.h \
  /usr/include/aarch64-linux-gnu/qt6/QtCore/qglobal.h \
@@ -235,7 +235,6 @@ CMakeFiles/SecurityGuardManager.dir/src/ui/MainWindow.cpp.o: \
  /usr/include/aarch64-linux-gnu/qt6/QtGui/qtguiexports.h \
  /usr/include/aarch64-linux-gnu/qt6/QtWidgets/qtwidgets-config.h \
  /usr/include/aarch64-linux-gnu/qt6/QtWidgets/qtwidgetsexports.h \
- /usr/include/aarch64-linux-gnu/qt6/QtWidgets/qwidget.h \
  /usr/include/aarch64-linux-gnu/qt6/QtGui/qwindowdefs.h \
  /usr/include/aarch64-linux-gnu/qt6/QtCore/qobjectdefs.h \
  /usr/include/aarch64-linux-gnu/qt6/QtCore/qnamespace.h \
@@ -458,36 +457,15 @@ CMakeFiles/SecurityGuardManager.dir/src/ui/MainWindow.cpp.o: \
  /usr/include/aarch64-linux-gnu/qt6/QtWidgets/qsizepolicy.h \
  /usr/include/aarch64-linux-gnu/qt6/QtGui/qcursor.h \
  /usr/include/aarch64-linux-gnu/qt6/QtGui/qbitmap.h \
+ /usr/include/aarch64-linux-gnu/qt6/QtWidgets/QTabWidget \
  /usr/include/aarch64-linux-gnu/qt6/QtWidgets/qtabwidget.h \
- /usr/include/aarch64-linux-gnu/qt6/QtWidgets/QStackedWidget \
- /usr/include/aarch64-linux-gnu/qt6/QtWidgets/qstackedwidget.h \
- /usr/include/aarch64-linux-gnu/qt6/QtWidgets/qframe.h \
- /usr/include/aarch64-linux-gnu/qt6/QtWidgets/QPushButton \
- /usr/include/aarch64-linux-gnu/qt6/QtWidgets/qpushbutton.h \
- /usr/include/aarch64-linux-gnu/qt6/QtWidgets/qabstractbutton.h \
- /usr/include/aarch64-linux-gnu/qt6/QtWidgets/QLabel \
- /usr/include/aarch64-linux-gnu/qt6/QtWidgets/qlabel.h \
- /usr/include/aarch64-linux-gnu/qt6/QtGui/qpicture.h \
- /usr/include/aarch64-linux-gnu/qt6/QtCore/qiodevice.h \
- /usr/include/aarch64-linux-gnu/qt6/QtGui/qtextdocument.h \
- /usr/include/aarch64-linux-gnu/qt6/QtCore/qurl.h \
- /usr/include/aarch64-linux-gnu/qt6/QtWidgets/QVBoxLayout \
- /usr/include/aarch64-linux-gnu/qt6/QtWidgets/qboxlayout.h \
- /usr/include/aarch64-linux-gnu/qt6/QtWidgets/qlayout.h \
- /usr/include/aarch64-linux-gnu/qt6/QtWidgets/qlayoutitem.h \
- /usr/include/aarch64-linux-gnu/qt6/QtWidgets/qboxlayout.h \
- /usr/include/aarch64-linux-gnu/qt6/QtWidgets/qgridlayout.h \
- /root/cplusplus/C-Security-management/src/ui/DashboardWidget.h \
- /usr/include/aarch64-linux-gnu/qt6/QtWidgets/QWidget \
  /usr/include/aarch64-linux-gnu/qt6/QtWidgets/qwidget.h \
- /usr/include/aarch64-linux-gnu/qt6/QtWidgets/QGridLayout \
- /usr/include/aarch64-linux-gnu/qt6/QtWidgets/qgridlayout.h \
- /root/cplusplus/C-Security-management/src/ui/GuardWidget.h \
  /usr/include/aarch64-linux-gnu/qt6/QtWidgets/QTableWidget \
  /usr/include/aarch64-linux-gnu/qt6/QtWidgets/qtablewidget.h \
  /usr/include/aarch64-linux-gnu/qt6/QtWidgets/qtableview.h \
  /usr/include/aarch64-linux-gnu/qt6/QtWidgets/qabstractitemview.h \
  /usr/include/aarch64-linux-gnu/qt6/QtWidgets/qabstractscrollarea.h \
+ /usr/include/aarch64-linux-gnu/qt6/QtWidgets/qframe.h \
  /usr/include/aarch64-linux-gnu/qt6/QtCore/qabstractitemmodel.h \
  /usr/include/aarch64-linux-gnu/qt6/QtCore/qitemselectionmodel.h \
  /usr/include/aarch64-linux-gnu/qt6/QtWidgets/qabstractitemdelegate.h \
@@ -500,7 +478,17 @@ CMakeFiles/SecurityGuardManager.dir/src/ui/MainWindow.cpp.o: \
  /usr/include/aarch64-linux-gnu/qt6/QtWidgets/qabstractslider.h \
  /usr/include/aarch64-linux-gnu/qt6/QtWidgets/qstyle.h \
  /usr/include/aarch64-linux-gnu/qt6/QtWidgets/qtabbar.h \
+ /usr/include/aarch64-linux-gnu/qt6/QtWidgets/qtabwidget.h \
  /usr/include/aarch64-linux-gnu/qt6/QtWidgets/qrubberband.h \
+ /usr/include/aarch64-linux-gnu/qt6/QtWidgets/QLabel \
+ /usr/include/aarch64-linux-gnu/qt6/QtWidgets/qlabel.h \
+ /usr/include/aarch64-linux-gnu/qt6/QtGui/qpicture.h \
+ /usr/include/aarch64-linux-gnu/qt6/QtCore/qiodevice.h \
+ /usr/include/aarch64-linux-gnu/qt6/QtGui/qtextdocument.h \
+ /usr/include/aarch64-linux-gnu/qt6/QtCore/qurl.h \
+ /usr/include/aarch64-linux-gnu/qt6/QtWidgets/QPushButton \
+ /usr/include/aarch64-linux-gnu/qt6/QtWidgets/qpushbutton.h \
+ /usr/include/aarch64-linux-gnu/qt6/QtWidgets/qabstractbutton.h \
  /usr/include/aarch64-linux-gnu/qt6/QtWidgets/QLineEdit \
  /usr/include/aarch64-linux-gnu/qt6/QtWidgets/qlineedit.h \
  /usr/include/aarch64-linux-gnu/qt6/QtGui/qtextcursor.h \
@@ -509,79 +497,76 @@ CMakeFiles/SecurityGuardManager.dir/src/ui/MainWindow.cpp.o: \
  /usr/include/aarch64-linux-gnu/qt6/QtGui/qtextoption.h \
  /usr/include/aarch64-linux-gnu/qt6/QtWidgets/QComboBox \
  /usr/include/aarch64-linux-gnu/qt6/QtWidgets/qcombobox.h \
- /root/cplusplus/C-Security-management/src/ui/ClientWidget.h \
- /root/cplusplus/C-Security-management/src/ui/SiteWidget.h \
- /root/cplusplus/C-Security-management/src/ui/AttendanceWidget.h \
  /usr/include/aarch64-linux-gnu/qt6/QtWidgets/QDateEdit \
  /usr/include/aarch64-linux-gnu/qt6/QtWidgets/qdatetimeedit.h \
  /usr/include/aarch64-linux-gnu/qt6/QtCore/qtimezone.h \
  /usr/include/aarch64-linux-gnu/qt6/QtCore/qdatetime.h \
  /usr/include/aarch64-linux-gnu/qt6/QtCore/qcalendar.h \
- /usr/include/aarch64-linux-gnu/qt6/QtWidgets/QSpinBox \
+ /root/cplusplus/C-Security-management/src/ui/ComplianceDialog.h \
+ /usr/include/aarch64-linux-gnu/qt6/QtWidgets/QDialog \
+ /usr/include/aarch64-linux-gnu/qt6/QtWidgets/qdialog.h \
+ /usr/include/aarch64-linux-gnu/qt6/QtWidgets/QTextEdit \
+ /usr/include/aarch64-linux-gnu/qt6/QtWidgets/qtextedit.h \
+ /usr/include/aarch64-linux-gnu/qt6/QtWidgets/QDoubleSpinBox \
  /usr/include/aarch64-linux-gnu/qt6/QtWidgets/qspinbox.h \
+ /root/cplusplus/C-Security-management/src/database/DatabaseManager.h \
+ /usr/include/aarch64-linux-gnu/qt6/QtSql/QSqlDatabase \
+ /usr/include/aarch64-linux-gnu/qt6/QtSql/qsqldatabase.h \
+ /usr/include/aarch64-linux-gnu/qt6/QtSql/qtsqlglobal.h \
+ /usr/include/aarch64-linux-gnu/qt6/QtSql/qtsql-config.h \
+ /usr/include/aarch64-linux-gnu/qt6/QtSql/qtsqlexports.h \
+ /usr/include/aarch64-linux-gnu/qt6/QtCore/qmetaobject.h \
+ /usr/include/aarch64-linux-gnu/qt6/QtSql/QSqlQuery \
+ /usr/include/aarch64-linux-gnu/qt6/QtSql/qsqlquery.h \
+ /usr/include/aarch64-linux-gnu/qt6/QtSql/qsqldatabase.h \
+ /usr/include/aarch64-linux-gnu/qt6/QtSql/QSqlError \
+ /usr/include/aarch64-linux-gnu/qt6/QtSql/qsqlerror.h \
+ /usr/include/aarch64-linux-gnu/qt6/QtCore/QVariantMap \
+ /usr/include/aarch64-linux-gnu/qt6/QtCore/qvariantmap.h \
  /usr/include/aarch64-linux-gnu/qt6/QtCore/QMap \
  /usr/include/aarch64-linux-gnu/qt6/QtCore/qmap.h \
- /root/cplusplus/C-Security-management/src/ui/DutyWidget.h \
- /root/cplusplus/C-Security-management/src/ui/LeaveWidget.h \
- /root/cplusplus/C-Security-management/src/ui/SalaryWidget.h \
- /root/cplusplus/C-Security-management/src/ui/UniformWidget.h \
- /root/cplusplus/C-Security-management/src/ui/EquipmentWidget.h \
- /root/cplusplus/C-Security-management/src/ui/VisitorWidget.h \
- /root/cplusplus/C-Security-management/src/ui/VehicleWidget.h \
- /root/cplusplus/C-Security-management/src/ui/IncidentWidget.h \
- /root/cplusplus/C-Security-management/src/ui/TrainingWidget.h \
- /root/cplusplus/C-Security-management/src/ui/DocumentWidget.h \
- /root/cplusplus/C-Security-management/src/ui/ComplaintWidget.h \
- /root/cplusplus/C-Security-management/src/ui/FineWidget.h \
- /root/cplusplus/C-Security-management/src/ui/AlertWidget.h \
- /root/cplusplus/C-Security-management/src/ui/PayrollWidget.h \
- /root/cplusplus/C-Security-management/src/ui/AnnouncementWidget.h \
- /root/cplusplus/C-Security-management/src/ui/PhotoWidget.h \
- /root/cplusplus/C-Security-management/src/ui/InvoiceWidget.h \
- /root/cplusplus/C-Security-management/src/ui/TicketWidget.h \
- /root/cplusplus/C-Security-management/src/ui/AuditLogWidget.h \
- /root/cplusplus/C-Security-management/src/ui/RoleManagerWidget.h \
- /root/cplusplus/C-Security-management/src/ui/ComplianceWidget.h \
- /usr/include/aarch64-linux-gnu/qt6/QtWidgets/QTabWidget \
- /usr/include/aarch64-linux-gnu/qt6/QtWidgets/qtabwidget.h \
- /root/cplusplus/C-Security-management/src/ui/ReportsWidget.h \
- /root/cplusplus/C-Security-management/src/ui/SearchWidget.h \
- /root/cplusplus/C-Security-management/src/ui/BackupWidget.h \
- /root/cplusplus/C-Security-management/src/ui/SettingsWidget.h \
- /usr/include/aarch64-linux-gnu/qt6/QtWidgets/QDoubleSpinBox \
- /usr/include/aarch64-linux-gnu/qt6/QtWidgets/QApplication \
- /usr/include/aarch64-linux-gnu/qt6/QtWidgets/qapplication.h \
- /usr/include/aarch64-linux-gnu/qt6/QtCore/qcoreapplication.h \
- /usr/include/aarch64-linux-gnu/qt6/QtCore/qcoreevent.h \
- /usr/include/aarch64-linux-gnu/qt6/QtCore/qbasictimer.h \
- /usr/include/aarch64-linux-gnu/qt6/QtCore/qabstracteventdispatcher.h \
- /usr/include/aarch64-linux-gnu/qt6/QtCore/qeventloop.h \
- /usr/include/aarch64-linux-gnu/qt6/QtCore/qdeadlinetimer.h \
- /usr/include/aarch64-linux-gnu/qt6/QtCore/qelapsedtimer.h \
- /usr/include/aarch64-linux-gnu/qt6/QtCore/qnativeinterface.h \
- /usr/include/aarch64-linux-gnu/qt6/QtCore/qcoreapplication_platform.h \
- /usr/include/aarch64-linux-gnu/qt6/QtGui/qguiapplication.h \
- /usr/include/aarch64-linux-gnu/qt6/QtGui/qinputmethod.h \
- /usr/include/aarch64-linux-gnu/qt6/QtGui/qguiapplication_platform.h \
- /usr/include/aarch64-linux-gnu/qt6/QtGui/QScreen \
- /usr/include/aarch64-linux-gnu/qt6/QtGui/qscreen.h \
+ /usr/include/aarch64-linux-gnu/qt6/QtCore/QVariant \
+ /usr/include/aarch64-linux-gnu/qt6/QtCore/qvariant.h \
+ /usr/include/aarch64-linux-gnu/qt6/QtCore/QString \
+ /usr/include/aarch64-linux-gnu/qt6/QtCore/qstring.h \
+ /usr/include/aarch64-linux-gnu/qt6/QtCore/QVariantList \
+ /usr/include/aarch64-linux-gnu/qt6/QtCore/qvariantlist.h \
  /usr/include/aarch64-linux-gnu/qt6/QtCore/QList \
  /usr/include/aarch64-linux-gnu/qt6/QtCore/qlist.h \
- /usr/include/aarch64-linux-gnu/qt6/QtCore/QObject \
- /usr/include/aarch64-linux-gnu/qt6/QtCore/qobject.h \
- /usr/include/aarch64-linux-gnu/qt6/QtCore/QRect \
- /usr/include/aarch64-linux-gnu/qt6/QtCore/qrect.h \
- /usr/include/aarch64-linux-gnu/qt6/QtCore/QSize \
- /usr/include/aarch64-linux-gnu/qt6/QtCore/qsize.h \
- /usr/include/aarch64-linux-gnu/qt6/QtCore/QSizeF \
- /usr/include/aarch64-linux-gnu/qt6/QtGui/QTransform \
- /usr/include/aarch64-linux-gnu/qt6/QtGui/qtransform.h \
- /usr/include/aarch64-linux-gnu/qt6/QtGui/qscreen_platform.h \
- /usr/include/aarch64-linux-gnu/qt6/QtWidgets/QFrame \
- /usr/include/aarch64-linux-gnu/qt6/QtWidgets/qframe.h \
+ /usr/include/aarch64-linux-gnu/qt6/QtCore/QString \
+ /usr/include/aarch64-linux-gnu/qt6/QtCore/QStandardPaths \
+ /usr/include/aarch64-linux-gnu/qt6/QtCore/qstandardpaths.h \
+ /usr/include/aarch64-linux-gnu/qt6/QtCore/QDir \
+ /usr/include/aarch64-linux-gnu/qt6/QtCore/qdir.h \
+ /usr/include/aarch64-linux-gnu/qt6/QtCore/qdirlisting.h \
+ /usr/include/aarch64-linux-gnu/qt6/QtCore/qfiledevice.h \
+ /usr/include/aarch64-linux-gnu/qt6/QtCore/qfile.h \
+ /usr/include/c++/15/filesystem /usr/include/c++/15/bits/fs_fwd.h \
+ /usr/include/c++/15/bits/fs_path.h /usr/include/c++/15/codecvt \
+ /usr/include/c++/15/bits/fs_dir.h /usr/include/c++/15/bits/fs_ops.h \
+ /usr/include/aarch64-linux-gnu/qt6/QtCore/qfileinfo.h \
+ /usr/include/aarch64-linux-gnu/qt6/QtCore/QDebug \
+ /usr/include/aarch64-linux-gnu/qt6/QtCore/qdebug.h \
+ /usr/include/aarch64-linux-gnu/qt6/QtWidgets/QVBoxLayout \
+ /usr/include/aarch64-linux-gnu/qt6/QtWidgets/qboxlayout.h \
+ /usr/include/aarch64-linux-gnu/qt6/QtWidgets/qlayout.h \
+ /usr/include/aarch64-linux-gnu/qt6/QtWidgets/qlayoutitem.h \
+ /usr/include/aarch64-linux-gnu/qt6/QtWidgets/qboxlayout.h \
+ /usr/include/aarch64-linux-gnu/qt6/QtWidgets/qgridlayout.h \
+ /usr/include/aarch64-linux-gnu/qt6/QtWidgets/QHBoxLayout \
+ /usr/include/aarch64-linux-gnu/qt6/QtWidgets/QGridLayout \
+ /usr/include/aarch64-linux-gnu/qt6/QtWidgets/qgridlayout.h \
+ /usr/include/aarch64-linux-gnu/qt6/QtWidgets/QGroupBox \
+ /usr/include/aarch64-linux-gnu/qt6/QtWidgets/qgroupbox.h \
+ /usr/include/aarch64-linux-gnu/qt6/QtWidgets/QHeaderView \
+ /usr/include/aarch64-linux-gnu/qt6/QtWidgets/qheaderview.h \
  /usr/include/aarch64-linux-gnu/qt6/QtWidgets/QMessageBox \
  /usr/include/aarch64-linux-gnu/qt6/QtWidgets/qmessagebox.h \
  /usr/include/aarch64-linux-gnu/qt6/QtWidgets/qdialog.h \
  /usr/include/aarch64-linux-gnu/qt6/QtWidgets/qdialogbuttonbox.h \
+ /usr/include/aarch64-linux-gnu/qt6/QtCore/QDate \
+ /usr/include/aarch64-linux-gnu/qt6/QtCore/qdatetime.h \
  /usr/include/aarch64-linux-gnu/qt6/QtWidgets/QScrollArea \
- /usr/include/aarch64-linux-gnu/qt6/QtWidgets/qscrollarea.h
+ /usr/include/aarch64-linux-gnu/qt6/QtWidgets/qscrollarea.h \
+ /usr/include/aarch64-linux-gnu/qt6/QtWidgets/QFrame \
+ /usr/include/aarch64-linux-gnu/qt6/QtWidgets/qframe.h

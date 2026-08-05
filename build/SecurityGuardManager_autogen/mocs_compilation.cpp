@@ -9,6 +9,8 @@
 #include "YPKJ5OE7LN/moc_ClientWidget.cpp"
 #include "YPKJ5OE7LN/moc_ComplaintDialog.cpp"
 #include "YPKJ5OE7LN/moc_ComplaintWidget.cpp"
+#include "YPKJ5OE7LN/moc_ComplianceDialog.cpp"
+#include "YPKJ5OE7LN/moc_ComplianceWidget.cpp"
 #include "YPKJ5OE7LN/moc_DashboardWidget.cpp"
 #include "YPKJ5OE7LN/moc_DocumentDialog.cpp"
 #include "YPKJ5OE7LN/moc_DocumentWidget.cpp"

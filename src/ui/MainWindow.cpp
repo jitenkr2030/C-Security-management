@@ -24,6 +24,7 @@
 #include "TicketWidget.h"
 #include "AuditLogWidget.h"
 #include "RoleManagerWidget.h"
+#include "ComplianceWidget.h"
 #include "ReportsWidget.h"
 #include "SearchWidget.h"
 #include "BackupWidget.h"
@@ -81,17 +82,18 @@ void MainWindow::buildUI()
     m_tickets = new TicketWidget;            // 22
     m_auditLog = new AuditLogWidget;         // 23
     m_roleManager = new RoleManagerWidget;   // 24
-    m_reports = new ReportsWidget;           // 25
-    m_search = new SearchWidget;             // 26
-    m_backup = new BackupWidget;             // 27
-    m_settings = new SettingsWidget;         // 28
+    m_compliance = new ComplianceWidget;     // 25
+    m_reports = new ReportsWidget;           // 26
+    m_search = new SearchWidget;             // 27
+    m_backup = new BackupWidget;             // 28
+    m_settings = new SettingsWidget;         // 29
 
     QList<QWidget*> widgets = {
         m_dashboard, m_guards, m_clients, m_sites, m_attendance, m_duty,
         m_leave, m_salary, m_uniform, m_equipment, m_visitors, m_vehicles,
         m_incidents, m_training, m_documents, m_complaints, m_fines, m_alerts,
         m_payroll, m_announcements, m_photos, m_invoices, m_tickets, m_auditLog,
-        m_roleManager, m_reports, m_search, m_backup, m_settings
+        m_roleManager, m_compliance, m_reports, m_search, m_backup, m_settings
     };
     for (auto* w : widgets) m_stack->addWidget(w);
 
@@ -160,7 +162,7 @@ QWidget* MainWindow::createSidebar()
     m_btnPayroll = makeBtn("  Payroll", idx++); m_btnAnnouncements = makeBtn("  Announcements", idx++);
     m_btnPhotos = makeBtn("  Photo Gallery", idx++); m_btnInvoices = makeBtn("  Client Billing", idx++);
     m_btnTickets = makeBtn("  Helpdesk", idx++); m_btnAuditLog = makeBtn("  Audit Log", idx++);
-    m_btnRoleManager = makeBtn("  Roles & Access", idx++);
+    m_btnRoleManager = makeBtn("  Roles & Access", idx++); m_btnCompliance = makeBtn("  Compliance", idx++);
 
     addSection("TOOLS");
     m_btnReports = makeBtn("  Reports", idx++); m_btnSearch = makeBtn("  Search", idx++);
@@ -194,7 +196,8 @@ void MainWindow::setActiveNavButton(QPushButton* activeBtn)
         m_btnAttendance, m_btnDuty, m_btnLeave, m_btnSalary, m_btnUniform, m_btnEquipment,
         m_btnVisitors, m_btnVehicles, m_btnIncidents, m_btnTraining, m_btnDocuments,
         m_btnComplaints, m_btnFines, m_btnAlerts, m_btnPayroll, m_btnAnnouncements,
-        m_btnPhotos, m_btnInvoices, m_btnTickets, m_btnAuditLog, m_btnRoleManager,
+        m_btnPhotos, m_btnInvoices, m_btnTickets, m_btnAuditLog,
+        m_btnRoleManager, m_btnCompliance,
         m_btnReports, m_btnSearch, m_btnBackup, m_btnSettings };
     for (auto* btn : allBtns) { if (btn) btn->setChecked(btn == activeBtn); }
 }
@@ -224,10 +227,11 @@ void MainWindow::showInvoices()      { m_stack->setCurrentIndex(21); setActiveNa
 void MainWindow::showTickets()       { m_stack->setCurrentIndex(22); setActiveNavButton(m_btnTickets); m_tickets->refresh(); }
 void MainWindow::showAuditLog()      { m_stack->setCurrentIndex(23); setActiveNavButton(m_btnAuditLog); m_auditLog->refresh(); }
 void MainWindow::showRoleManager()   { m_stack->setCurrentIndex(24); setActiveNavButton(m_btnRoleManager); m_roleManager->refresh(); }
-void MainWindow::showReports()       { m_stack->setCurrentIndex(25); setActiveNavButton(m_btnReports); m_reports->refresh(); }
-void MainWindow::showSearch()        { m_stack->setCurrentIndex(26); setActiveNavButton(m_btnSearch); m_search->refresh(); }
-void MainWindow::showBackup()        { m_stack->setCurrentIndex(27); setActiveNavButton(m_btnBackup); m_backup->refresh(); }
-void MainWindow::showSettings()      { m_stack->setCurrentIndex(28); setActiveNavButton(m_btnSettings); m_settings->refresh(); }
+void MainWindow::showCompliance()    { m_stack->setCurrentIndex(25); setActiveNavButton(m_btnCompliance); m_compliance->refresh(); }
+void MainWindow::showReports()       { m_stack->setCurrentIndex(26); setActiveNavButton(m_btnReports); m_reports->refresh(); }
+void MainWindow::showSearch()        { m_stack->setCurrentIndex(27); setActiveNavButton(m_btnSearch); m_search->refresh(); }
+void MainWindow::showBackup()        { m_stack->setCurrentIndex(28); setActiveNavButton(m_btnBackup); m_backup->refresh(); }
+void MainWindow::showSettings()      { m_stack->setCurrentIndex(29); setActiveNavButton(m_btnSettings); m_settings->refresh(); }
 
 void MainWindow::handleLogout()
 {

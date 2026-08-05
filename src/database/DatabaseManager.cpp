@@ -496,6 +496,73 @@ void DatabaseManager::createTables()
 
 
 
+    // Compliance - Licenses
+    statements << R"(
+        CREATE TABLE IF NOT EXISTS ComplianceLicenses (
+                id              INTEGER PRIMARY KEY AUTOINCREMENT,
+                license_type    TEXT NOT NULL,
+                license_number  TEXT NOT NULL,
+                issuing_authority TEXT,
+                state           TEXT,
+                issue_date      TEXT,
+                expiry_date     TEXT,
+                renewal_status  TEXT DEFAULT 'Active',
+                document_path   TEXT,
+                notes           TEXT,
+                status          TEXT DEFAULT 'Active',
+                created_at      TEXT DEFAULT (datetime('now','localtime'))
+            )
+    )""";
+
+    // Compliance - Filings
+    statements << R"(
+        CREATE TABLE IF NOT EXISTS ComplianceFilings (
+                id              INTEGER PRIMARY KEY AUTOINCREMENT,
+                compliance_area TEXT NOT NULL,
+                filing_type     TEXT NOT NULL,
+                filing_period   TEXT,
+                due_date        TEXT NOT NULL,
+                filed_date      TEXT,
+                amount          REAL DEFAULT 0,
+                status          TEXT DEFAULT 'Pending',
+                challan_path    TEXT,
+                notes           TEXT,
+                created_at      TEXT DEFAULT (datetime('now','localtime'))
+            )
+    )""";
+
+    // Compliance - Minimum Wages
+    statements << R"(
+        CREATE TABLE IF NOT EXISTS MinWages (
+                id              INTEGER PRIMARY KEY AUTOINCREMENT,
+                state           TEXT NOT NULL,
+                zone            TEXT DEFAULT 'Zone I',
+                skill_category  TEXT DEFAULT 'Unskilled',
+                basic_wage      REAL NOT NULL,
+                vda             REAL DEFAULT 0,
+                total_wage      REAL NOT NULL,
+                effective_from  TEXT,
+                effective_to    TEXT,
+                notification_no TEXT,
+                notes           TEXT,
+                created_at      TEXT DEFAULT (datetime('now','localtime'))
+            )
+    )""";
+
+    // Compliance - Config
+    statements << R"(
+        CREATE TABLE IF NOT EXISTS ComplianceConfig (
+                id              INTEGER PRIMARY KEY AUTOINCREMENT,
+                compliance_area TEXT NOT NULL,
+                config_key      TEXT NOT NULL,
+                config_value    TEXT,
+                state           TEXT,
+                effective_from  TEXT,
+                notes           TEXT,
+                UNIQUE(compliance_area, config_key, state)
+            )
+    )""";
+
     // Role Permissions
     statements << R"(
         CREATE TABLE IF NOT EXISTS RolePermissions (

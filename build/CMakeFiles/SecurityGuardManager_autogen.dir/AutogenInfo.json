@@ -496,6 +496,18 @@
 			null
 		],
 		[
+			"/root/cplusplus/C-Security-management/src/ui/ComplianceDialog.h",
+			"MU",
+			"YPKJ5OE7LN/moc_ComplianceDialog.cpp",
+			null
+		],
+		[
+			"/root/cplusplus/C-Security-management/src/ui/ComplianceWidget.h",
+			"MU",
+			"YPKJ5OE7LN/moc_ComplianceWidget.cpp",
+			null
+		],
+		[
 			"/root/cplusplus/C-Security-management/src/ui/DashboardWidget.h",
 			"MU",
 			"YPKJ5OE7LN/moc_DashboardWidget.cpp",
@@ -865,6 +877,16 @@
 		],
 		[
 			"/root/cplusplus/C-Security-management/src/ui/ComplaintWidget.cpp",
+			"MU",
+			null
+		],
+		[
+			"/root/cplusplus/C-Security-management/src/ui/ComplianceDialog.cpp",
+			"MU",
+			null
+		],
+		[
+			"/root/cplusplus/C-Security-management/src/ui/ComplianceWidget.cpp",
 			"MU",
 			null
 		],

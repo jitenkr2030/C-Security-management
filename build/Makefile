@@ -491,6 +491,54 @@ src/ui/ComplaintWidget.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/SecurityGuardManager.dir/build.make CMakeFiles/SecurityGuardManager.dir/src/ui/ComplaintWidget.cpp.s
 .PHONY : src/ui/ComplaintWidget.cpp.s
 
+src/ui/ComplianceDialog.o: src/ui/ComplianceDialog.cpp.o
+.PHONY : src/ui/ComplianceDialog.o
+
+# target to build an object file
+src/ui/ComplianceDialog.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/SecurityGuardManager.dir/build.make CMakeFiles/SecurityGuardManager.dir/src/ui/ComplianceDialog.cpp.o
+.PHONY : src/ui/ComplianceDialog.cpp.o
+
+src/ui/ComplianceDialog.i: src/ui/ComplianceDialog.cpp.i
+.PHONY : src/ui/ComplianceDialog.i
+
+# target to preprocess a source file
+src/ui/ComplianceDialog.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/SecurityGuardManager.dir/build.make CMakeFiles/SecurityGuardManager.dir/src/ui/ComplianceDialog.cpp.i
+.PHONY : src/ui/ComplianceDialog.cpp.i
+
+src/ui/ComplianceDialog.s: src/ui/ComplianceDialog.cpp.s
+.PHONY : src/ui/ComplianceDialog.s
+
+# target to generate assembly for a file
+src/ui/ComplianceDialog.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/SecurityGuardManager.dir/build.make CMakeFiles/SecurityGuardManager.dir/src/ui/ComplianceDialog.cpp.s
+.PHONY : src/ui/ComplianceDialog.cpp.s
+
+src/ui/ComplianceWidget.o: src/ui/ComplianceWidget.cpp.o
+.PHONY : src/ui/ComplianceWidget.o
+
+# target to build an object file
+src/ui/ComplianceWidget.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/SecurityGuardManager.dir/build.make CMakeFiles/SecurityGuardManager.dir/src/ui/ComplianceWidget.cpp.o
+.PHONY : src/ui/ComplianceWidget.cpp.o
+
+src/ui/ComplianceWidget.i: src/ui/ComplianceWidget.cpp.i
+.PHONY : src/ui/ComplianceWidget.i
+
+# target to preprocess a source file
+src/ui/ComplianceWidget.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/SecurityGuardManager.dir/build.make CMakeFiles/SecurityGuardManager.dir/src/ui/ComplianceWidget.cpp.i
+.PHONY : src/ui/ComplianceWidget.cpp.i
+
+src/ui/ComplianceWidget.s: src/ui/ComplianceWidget.cpp.s
+.PHONY : src/ui/ComplianceWidget.s
+
+# target to generate assembly for a file
+src/ui/ComplianceWidget.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/SecurityGuardManager.dir/build.make CMakeFiles/SecurityGuardManager.dir/src/ui/ComplianceWidget.cpp.s
+.PHONY : src/ui/ComplianceWidget.cpp.s
+
 src/ui/DashboardWidget.o: src/ui/DashboardWidget.cpp.o
 .PHONY : src/ui/DashboardWidget.o
 
@@ -1528,6 +1576,12 @@ help:
 	@echo "... src/ui/ComplaintWidget.o"
 	@echo "... src/ui/ComplaintWidget.i"
 	@echo "... src/ui/ComplaintWidget.s"
+	@echo "... src/ui/ComplianceDialog.o"
+	@echo "... src/ui/ComplianceDialog.i"
+	@echo "... src/ui/ComplianceDialog.s"
+	@echo "... src/ui/ComplianceWidget.o"
+	@echo "... src/ui/ComplianceWidget.i"
+	@echo "... src/ui/ComplianceWidget.s"
 	@echo "... src/ui/DashboardWidget.o"
 	@echo "... src/ui/DashboardWidget.i"
 	@echo "... src/ui/DashboardWidget.s"

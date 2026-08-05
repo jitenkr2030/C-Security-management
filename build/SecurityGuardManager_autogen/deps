@@ -27,6 +27,10 @@ SecurityGuardManager_autogen/timestamp: \
 	/root/cplusplus/C-Security-management/src/ui/ComplaintDialog.h \
 	/root/cplusplus/C-Security-management/src/ui/ComplaintWidget.cpp \
 	/root/cplusplus/C-Security-management/src/ui/ComplaintWidget.h \
+	/root/cplusplus/C-Security-management/src/ui/ComplianceDialog.cpp \
+	/root/cplusplus/C-Security-management/src/ui/ComplianceDialog.h \
+	/root/cplusplus/C-Security-management/src/ui/ComplianceWidget.cpp \
+	/root/cplusplus/C-Security-management/src/ui/ComplianceWidget.h \
 	/root/cplusplus/C-Security-management/src/ui/DashboardWidget.cpp \
 	/root/cplusplus/C-Security-management/src/ui/DashboardWidget.h \
 	/root/cplusplus/C-Security-management/src/ui/DocumentDialog.cpp \
@@ -387,6 +391,7 @@ SecurityGuardManager_autogen/timestamp: \
 	/usr/include/aarch64-linux-gnu/qt6/QtWidgets/QPushButton \
 	/usr/include/aarch64-linux-gnu/qt6/QtWidgets/QSpinBox \
 	/usr/include/aarch64-linux-gnu/qt6/QtWidgets/QStackedWidget \
+	/usr/include/aarch64-linux-gnu/qt6/QtWidgets/QTabWidget \
 	/usr/include/aarch64-linux-gnu/qt6/QtWidgets/QTableWidget \
 	/usr/include/aarch64-linux-gnu/qt6/QtWidgets/QTextEdit \
 	/usr/include/aarch64-linux-gnu/qt6/QtWidgets/QTimeEdit \

@@ -540,6 +540,12 @@ CMakeFiles/SecurityGuardManager.dir/SecurityGuardManager_autogen/mocs_compilatio
  /root/cplusplus/C-Security-management/build/SecurityGuardManager_autogen/YPKJ5OE7LN/../../../src/ui/ComplaintDialog.h \
  /root/cplusplus/C-Security-management/build/SecurityGuardManager_autogen/YPKJ5OE7LN/moc_ComplaintWidget.cpp \
  /root/cplusplus/C-Security-management/build/SecurityGuardManager_autogen/YPKJ5OE7LN/../../../src/ui/ComplaintWidget.h \
+ /root/cplusplus/C-Security-management/build/SecurityGuardManager_autogen/YPKJ5OE7LN/moc_ComplianceDialog.cpp \
+ /root/cplusplus/C-Security-management/build/SecurityGuardManager_autogen/YPKJ5OE7LN/../../../src/ui/ComplianceDialog.h \
+ /usr/include/aarch64-linux-gnu/qt6/QtWidgets/QTabWidget \
+ /usr/include/aarch64-linux-gnu/qt6/QtWidgets/qtabwidget.h \
+ /root/cplusplus/C-Security-management/build/SecurityGuardManager_autogen/YPKJ5OE7LN/moc_ComplianceWidget.cpp \
+ /root/cplusplus/C-Security-management/build/SecurityGuardManager_autogen/YPKJ5OE7LN/../../../src/ui/ComplianceWidget.h \
  /root/cplusplus/C-Security-management/build/SecurityGuardManager_autogen/YPKJ5OE7LN/moc_DashboardWidget.cpp \
  /root/cplusplus/C-Security-management/build/SecurityGuardManager_autogen/YPKJ5OE7LN/../../../src/ui/DashboardWidget.h \
  /usr/include/aarch64-linux-gnu/qt6/QtWidgets/QGridLayout \

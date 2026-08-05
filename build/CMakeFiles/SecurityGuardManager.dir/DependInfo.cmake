@@ -22,6 +22,8 @@ set(CMAKE_DEPENDS_DEPENDENCY_FILES
   "/root/cplusplus/C-Security-management/src/ui/ClientWidget.cpp" "CMakeFiles/SecurityGuardManager.dir/src/ui/ClientWidget.cpp.o" "gcc" "CMakeFiles/SecurityGuardManager.dir/src/ui/ClientWidget.cpp.o.d"
   "/root/cplusplus/C-Security-management/src/ui/ComplaintDialog.cpp" "CMakeFiles/SecurityGuardManager.dir/src/ui/ComplaintDialog.cpp.o" "gcc" "CMakeFiles/SecurityGuardManager.dir/src/ui/ComplaintDialog.cpp.o.d"
   "/root/cplusplus/C-Security-management/src/ui/ComplaintWidget.cpp" "CMakeFiles/SecurityGuardManager.dir/src/ui/ComplaintWidget.cpp.o" "gcc" "CMakeFiles/SecurityGuardManager.dir/src/ui/ComplaintWidget.cpp.o.d"
+  "/root/cplusplus/C-Security-management/src/ui/ComplianceDialog.cpp" "CMakeFiles/SecurityGuardManager.dir/src/ui/ComplianceDialog.cpp.o" "gcc" "CMakeFiles/SecurityGuardManager.dir/src/ui/ComplianceDialog.cpp.o.d"
+  "/root/cplusplus/C-Security-management/src/ui/ComplianceWidget.cpp" "CMakeFiles/SecurityGuardManager.dir/src/ui/ComplianceWidget.cpp.o" "gcc" "CMakeFiles/SecurityGuardManager.dir/src/ui/ComplianceWidget.cpp.o.d"
   "/root/cplusplus/C-Security-management/src/ui/DashboardWidget.cpp" "CMakeFiles/SecurityGuardManager.dir/src/ui/DashboardWidget.cpp.o" "gcc" "CMakeFiles/SecurityGuardManager.dir/src/ui/DashboardWidget.cpp.o.d"
   "/root/cplusplus/C-Security-management/src/ui/DocumentDialog.cpp" "CMakeFiles/SecurityGuardManager.dir/src/ui/DocumentDialog.cpp.o" "gcc" "CMakeFiles/SecurityGuardManager.dir/src/ui/DocumentDialog.cpp.o.d"
   "/root/cplusplus/C-Security-management/src/ui/DocumentWidget.cpp" "CMakeFiles/SecurityGuardManager.dir/src/ui/DocumentWidget.cpp.o" "gcc" "CMakeFiles/SecurityGuardManager.dir/src/ui/DocumentWidget.cpp.o.d"

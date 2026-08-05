@@ -66,6 +66,7 @@ template <> constexpr inline auto MainWindow::qt_create_metaobjectdata<qt_meta_t
         "showTickets",
         "showAuditLog",
         "showRoleManager",
+        "showCompliance",
         "showReports",
         "showSearch",
         "showBackup",
@@ -124,16 +125,18 @@ template <> constexpr inline auto MainWindow::qt_create_metaobjectdata<qt_meta_t
         QtMocHelpers::SlotData<void()>(25, 2, QMC::AccessPrivate, QMetaType::Void),
         // Slot 'showRoleManager'
         QtMocHelpers::SlotData<void()>(26, 2, QMC::AccessPrivate, QMetaType::Void),
-        // Slot 'showReports'
+        // Slot 'showCompliance'
         QtMocHelpers::SlotData<void()>(27, 2, QMC::AccessPrivate, QMetaType::Void),
-        // Slot 'showSearch'
+        // Slot 'showReports'
         QtMocHelpers::SlotData<void()>(28, 2, QMC::AccessPrivate, QMetaType::Void),
-        // Slot 'showBackup'
+        // Slot 'showSearch'
         QtMocHelpers::SlotData<void()>(29, 2, QMC::AccessPrivate, QMetaType::Void),
-        // Slot 'showSettings'
+        // Slot 'showBackup'
         QtMocHelpers::SlotData<void()>(30, 2, QMC::AccessPrivate, QMetaType::Void),
-        // Slot 'handleLogout'
+        // Slot 'showSettings'
         QtMocHelpers::SlotData<void()>(31, 2, QMC::AccessPrivate, QMetaType::Void),
+        // Slot 'handleLogout'
+        QtMocHelpers::SlotData<void()>(32, 2, QMC::AccessPrivate, QMetaType::Void),
     };
     QtMocHelpers::UintData qt_properties {
     };
@@ -182,11 +185,12 @@ void MainWindow::qt_static_metacall(QObject *_o, QMetaObject::Call _c, int _id, 
         case 22: _t->showTickets(); break;
         case 23: _t->showAuditLog(); break;
         case 24: _t->showRoleManager(); break;
-        case 25: _t->showReports(); break;
-        case 26: _t->showSearch(); break;
-        case 27: _t->showBackup(); break;
-        case 28: _t->showSettings(); break;
-        case 29: _t->handleLogout(); break;
+        case 25: _t->showCompliance(); break;
+        case 26: _t->showReports(); break;
+        case 27: _t->showSearch(); break;
+        case 28: _t->showBackup(); break;
+        case 29: _t->showSettings(); break;
+        case 30: _t->handleLogout(); break;
         default: ;
         }
     }
@@ -212,14 +216,14 @@ int MainWindow::qt_metacall(QMetaObject::Call _c, int _id, void **_a)
     if (_id < 0)
         return _id;
     if (_c == QMetaObject::InvokeMetaMethod) {
-        if (_id < 30)
+        if (_id < 31)
             qt_static_metacall(this, _c, _id, _a);
-        _id -= 30;
+        _id -= 31;
     }
     if (_c == QMetaObject::RegisterMethodArgumentMetaType) {
-        if (_id < 30)
+        if (_id < 31)
             *reinterpret_cast<QMetaType *>(_a[0]) = QMetaType();
-        _id -= 30;
+        _id -= 31;
     }
     return _id;
 }
