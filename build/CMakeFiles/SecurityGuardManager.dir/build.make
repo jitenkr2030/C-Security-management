@@ -654,10 +654,136 @@ CMakeFiles/SecurityGuardManager.dir/src/ui/AnnouncementDialog.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/SecurityGuardManager.dir/src/ui/AnnouncementDialog.cpp.s"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /root/cplusplus/C-Security-management/src/ui/AnnouncementDialog.cpp -o CMakeFiles/SecurityGuardManager.dir/src/ui/AnnouncementDialog.cpp.s
 
+CMakeFiles/SecurityGuardManager.dir/src/ui/PhotoWidget.cpp.o: CMakeFiles/SecurityGuardManager.dir/flags.make
+CMakeFiles/SecurityGuardManager.dir/src/ui/PhotoWidget.cpp.o: /root/cplusplus/C-Security-management/src/ui/PhotoWidget.cpp
+CMakeFiles/SecurityGuardManager.dir/src/ui/PhotoWidget.cpp.o: CMakeFiles/SecurityGuardManager.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/root/cplusplus/C-Security-management/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_43) "Building CXX object CMakeFiles/SecurityGuardManager.dir/src/ui/PhotoWidget.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/SecurityGuardManager.dir/src/ui/PhotoWidget.cpp.o -MF CMakeFiles/SecurityGuardManager.dir/src/ui/PhotoWidget.cpp.o.d -o CMakeFiles/SecurityGuardManager.dir/src/ui/PhotoWidget.cpp.o -c /root/cplusplus/C-Security-management/src/ui/PhotoWidget.cpp
+
+CMakeFiles/SecurityGuardManager.dir/src/ui/PhotoWidget.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/SecurityGuardManager.dir/src/ui/PhotoWidget.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /root/cplusplus/C-Security-management/src/ui/PhotoWidget.cpp > CMakeFiles/SecurityGuardManager.dir/src/ui/PhotoWidget.cpp.i
+
+CMakeFiles/SecurityGuardManager.dir/src/ui/PhotoWidget.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/SecurityGuardManager.dir/src/ui/PhotoWidget.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /root/cplusplus/C-Security-management/src/ui/PhotoWidget.cpp -o CMakeFiles/SecurityGuardManager.dir/src/ui/PhotoWidget.cpp.s
+
+CMakeFiles/SecurityGuardManager.dir/src/ui/PhotoDialog.cpp.o: CMakeFiles/SecurityGuardManager.dir/flags.make
+CMakeFiles/SecurityGuardManager.dir/src/ui/PhotoDialog.cpp.o: /root/cplusplus/C-Security-management/src/ui/PhotoDialog.cpp
+CMakeFiles/SecurityGuardManager.dir/src/ui/PhotoDialog.cpp.o: CMakeFiles/SecurityGuardManager.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/root/cplusplus/C-Security-management/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_44) "Building CXX object CMakeFiles/SecurityGuardManager.dir/src/ui/PhotoDialog.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/SecurityGuardManager.dir/src/ui/PhotoDialog.cpp.o -MF CMakeFiles/SecurityGuardManager.dir/src/ui/PhotoDialog.cpp.o.d -o CMakeFiles/SecurityGuardManager.dir/src/ui/PhotoDialog.cpp.o -c /root/cplusplus/C-Security-management/src/ui/PhotoDialog.cpp
+
+CMakeFiles/SecurityGuardManager.dir/src/ui/PhotoDialog.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/SecurityGuardManager.dir/src/ui/PhotoDialog.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /root/cplusplus/C-Security-management/src/ui/PhotoDialog.cpp > CMakeFiles/SecurityGuardManager.dir/src/ui/PhotoDialog.cpp.i
+
+CMakeFiles/SecurityGuardManager.dir/src/ui/PhotoDialog.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/SecurityGuardManager.dir/src/ui/PhotoDialog.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /root/cplusplus/C-Security-management/src/ui/PhotoDialog.cpp -o CMakeFiles/SecurityGuardManager.dir/src/ui/PhotoDialog.cpp.s
+
+CMakeFiles/SecurityGuardManager.dir/src/ui/InvoiceWidget.cpp.o: CMakeFiles/SecurityGuardManager.dir/flags.make
+CMakeFiles/SecurityGuardManager.dir/src/ui/InvoiceWidget.cpp.o: /root/cplusplus/C-Security-management/src/ui/InvoiceWidget.cpp
+CMakeFiles/SecurityGuardManager.dir/src/ui/InvoiceWidget.cpp.o: CMakeFiles/SecurityGuardManager.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/root/cplusplus/C-Security-management/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_45) "Building CXX object CMakeFiles/SecurityGuardManager.dir/src/ui/InvoiceWidget.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/SecurityGuardManager.dir/src/ui/InvoiceWidget.cpp.o -MF CMakeFiles/SecurityGuardManager.dir/src/ui/InvoiceWidget.cpp.o.d -o CMakeFiles/SecurityGuardManager.dir/src/ui/InvoiceWidget.cpp.o -c /root/cplusplus/C-Security-management/src/ui/InvoiceWidget.cpp
+
+CMakeFiles/SecurityGuardManager.dir/src/ui/InvoiceWidget.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/SecurityGuardManager.dir/src/ui/InvoiceWidget.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /root/cplusplus/C-Security-management/src/ui/InvoiceWidget.cpp > CMakeFiles/SecurityGuardManager.dir/src/ui/InvoiceWidget.cpp.i
+
+CMakeFiles/SecurityGuardManager.dir/src/ui/InvoiceWidget.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/SecurityGuardManager.dir/src/ui/InvoiceWidget.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /root/cplusplus/C-Security-management/src/ui/InvoiceWidget.cpp -o CMakeFiles/SecurityGuardManager.dir/src/ui/InvoiceWidget.cpp.s
+
+CMakeFiles/SecurityGuardManager.dir/src/ui/InvoiceDialog.cpp.o: CMakeFiles/SecurityGuardManager.dir/flags.make
+CMakeFiles/SecurityGuardManager.dir/src/ui/InvoiceDialog.cpp.o: /root/cplusplus/C-Security-management/src/ui/InvoiceDialog.cpp
+CMakeFiles/SecurityGuardManager.dir/src/ui/InvoiceDialog.cpp.o: CMakeFiles/SecurityGuardManager.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/root/cplusplus/C-Security-management/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_46) "Building CXX object CMakeFiles/SecurityGuardManager.dir/src/ui/InvoiceDialog.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/SecurityGuardManager.dir/src/ui/InvoiceDialog.cpp.o -MF CMakeFiles/SecurityGuardManager.dir/src/ui/InvoiceDialog.cpp.o.d -o CMakeFiles/SecurityGuardManager.dir/src/ui/InvoiceDialog.cpp.o -c /root/cplusplus/C-Security-management/src/ui/InvoiceDialog.cpp
+
+CMakeFiles/SecurityGuardManager.dir/src/ui/InvoiceDialog.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/SecurityGuardManager.dir/src/ui/InvoiceDialog.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /root/cplusplus/C-Security-management/src/ui/InvoiceDialog.cpp > CMakeFiles/SecurityGuardManager.dir/src/ui/InvoiceDialog.cpp.i
+
+CMakeFiles/SecurityGuardManager.dir/src/ui/InvoiceDialog.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/SecurityGuardManager.dir/src/ui/InvoiceDialog.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /root/cplusplus/C-Security-management/src/ui/InvoiceDialog.cpp -o CMakeFiles/SecurityGuardManager.dir/src/ui/InvoiceDialog.cpp.s
+
+CMakeFiles/SecurityGuardManager.dir/src/ui/TicketWidget.cpp.o: CMakeFiles/SecurityGuardManager.dir/flags.make
+CMakeFiles/SecurityGuardManager.dir/src/ui/TicketWidget.cpp.o: /root/cplusplus/C-Security-management/src/ui/TicketWidget.cpp
+CMakeFiles/SecurityGuardManager.dir/src/ui/TicketWidget.cpp.o: CMakeFiles/SecurityGuardManager.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/root/cplusplus/C-Security-management/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_47) "Building CXX object CMakeFiles/SecurityGuardManager.dir/src/ui/TicketWidget.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/SecurityGuardManager.dir/src/ui/TicketWidget.cpp.o -MF CMakeFiles/SecurityGuardManager.dir/src/ui/TicketWidget.cpp.o.d -o CMakeFiles/SecurityGuardManager.dir/src/ui/TicketWidget.cpp.o -c /root/cplusplus/C-Security-management/src/ui/TicketWidget.cpp
+
+CMakeFiles/SecurityGuardManager.dir/src/ui/TicketWidget.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/SecurityGuardManager.dir/src/ui/TicketWidget.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /root/cplusplus/C-Security-management/src/ui/TicketWidget.cpp > CMakeFiles/SecurityGuardManager.dir/src/ui/TicketWidget.cpp.i
+
+CMakeFiles/SecurityGuardManager.dir/src/ui/TicketWidget.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/SecurityGuardManager.dir/src/ui/TicketWidget.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /root/cplusplus/C-Security-management/src/ui/TicketWidget.cpp -o CMakeFiles/SecurityGuardManager.dir/src/ui/TicketWidget.cpp.s
+
+CMakeFiles/SecurityGuardManager.dir/src/ui/TicketDialog.cpp.o: CMakeFiles/SecurityGuardManager.dir/flags.make
+CMakeFiles/SecurityGuardManager.dir/src/ui/TicketDialog.cpp.o: /root/cplusplus/C-Security-management/src/ui/TicketDialog.cpp
+CMakeFiles/SecurityGuardManager.dir/src/ui/TicketDialog.cpp.o: CMakeFiles/SecurityGuardManager.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/root/cplusplus/C-Security-management/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_48) "Building CXX object CMakeFiles/SecurityGuardManager.dir/src/ui/TicketDialog.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/SecurityGuardManager.dir/src/ui/TicketDialog.cpp.o -MF CMakeFiles/SecurityGuardManager.dir/src/ui/TicketDialog.cpp.o.d -o CMakeFiles/SecurityGuardManager.dir/src/ui/TicketDialog.cpp.o -c /root/cplusplus/C-Security-management/src/ui/TicketDialog.cpp
+
+CMakeFiles/SecurityGuardManager.dir/src/ui/TicketDialog.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/SecurityGuardManager.dir/src/ui/TicketDialog.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /root/cplusplus/C-Security-management/src/ui/TicketDialog.cpp > CMakeFiles/SecurityGuardManager.dir/src/ui/TicketDialog.cpp.i
+
+CMakeFiles/SecurityGuardManager.dir/src/ui/TicketDialog.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/SecurityGuardManager.dir/src/ui/TicketDialog.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /root/cplusplus/C-Security-management/src/ui/TicketDialog.cpp -o CMakeFiles/SecurityGuardManager.dir/src/ui/TicketDialog.cpp.s
+
+CMakeFiles/SecurityGuardManager.dir/src/ui/AuditLogWidget.cpp.o: CMakeFiles/SecurityGuardManager.dir/flags.make
+CMakeFiles/SecurityGuardManager.dir/src/ui/AuditLogWidget.cpp.o: /root/cplusplus/C-Security-management/src/ui/AuditLogWidget.cpp
+CMakeFiles/SecurityGuardManager.dir/src/ui/AuditLogWidget.cpp.o: CMakeFiles/SecurityGuardManager.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/root/cplusplus/C-Security-management/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_49) "Building CXX object CMakeFiles/SecurityGuardManager.dir/src/ui/AuditLogWidget.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/SecurityGuardManager.dir/src/ui/AuditLogWidget.cpp.o -MF CMakeFiles/SecurityGuardManager.dir/src/ui/AuditLogWidget.cpp.o.d -o CMakeFiles/SecurityGuardManager.dir/src/ui/AuditLogWidget.cpp.o -c /root/cplusplus/C-Security-management/src/ui/AuditLogWidget.cpp
+
+CMakeFiles/SecurityGuardManager.dir/src/ui/AuditLogWidget.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/SecurityGuardManager.dir/src/ui/AuditLogWidget.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /root/cplusplus/C-Security-management/src/ui/AuditLogWidget.cpp > CMakeFiles/SecurityGuardManager.dir/src/ui/AuditLogWidget.cpp.i
+
+CMakeFiles/SecurityGuardManager.dir/src/ui/AuditLogWidget.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/SecurityGuardManager.dir/src/ui/AuditLogWidget.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /root/cplusplus/C-Security-management/src/ui/AuditLogWidget.cpp -o CMakeFiles/SecurityGuardManager.dir/src/ui/AuditLogWidget.cpp.s
+
+CMakeFiles/SecurityGuardManager.dir/src/ui/RoleManagerWidget.cpp.o: CMakeFiles/SecurityGuardManager.dir/flags.make
+CMakeFiles/SecurityGuardManager.dir/src/ui/RoleManagerWidget.cpp.o: /root/cplusplus/C-Security-management/src/ui/RoleManagerWidget.cpp
+CMakeFiles/SecurityGuardManager.dir/src/ui/RoleManagerWidget.cpp.o: CMakeFiles/SecurityGuardManager.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/root/cplusplus/C-Security-management/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_50) "Building CXX object CMakeFiles/SecurityGuardManager.dir/src/ui/RoleManagerWidget.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/SecurityGuardManager.dir/src/ui/RoleManagerWidget.cpp.o -MF CMakeFiles/SecurityGuardManager.dir/src/ui/RoleManagerWidget.cpp.o.d -o CMakeFiles/SecurityGuardManager.dir/src/ui/RoleManagerWidget.cpp.o -c /root/cplusplus/C-Security-management/src/ui/RoleManagerWidget.cpp
+
+CMakeFiles/SecurityGuardManager.dir/src/ui/RoleManagerWidget.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/SecurityGuardManager.dir/src/ui/RoleManagerWidget.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /root/cplusplus/C-Security-management/src/ui/RoleManagerWidget.cpp > CMakeFiles/SecurityGuardManager.dir/src/ui/RoleManagerWidget.cpp.i
+
+CMakeFiles/SecurityGuardManager.dir/src/ui/RoleManagerWidget.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/SecurityGuardManager.dir/src/ui/RoleManagerWidget.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /root/cplusplus/C-Security-management/src/ui/RoleManagerWidget.cpp -o CMakeFiles/SecurityGuardManager.dir/src/ui/RoleManagerWidget.cpp.s
+
+CMakeFiles/SecurityGuardManager.dir/src/ui/PermissionManager.cpp.o: CMakeFiles/SecurityGuardManager.dir/flags.make
+CMakeFiles/SecurityGuardManager.dir/src/ui/PermissionManager.cpp.o: /root/cplusplus/C-Security-management/src/ui/PermissionManager.cpp
+CMakeFiles/SecurityGuardManager.dir/src/ui/PermissionManager.cpp.o: CMakeFiles/SecurityGuardManager.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/root/cplusplus/C-Security-management/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_51) "Building CXX object CMakeFiles/SecurityGuardManager.dir/src/ui/PermissionManager.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/SecurityGuardManager.dir/src/ui/PermissionManager.cpp.o -MF CMakeFiles/SecurityGuardManager.dir/src/ui/PermissionManager.cpp.o.d -o CMakeFiles/SecurityGuardManager.dir/src/ui/PermissionManager.cpp.o -c /root/cplusplus/C-Security-management/src/ui/PermissionManager.cpp
+
+CMakeFiles/SecurityGuardManager.dir/src/ui/PermissionManager.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/SecurityGuardManager.dir/src/ui/PermissionManager.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /root/cplusplus/C-Security-management/src/ui/PermissionManager.cpp > CMakeFiles/SecurityGuardManager.dir/src/ui/PermissionManager.cpp.i
+
+CMakeFiles/SecurityGuardManager.dir/src/ui/PermissionManager.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/SecurityGuardManager.dir/src/ui/PermissionManager.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /root/cplusplus/C-Security-management/src/ui/PermissionManager.cpp -o CMakeFiles/SecurityGuardManager.dir/src/ui/PermissionManager.cpp.s
+
 CMakeFiles/SecurityGuardManager.dir/src/ui/SearchWidget.cpp.o: CMakeFiles/SecurityGuardManager.dir/flags.make
 CMakeFiles/SecurityGuardManager.dir/src/ui/SearchWidget.cpp.o: /root/cplusplus/C-Security-management/src/ui/SearchWidget.cpp
 CMakeFiles/SecurityGuardManager.dir/src/ui/SearchWidget.cpp.o: CMakeFiles/SecurityGuardManager.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/root/cplusplus/C-Security-management/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_43) "Building CXX object CMakeFiles/SecurityGuardManager.dir/src/ui/SearchWidget.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/root/cplusplus/C-Security-management/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_52) "Building CXX object CMakeFiles/SecurityGuardManager.dir/src/ui/SearchWidget.cpp.o"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/SecurityGuardManager.dir/src/ui/SearchWidget.cpp.o -MF CMakeFiles/SecurityGuardManager.dir/src/ui/SearchWidget.cpp.o.d -o CMakeFiles/SecurityGuardManager.dir/src/ui/SearchWidget.cpp.o -c /root/cplusplus/C-Security-management/src/ui/SearchWidget.cpp
 
 CMakeFiles/SecurityGuardManager.dir/src/ui/SearchWidget.cpp.i: cmake_force
@@ -671,7 +797,7 @@ CMakeFiles/SecurityGuardManager.dir/src/ui/SearchWidget.cpp.s: cmake_force
 CMakeFiles/SecurityGuardManager.dir/src/ui/BackupWidget.cpp.o: CMakeFiles/SecurityGuardManager.dir/flags.make
 CMakeFiles/SecurityGuardManager.dir/src/ui/BackupWidget.cpp.o: /root/cplusplus/C-Security-management/src/ui/BackupWidget.cpp
 CMakeFiles/SecurityGuardManager.dir/src/ui/BackupWidget.cpp.o: CMakeFiles/SecurityGuardManager.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/root/cplusplus/C-Security-management/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_44) "Building CXX object CMakeFiles/SecurityGuardManager.dir/src/ui/BackupWidget.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/root/cplusplus/C-Security-management/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_53) "Building CXX object CMakeFiles/SecurityGuardManager.dir/src/ui/BackupWidget.cpp.o"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/SecurityGuardManager.dir/src/ui/BackupWidget.cpp.o -MF CMakeFiles/SecurityGuardManager.dir/src/ui/BackupWidget.cpp.o.d -o CMakeFiles/SecurityGuardManager.dir/src/ui/BackupWidget.cpp.o -c /root/cplusplus/C-Security-management/src/ui/BackupWidget.cpp
 
 CMakeFiles/SecurityGuardManager.dir/src/ui/BackupWidget.cpp.i: cmake_force
@@ -685,7 +811,7 @@ CMakeFiles/SecurityGuardManager.dir/src/ui/BackupWidget.cpp.s: cmake_force
 CMakeFiles/SecurityGuardManager.dir/src/ui/SettingsWidget.cpp.o: CMakeFiles/SecurityGuardManager.dir/flags.make
 CMakeFiles/SecurityGuardManager.dir/src/ui/SettingsWidget.cpp.o: /root/cplusplus/C-Security-management/src/ui/SettingsWidget.cpp
 CMakeFiles/SecurityGuardManager.dir/src/ui/SettingsWidget.cpp.o: CMakeFiles/SecurityGuardManager.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/root/cplusplus/C-Security-management/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_45) "Building CXX object CMakeFiles/SecurityGuardManager.dir/src/ui/SettingsWidget.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/root/cplusplus/C-Security-management/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_54) "Building CXX object CMakeFiles/SecurityGuardManager.dir/src/ui/SettingsWidget.cpp.o"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/SecurityGuardManager.dir/src/ui/SettingsWidget.cpp.o -MF CMakeFiles/SecurityGuardManager.dir/src/ui/SettingsWidget.cpp.o.d -o CMakeFiles/SecurityGuardManager.dir/src/ui/SettingsWidget.cpp.o -c /root/cplusplus/C-Security-management/src/ui/SettingsWidget.cpp
 
 CMakeFiles/SecurityGuardManager.dir/src/ui/SettingsWidget.cpp.i: cmake_force
@@ -699,7 +825,7 @@ CMakeFiles/SecurityGuardManager.dir/src/ui/SettingsWidget.cpp.s: cmake_force
 CMakeFiles/SecurityGuardManager.dir/src/ui/StyleManager.cpp.o: CMakeFiles/SecurityGuardManager.dir/flags.make
 CMakeFiles/SecurityGuardManager.dir/src/ui/StyleManager.cpp.o: /root/cplusplus/C-Security-management/src/ui/StyleManager.cpp
 CMakeFiles/SecurityGuardManager.dir/src/ui/StyleManager.cpp.o: CMakeFiles/SecurityGuardManager.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/root/cplusplus/C-Security-management/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_46) "Building CXX object CMakeFiles/SecurityGuardManager.dir/src/ui/StyleManager.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/root/cplusplus/C-Security-management/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_55) "Building CXX object CMakeFiles/SecurityGuardManager.dir/src/ui/StyleManager.cpp.o"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/SecurityGuardManager.dir/src/ui/StyleManager.cpp.o -MF CMakeFiles/SecurityGuardManager.dir/src/ui/StyleManager.cpp.o.d -o CMakeFiles/SecurityGuardManager.dir/src/ui/StyleManager.cpp.o -c /root/cplusplus/C-Security-management/src/ui/StyleManager.cpp
 
 CMakeFiles/SecurityGuardManager.dir/src/ui/StyleManager.cpp.i: cmake_force
@@ -713,7 +839,7 @@ CMakeFiles/SecurityGuardManager.dir/src/ui/StyleManager.cpp.s: cmake_force
 CMakeFiles/SecurityGuardManager.dir/SecurityGuardManager_autogen/F4FAE6NH3Q/qrc_resources.cpp.o: CMakeFiles/SecurityGuardManager.dir/flags.make
 CMakeFiles/SecurityGuardManager.dir/SecurityGuardManager_autogen/F4FAE6NH3Q/qrc_resources.cpp.o: SecurityGuardManager_autogen/F4FAE6NH3Q/qrc_resources.cpp
 CMakeFiles/SecurityGuardManager.dir/SecurityGuardManager_autogen/F4FAE6NH3Q/qrc_resources.cpp.o: CMakeFiles/SecurityGuardManager.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/root/cplusplus/C-Security-management/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_47) "Building CXX object CMakeFiles/SecurityGuardManager.dir/SecurityGuardManager_autogen/F4FAE6NH3Q/qrc_resources.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/root/cplusplus/C-Security-management/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_56) "Building CXX object CMakeFiles/SecurityGuardManager.dir/SecurityGuardManager_autogen/F4FAE6NH3Q/qrc_resources.cpp.o"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/SecurityGuardManager.dir/SecurityGuardManager_autogen/F4FAE6NH3Q/qrc_resources.cpp.o -MF CMakeFiles/SecurityGuardManager.dir/SecurityGuardManager_autogen/F4FAE6NH3Q/qrc_resources.cpp.o.d -o CMakeFiles/SecurityGuardManager.dir/SecurityGuardManager_autogen/F4FAE6NH3Q/qrc_resources.cpp.o -c /root/cplusplus/C-Security-management/build/SecurityGuardManager_autogen/F4FAE6NH3Q/qrc_resources.cpp
 
 CMakeFiles/SecurityGuardManager.dir/SecurityGuardManager_autogen/F4FAE6NH3Q/qrc_resources.cpp.i: cmake_force
@@ -767,6 +893,15 @@ SecurityGuardManager_OBJECTS = \
 "CMakeFiles/SecurityGuardManager.dir/src/ui/PayrollWidget.cpp.o" \
 "CMakeFiles/SecurityGuardManager.dir/src/ui/AnnouncementWidget.cpp.o" \
 "CMakeFiles/SecurityGuardManager.dir/src/ui/AnnouncementDialog.cpp.o" \
+"CMakeFiles/SecurityGuardManager.dir/src/ui/PhotoWidget.cpp.o" \
+"CMakeFiles/SecurityGuardManager.dir/src/ui/PhotoDialog.cpp.o" \
+"CMakeFiles/SecurityGuardManager.dir/src/ui/InvoiceWidget.cpp.o" \
+"CMakeFiles/SecurityGuardManager.dir/src/ui/InvoiceDialog.cpp.o" \
+"CMakeFiles/SecurityGuardManager.dir/src/ui/TicketWidget.cpp.o" \
+"CMakeFiles/SecurityGuardManager.dir/src/ui/TicketDialog.cpp.o" \
+"CMakeFiles/SecurityGuardManager.dir/src/ui/AuditLogWidget.cpp.o" \
+"CMakeFiles/SecurityGuardManager.dir/src/ui/RoleManagerWidget.cpp.o" \
+"CMakeFiles/SecurityGuardManager.dir/src/ui/PermissionManager.cpp.o" \
 "CMakeFiles/SecurityGuardManager.dir/src/ui/SearchWidget.cpp.o" \
 "CMakeFiles/SecurityGuardManager.dir/src/ui/BackupWidget.cpp.o" \
 "CMakeFiles/SecurityGuardManager.dir/src/ui/SettingsWidget.cpp.o" \
@@ -817,6 +952,15 @@ SecurityGuardManager: CMakeFiles/SecurityGuardManager.dir/src/ui/AlertWidget.cpp
 SecurityGuardManager: CMakeFiles/SecurityGuardManager.dir/src/ui/PayrollWidget.cpp.o
 SecurityGuardManager: CMakeFiles/SecurityGuardManager.dir/src/ui/AnnouncementWidget.cpp.o
 SecurityGuardManager: CMakeFiles/SecurityGuardManager.dir/src/ui/AnnouncementDialog.cpp.o
+SecurityGuardManager: CMakeFiles/SecurityGuardManager.dir/src/ui/PhotoWidget.cpp.o
+SecurityGuardManager: CMakeFiles/SecurityGuardManager.dir/src/ui/PhotoDialog.cpp.o
+SecurityGuardManager: CMakeFiles/SecurityGuardManager.dir/src/ui/InvoiceWidget.cpp.o
+SecurityGuardManager: CMakeFiles/SecurityGuardManager.dir/src/ui/InvoiceDialog.cpp.o
+SecurityGuardManager: CMakeFiles/SecurityGuardManager.dir/src/ui/TicketWidget.cpp.o
+SecurityGuardManager: CMakeFiles/SecurityGuardManager.dir/src/ui/TicketDialog.cpp.o
+SecurityGuardManager: CMakeFiles/SecurityGuardManager.dir/src/ui/AuditLogWidget.cpp.o
+SecurityGuardManager: CMakeFiles/SecurityGuardManager.dir/src/ui/RoleManagerWidget.cpp.o
+SecurityGuardManager: CMakeFiles/SecurityGuardManager.dir/src/ui/PermissionManager.cpp.o
 SecurityGuardManager: CMakeFiles/SecurityGuardManager.dir/src/ui/SearchWidget.cpp.o
 SecurityGuardManager: CMakeFiles/SecurityGuardManager.dir/src/ui/BackupWidget.cpp.o
 SecurityGuardManager: CMakeFiles/SecurityGuardManager.dir/src/ui/SettingsWidget.cpp.o
@@ -832,7 +976,7 @@ SecurityGuardManager: /usr/lib/aarch64-linux-gnu/libGLX.so
 SecurityGuardManager: /usr/lib/aarch64-linux-gnu/libOpenGL.so
 SecurityGuardManager: /usr/lib/aarch64-linux-gnu/libQt6Core.so.6.9.2
 SecurityGuardManager: CMakeFiles/SecurityGuardManager.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/root/cplusplus/C-Security-management/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_48) "Linking CXX executable SecurityGuardManager"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/root/cplusplus/C-Security-management/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_57) "Linking CXX executable SecurityGuardManager"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/SecurityGuardManager.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.

@@ -347,6 +347,30 @@ src/ui/AttendanceWidget.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/SecurityGuardManager.dir/build.make CMakeFiles/SecurityGuardManager.dir/src/ui/AttendanceWidget.cpp.s
 .PHONY : src/ui/AttendanceWidget.cpp.s
 
+src/ui/AuditLogWidget.o: src/ui/AuditLogWidget.cpp.o
+.PHONY : src/ui/AuditLogWidget.o
+
+# target to build an object file
+src/ui/AuditLogWidget.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/SecurityGuardManager.dir/build.make CMakeFiles/SecurityGuardManager.dir/src/ui/AuditLogWidget.cpp.o
+.PHONY : src/ui/AuditLogWidget.cpp.o
+
+src/ui/AuditLogWidget.i: src/ui/AuditLogWidget.cpp.i
+.PHONY : src/ui/AuditLogWidget.i
+
+# target to preprocess a source file
+src/ui/AuditLogWidget.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/SecurityGuardManager.dir/build.make CMakeFiles/SecurityGuardManager.dir/src/ui/AuditLogWidget.cpp.i
+.PHONY : src/ui/AuditLogWidget.cpp.i
+
+src/ui/AuditLogWidget.s: src/ui/AuditLogWidget.cpp.s
+.PHONY : src/ui/AuditLogWidget.s
+
+# target to generate assembly for a file
+src/ui/AuditLogWidget.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/SecurityGuardManager.dir/build.make CMakeFiles/SecurityGuardManager.dir/src/ui/AuditLogWidget.cpp.s
+.PHONY : src/ui/AuditLogWidget.cpp.s
+
 src/ui/BackupWidget.o: src/ui/BackupWidget.cpp.o
 .PHONY : src/ui/BackupWidget.o
 
@@ -779,6 +803,54 @@ src/ui/IncidentWidget.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/SecurityGuardManager.dir/build.make CMakeFiles/SecurityGuardManager.dir/src/ui/IncidentWidget.cpp.s
 .PHONY : src/ui/IncidentWidget.cpp.s
 
+src/ui/InvoiceDialog.o: src/ui/InvoiceDialog.cpp.o
+.PHONY : src/ui/InvoiceDialog.o
+
+# target to build an object file
+src/ui/InvoiceDialog.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/SecurityGuardManager.dir/build.make CMakeFiles/SecurityGuardManager.dir/src/ui/InvoiceDialog.cpp.o
+.PHONY : src/ui/InvoiceDialog.cpp.o
+
+src/ui/InvoiceDialog.i: src/ui/InvoiceDialog.cpp.i
+.PHONY : src/ui/InvoiceDialog.i
+
+# target to preprocess a source file
+src/ui/InvoiceDialog.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/SecurityGuardManager.dir/build.make CMakeFiles/SecurityGuardManager.dir/src/ui/InvoiceDialog.cpp.i
+.PHONY : src/ui/InvoiceDialog.cpp.i
+
+src/ui/InvoiceDialog.s: src/ui/InvoiceDialog.cpp.s
+.PHONY : src/ui/InvoiceDialog.s
+
+# target to generate assembly for a file
+src/ui/InvoiceDialog.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/SecurityGuardManager.dir/build.make CMakeFiles/SecurityGuardManager.dir/src/ui/InvoiceDialog.cpp.s
+.PHONY : src/ui/InvoiceDialog.cpp.s
+
+src/ui/InvoiceWidget.o: src/ui/InvoiceWidget.cpp.o
+.PHONY : src/ui/InvoiceWidget.o
+
+# target to build an object file
+src/ui/InvoiceWidget.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/SecurityGuardManager.dir/build.make CMakeFiles/SecurityGuardManager.dir/src/ui/InvoiceWidget.cpp.o
+.PHONY : src/ui/InvoiceWidget.cpp.o
+
+src/ui/InvoiceWidget.i: src/ui/InvoiceWidget.cpp.i
+.PHONY : src/ui/InvoiceWidget.i
+
+# target to preprocess a source file
+src/ui/InvoiceWidget.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/SecurityGuardManager.dir/build.make CMakeFiles/SecurityGuardManager.dir/src/ui/InvoiceWidget.cpp.i
+.PHONY : src/ui/InvoiceWidget.cpp.i
+
+src/ui/InvoiceWidget.s: src/ui/InvoiceWidget.cpp.s
+.PHONY : src/ui/InvoiceWidget.s
+
+# target to generate assembly for a file
+src/ui/InvoiceWidget.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/SecurityGuardManager.dir/build.make CMakeFiles/SecurityGuardManager.dir/src/ui/InvoiceWidget.cpp.s
+.PHONY : src/ui/InvoiceWidget.cpp.s
+
 src/ui/LeaveDialog.o: src/ui/LeaveDialog.cpp.o
 .PHONY : src/ui/LeaveDialog.o
 
@@ -899,6 +971,78 @@ src/ui/PayrollWidget.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/SecurityGuardManager.dir/build.make CMakeFiles/SecurityGuardManager.dir/src/ui/PayrollWidget.cpp.s
 .PHONY : src/ui/PayrollWidget.cpp.s
 
+src/ui/PermissionManager.o: src/ui/PermissionManager.cpp.o
+.PHONY : src/ui/PermissionManager.o
+
+# target to build an object file
+src/ui/PermissionManager.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/SecurityGuardManager.dir/build.make CMakeFiles/SecurityGuardManager.dir/src/ui/PermissionManager.cpp.o
+.PHONY : src/ui/PermissionManager.cpp.o
+
+src/ui/PermissionManager.i: src/ui/PermissionManager.cpp.i
+.PHONY : src/ui/PermissionManager.i
+
+# target to preprocess a source file
+src/ui/PermissionManager.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/SecurityGuardManager.dir/build.make CMakeFiles/SecurityGuardManager.dir/src/ui/PermissionManager.cpp.i
+.PHONY : src/ui/PermissionManager.cpp.i
+
+src/ui/PermissionManager.s: src/ui/PermissionManager.cpp.s
+.PHONY : src/ui/PermissionManager.s
+
+# target to generate assembly for a file
+src/ui/PermissionManager.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/SecurityGuardManager.dir/build.make CMakeFiles/SecurityGuardManager.dir/src/ui/PermissionManager.cpp.s
+.PHONY : src/ui/PermissionManager.cpp.s
+
+src/ui/PhotoDialog.o: src/ui/PhotoDialog.cpp.o
+.PHONY : src/ui/PhotoDialog.o
+
+# target to build an object file
+src/ui/PhotoDialog.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/SecurityGuardManager.dir/build.make CMakeFiles/SecurityGuardManager.dir/src/ui/PhotoDialog.cpp.o
+.PHONY : src/ui/PhotoDialog.cpp.o
+
+src/ui/PhotoDialog.i: src/ui/PhotoDialog.cpp.i
+.PHONY : src/ui/PhotoDialog.i
+
+# target to preprocess a source file
+src/ui/PhotoDialog.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/SecurityGuardManager.dir/build.make CMakeFiles/SecurityGuardManager.dir/src/ui/PhotoDialog.cpp.i
+.PHONY : src/ui/PhotoDialog.cpp.i
+
+src/ui/PhotoDialog.s: src/ui/PhotoDialog.cpp.s
+.PHONY : src/ui/PhotoDialog.s
+
+# target to generate assembly for a file
+src/ui/PhotoDialog.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/SecurityGuardManager.dir/build.make CMakeFiles/SecurityGuardManager.dir/src/ui/PhotoDialog.cpp.s
+.PHONY : src/ui/PhotoDialog.cpp.s
+
+src/ui/PhotoWidget.o: src/ui/PhotoWidget.cpp.o
+.PHONY : src/ui/PhotoWidget.o
+
+# target to build an object file
+src/ui/PhotoWidget.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/SecurityGuardManager.dir/build.make CMakeFiles/SecurityGuardManager.dir/src/ui/PhotoWidget.cpp.o
+.PHONY : src/ui/PhotoWidget.cpp.o
+
+src/ui/PhotoWidget.i: src/ui/PhotoWidget.cpp.i
+.PHONY : src/ui/PhotoWidget.i
+
+# target to preprocess a source file
+src/ui/PhotoWidget.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/SecurityGuardManager.dir/build.make CMakeFiles/SecurityGuardManager.dir/src/ui/PhotoWidget.cpp.i
+.PHONY : src/ui/PhotoWidget.cpp.i
+
+src/ui/PhotoWidget.s: src/ui/PhotoWidget.cpp.s
+.PHONY : src/ui/PhotoWidget.s
+
+# target to generate assembly for a file
+src/ui/PhotoWidget.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/SecurityGuardManager.dir/build.make CMakeFiles/SecurityGuardManager.dir/src/ui/PhotoWidget.cpp.s
+.PHONY : src/ui/PhotoWidget.cpp.s
+
 src/ui/ReportsWidget.o: src/ui/ReportsWidget.cpp.o
 .PHONY : src/ui/ReportsWidget.o
 
@@ -922,6 +1066,30 @@ src/ui/ReportsWidget.s: src/ui/ReportsWidget.cpp.s
 src/ui/ReportsWidget.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/SecurityGuardManager.dir/build.make CMakeFiles/SecurityGuardManager.dir/src/ui/ReportsWidget.cpp.s
 .PHONY : src/ui/ReportsWidget.cpp.s
+
+src/ui/RoleManagerWidget.o: src/ui/RoleManagerWidget.cpp.o
+.PHONY : src/ui/RoleManagerWidget.o
+
+# target to build an object file
+src/ui/RoleManagerWidget.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/SecurityGuardManager.dir/build.make CMakeFiles/SecurityGuardManager.dir/src/ui/RoleManagerWidget.cpp.o
+.PHONY : src/ui/RoleManagerWidget.cpp.o
+
+src/ui/RoleManagerWidget.i: src/ui/RoleManagerWidget.cpp.i
+.PHONY : src/ui/RoleManagerWidget.i
+
+# target to preprocess a source file
+src/ui/RoleManagerWidget.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/SecurityGuardManager.dir/build.make CMakeFiles/SecurityGuardManager.dir/src/ui/RoleManagerWidget.cpp.i
+.PHONY : src/ui/RoleManagerWidget.cpp.i
+
+src/ui/RoleManagerWidget.s: src/ui/RoleManagerWidget.cpp.s
+.PHONY : src/ui/RoleManagerWidget.s
+
+# target to generate assembly for a file
+src/ui/RoleManagerWidget.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/SecurityGuardManager.dir/build.make CMakeFiles/SecurityGuardManager.dir/src/ui/RoleManagerWidget.cpp.s
+.PHONY : src/ui/RoleManagerWidget.cpp.s
 
 src/ui/SalaryWidget.o: src/ui/SalaryWidget.cpp.o
 .PHONY : src/ui/SalaryWidget.o
@@ -1066,6 +1234,54 @@ src/ui/StyleManager.s: src/ui/StyleManager.cpp.s
 src/ui/StyleManager.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/SecurityGuardManager.dir/build.make CMakeFiles/SecurityGuardManager.dir/src/ui/StyleManager.cpp.s
 .PHONY : src/ui/StyleManager.cpp.s
+
+src/ui/TicketDialog.o: src/ui/TicketDialog.cpp.o
+.PHONY : src/ui/TicketDialog.o
+
+# target to build an object file
+src/ui/TicketDialog.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/SecurityGuardManager.dir/build.make CMakeFiles/SecurityGuardManager.dir/src/ui/TicketDialog.cpp.o
+.PHONY : src/ui/TicketDialog.cpp.o
+
+src/ui/TicketDialog.i: src/ui/TicketDialog.cpp.i
+.PHONY : src/ui/TicketDialog.i
+
+# target to preprocess a source file
+src/ui/TicketDialog.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/SecurityGuardManager.dir/build.make CMakeFiles/SecurityGuardManager.dir/src/ui/TicketDialog.cpp.i
+.PHONY : src/ui/TicketDialog.cpp.i
+
+src/ui/TicketDialog.s: src/ui/TicketDialog.cpp.s
+.PHONY : src/ui/TicketDialog.s
+
+# target to generate assembly for a file
+src/ui/TicketDialog.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/SecurityGuardManager.dir/build.make CMakeFiles/SecurityGuardManager.dir/src/ui/TicketDialog.cpp.s
+.PHONY : src/ui/TicketDialog.cpp.s
+
+src/ui/TicketWidget.o: src/ui/TicketWidget.cpp.o
+.PHONY : src/ui/TicketWidget.o
+
+# target to build an object file
+src/ui/TicketWidget.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/SecurityGuardManager.dir/build.make CMakeFiles/SecurityGuardManager.dir/src/ui/TicketWidget.cpp.o
+.PHONY : src/ui/TicketWidget.cpp.o
+
+src/ui/TicketWidget.i: src/ui/TicketWidget.cpp.i
+.PHONY : src/ui/TicketWidget.i
+
+# target to preprocess a source file
+src/ui/TicketWidget.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/SecurityGuardManager.dir/build.make CMakeFiles/SecurityGuardManager.dir/src/ui/TicketWidget.cpp.i
+.PHONY : src/ui/TicketWidget.cpp.i
+
+src/ui/TicketWidget.s: src/ui/TicketWidget.cpp.s
+.PHONY : src/ui/TicketWidget.s
+
+# target to generate assembly for a file
+src/ui/TicketWidget.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/SecurityGuardManager.dir/build.make CMakeFiles/SecurityGuardManager.dir/src/ui/TicketWidget.cpp.s
+.PHONY : src/ui/TicketWidget.cpp.s
 
 src/ui/TrainingDialog.o: src/ui/TrainingDialog.cpp.o
 .PHONY : src/ui/TrainingDialog.o
@@ -1294,6 +1510,9 @@ help:
 	@echo "... src/ui/AttendanceWidget.o"
 	@echo "... src/ui/AttendanceWidget.i"
 	@echo "... src/ui/AttendanceWidget.s"
+	@echo "... src/ui/AuditLogWidget.o"
+	@echo "... src/ui/AuditLogWidget.i"
+	@echo "... src/ui/AuditLogWidget.s"
 	@echo "... src/ui/BackupWidget.o"
 	@echo "... src/ui/BackupWidget.i"
 	@echo "... src/ui/BackupWidget.s"
@@ -1348,6 +1567,12 @@ help:
 	@echo "... src/ui/IncidentWidget.o"
 	@echo "... src/ui/IncidentWidget.i"
 	@echo "... src/ui/IncidentWidget.s"
+	@echo "... src/ui/InvoiceDialog.o"
+	@echo "... src/ui/InvoiceDialog.i"
+	@echo "... src/ui/InvoiceDialog.s"
+	@echo "... src/ui/InvoiceWidget.o"
+	@echo "... src/ui/InvoiceWidget.i"
+	@echo "... src/ui/InvoiceWidget.s"
 	@echo "... src/ui/LeaveDialog.o"
 	@echo "... src/ui/LeaveDialog.i"
 	@echo "... src/ui/LeaveDialog.s"
@@ -1363,9 +1588,21 @@ help:
 	@echo "... src/ui/PayrollWidget.o"
 	@echo "... src/ui/PayrollWidget.i"
 	@echo "... src/ui/PayrollWidget.s"
+	@echo "... src/ui/PermissionManager.o"
+	@echo "... src/ui/PermissionManager.i"
+	@echo "... src/ui/PermissionManager.s"
+	@echo "... src/ui/PhotoDialog.o"
+	@echo "... src/ui/PhotoDialog.i"
+	@echo "... src/ui/PhotoDialog.s"
+	@echo "... src/ui/PhotoWidget.o"
+	@echo "... src/ui/PhotoWidget.i"
+	@echo "... src/ui/PhotoWidget.s"
 	@echo "... src/ui/ReportsWidget.o"
 	@echo "... src/ui/ReportsWidget.i"
 	@echo "... src/ui/ReportsWidget.s"
+	@echo "... src/ui/RoleManagerWidget.o"
+	@echo "... src/ui/RoleManagerWidget.i"
+	@echo "... src/ui/RoleManagerWidget.s"
 	@echo "... src/ui/SalaryWidget.o"
 	@echo "... src/ui/SalaryWidget.i"
 	@echo "... src/ui/SalaryWidget.s"
@@ -1384,6 +1621,12 @@ help:
 	@echo "... src/ui/StyleManager.o"
 	@echo "... src/ui/StyleManager.i"
 	@echo "... src/ui/StyleManager.s"
+	@echo "... src/ui/TicketDialog.o"
+	@echo "... src/ui/TicketDialog.i"
+	@echo "... src/ui/TicketDialog.s"
+	@echo "... src/ui/TicketWidget.o"
+	@echo "... src/ui/TicketWidget.i"
+	@echo "... src/ui/TicketWidget.s"
 	@echo "... src/ui/TrainingDialog.o"
 	@echo "... src/ui/TrainingDialog.i"
 	@echo "... src/ui/TrainingDialog.s"

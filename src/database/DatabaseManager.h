@@ -22,6 +22,8 @@ public:
 
     // Generic query helpers
     QSqlQuery execute(const QString& sql, const QVariantMap& params = {});
+    bool hasPermission(const QString& role, const QString& module, const QString& action);
+    QSqlQuery getPermissions(const QString& role);
     bool executeNonQuery(const QString& sql, const QVariantMap& params = {});
     int lastInsertId() const;
 
@@ -57,6 +59,7 @@ private:
 
     void createTables();
     void seedDefaultAdmin();
+    void seedDefaultPermissions();
 
     QSqlDatabase m_db;
     QString m_dbPath;

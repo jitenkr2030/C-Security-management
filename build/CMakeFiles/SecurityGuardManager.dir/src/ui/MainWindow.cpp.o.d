@@ -536,6 +536,11 @@ CMakeFiles/SecurityGuardManager.dir/src/ui/MainWindow.cpp.o: \
  /root/cplusplus/C-Security-management/src/ui/AlertWidget.h \
  /root/cplusplus/C-Security-management/src/ui/PayrollWidget.h \
  /root/cplusplus/C-Security-management/src/ui/AnnouncementWidget.h \
+ /root/cplusplus/C-Security-management/src/ui/PhotoWidget.h \
+ /root/cplusplus/C-Security-management/src/ui/InvoiceWidget.h \
+ /root/cplusplus/C-Security-management/src/ui/TicketWidget.h \
+ /root/cplusplus/C-Security-management/src/ui/AuditLogWidget.h \
+ /root/cplusplus/C-Security-management/src/ui/RoleManagerWidget.h \
  /root/cplusplus/C-Security-management/src/ui/ReportsWidget.h \
  /root/cplusplus/C-Security-management/src/ui/SearchWidget.h \
  /root/cplusplus/C-Security-management/src/ui/BackupWidget.h \

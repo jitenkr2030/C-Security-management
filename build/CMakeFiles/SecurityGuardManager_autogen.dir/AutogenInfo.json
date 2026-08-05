@@ -460,6 +460,12 @@
 			null
 		],
 		[
+			"/root/cplusplus/C-Security-management/src/ui/AuditLogWidget.h",
+			"MU",
+			"YPKJ5OE7LN/moc_AuditLogWidget.cpp",
+			null
+		],
+		[
 			"/root/cplusplus/C-Security-management/src/ui/BackupWidget.h",
 			"MU",
 			"YPKJ5OE7LN/moc_BackupWidget.cpp",
@@ -568,6 +574,18 @@
 			null
 		],
 		[
+			"/root/cplusplus/C-Security-management/src/ui/InvoiceDialog.h",
+			"MU",
+			"YPKJ5OE7LN/moc_InvoiceDialog.cpp",
+			null
+		],
+		[
+			"/root/cplusplus/C-Security-management/src/ui/InvoiceWidget.h",
+			"MU",
+			"YPKJ5OE7LN/moc_InvoiceWidget.cpp",
+			null
+		],
+		[
 			"/root/cplusplus/C-Security-management/src/ui/LeaveDialog.h",
 			"MU",
 			"YPKJ5OE7LN/moc_LeaveDialog.cpp",
@@ -598,9 +616,33 @@
 			null
 		],
 		[
+			"/root/cplusplus/C-Security-management/src/ui/PermissionManager.h",
+			"MU",
+			"YPKJ5OE7LN/moc_PermissionManager.cpp",
+			null
+		],
+		[
+			"/root/cplusplus/C-Security-management/src/ui/PhotoDialog.h",
+			"MU",
+			"YPKJ5OE7LN/moc_PhotoDialog.cpp",
+			null
+		],
+		[
+			"/root/cplusplus/C-Security-management/src/ui/PhotoWidget.h",
+			"MU",
+			"YPKJ5OE7LN/moc_PhotoWidget.cpp",
+			null
+		],
+		[
 			"/root/cplusplus/C-Security-management/src/ui/ReportsWidget.h",
 			"MU",
 			"YPKJ5OE7LN/moc_ReportsWidget.cpp",
+			null
+		],
+		[
+			"/root/cplusplus/C-Security-management/src/ui/RoleManagerWidget.h",
+			"MU",
+			"YPKJ5OE7LN/moc_RoleManagerWidget.cpp",
 			null
 		],
 		[
@@ -637,6 +679,18 @@
 			"/root/cplusplus/C-Security-management/src/ui/StyleManager.h",
 			"MU",
 			"YPKJ5OE7LN/moc_StyleManager.cpp",
+			null
+		],
+		[
+			"/root/cplusplus/C-Security-management/src/ui/TicketDialog.h",
+			"MU",
+			"YPKJ5OE7LN/moc_TicketDialog.cpp",
+			null
+		],
+		[
+			"/root/cplusplus/C-Security-management/src/ui/TicketWidget.h",
+			"MU",
+			"YPKJ5OE7LN/moc_TicketWidget.cpp",
 			null
 		],
 		[
@@ -785,6 +839,11 @@
 			null
 		],
 		[
+			"/root/cplusplus/C-Security-management/src/ui/AuditLogWidget.cpp",
+			"MU",
+			null
+		],
+		[
 			"/root/cplusplus/C-Security-management/src/ui/BackupWidget.cpp",
 			"MU",
 			null
@@ -875,6 +934,16 @@
 			null
 		],
 		[
+			"/root/cplusplus/C-Security-management/src/ui/InvoiceDialog.cpp",
+			"MU",
+			null
+		],
+		[
+			"/root/cplusplus/C-Security-management/src/ui/InvoiceWidget.cpp",
+			"MU",
+			null
+		],
+		[
 			"/root/cplusplus/C-Security-management/src/ui/LeaveDialog.cpp",
 			"MU",
 			null
@@ -900,7 +969,27 @@
 			null
 		],
 		[
+			"/root/cplusplus/C-Security-management/src/ui/PermissionManager.cpp",
+			"MU",
+			null
+		],
+		[
+			"/root/cplusplus/C-Security-management/src/ui/PhotoDialog.cpp",
+			"MU",
+			null
+		],
+		[
+			"/root/cplusplus/C-Security-management/src/ui/PhotoWidget.cpp",
+			"MU",
+			null
+		],
+		[
 			"/root/cplusplus/C-Security-management/src/ui/ReportsWidget.cpp",
+			"MU",
+			null
+		],
+		[
+			"/root/cplusplus/C-Security-management/src/ui/RoleManagerWidget.cpp",
 			"MU",
 			null
 		],
@@ -931,6 +1020,16 @@
 		],
 		[
 			"/root/cplusplus/C-Security-management/src/ui/StyleManager.cpp",
+			"MU",
+			null
+		],
+		[
+			"/root/cplusplus/C-Security-management/src/ui/TicketDialog.cpp",
+			"MU",
+			null
+		],
+		[
+			"/root/cplusplus/C-Security-management/src/ui/TicketWidget.cpp",
 			"MU",
 			null
 		],

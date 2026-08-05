@@ -39,10 +39,46 @@ set(SOURCES
     src/ui/PayrollWidget.cpp
     src/ui/AnnouncementWidget.cpp
     src/ui/AnnouncementDialog.cpp
+    src/ui/PhotoWidget.cpp
+    src/ui/PhotoDialog.cpp
+    src/ui/InvoiceWidget.cpp
+    src/ui/InvoiceDialog.cpp
+    src/ui/TicketWidget.cpp
+    src/ui/TicketDialog.cpp
+    src/ui/AuditLogWidget.cpp
+    src/ui/RoleManagerWidget.cpp
+    src/ui/PermissionManager.cpp
+    src/ui/PhotoWidget.cpp
+    src/ui/PhotoDialog.cpp
+    src/ui/InvoiceWidget.cpp
+    src/ui/InvoiceDialog.cpp
+    src/ui/TicketWidget.cpp
+    src/ui/TicketDialog.cpp
+    src/ui/AuditLogWidget.cpp
+    src/ui/RoleManagerWidget.cpp
+    src/ui/PermissionManager.cpp
     src/ui/AlertWidget.cpp
     src/ui/PayrollWidget.cpp
     src/ui/AnnouncementWidget.cpp
     src/ui/AnnouncementDialog.cpp
+    src/ui/PhotoWidget.cpp
+    src/ui/PhotoDialog.cpp
+    src/ui/InvoiceWidget.cpp
+    src/ui/InvoiceDialog.cpp
+    src/ui/TicketWidget.cpp
+    src/ui/TicketDialog.cpp
+    src/ui/AuditLogWidget.cpp
+    src/ui/RoleManagerWidget.cpp
+    src/ui/PermissionManager.cpp
+    src/ui/PhotoWidget.cpp
+    src/ui/PhotoDialog.cpp
+    src/ui/InvoiceWidget.cpp
+    src/ui/InvoiceDialog.cpp
+    src/ui/TicketWidget.cpp
+    src/ui/TicketDialog.cpp
+    src/ui/AuditLogWidget.cpp
+    src/ui/RoleManagerWidget.cpp
+    src/ui/PermissionManager.cpp
     src/ui/SearchWidget.cpp
     src/ui/BackupWidget.cpp
     src/ui/SettingsWidget.cpp
@@ -75,10 +111,46 @@ set(HEADERS
     src/ui/PayrollWidget.h
     src/ui/AnnouncementWidget.h
     src/ui/AnnouncementDialog.h
+    src/ui/PhotoWidget.h
+    src/ui/PhotoDialog.h
+    src/ui/InvoiceWidget.h
+    src/ui/InvoiceDialog.h
+    src/ui/TicketWidget.h
+    src/ui/TicketDialog.h
+    src/ui/AuditLogWidget.h
+    src/ui/RoleManagerWidget.h
+    src/ui/PermissionManager.h
+    src/ui/PhotoWidget.h
+    src/ui/PhotoDialog.h
+    src/ui/InvoiceWidget.h
+    src/ui/InvoiceDialog.h
+    src/ui/TicketWidget.h
+    src/ui/TicketDialog.h
+    src/ui/AuditLogWidget.h
+    src/ui/RoleManagerWidget.h
+    src/ui/PermissionManager.h
     src/ui/AlertWidget.h
     src/ui/PayrollWidget.h
     src/ui/AnnouncementWidget.h
     src/ui/AnnouncementDialog.h
+    src/ui/PhotoWidget.h
+    src/ui/PhotoDialog.h
+    src/ui/InvoiceWidget.h
+    src/ui/InvoiceDialog.h
+    src/ui/TicketWidget.h
+    src/ui/TicketDialog.h
+    src/ui/AuditLogWidget.h
+    src/ui/RoleManagerWidget.h
+    src/ui/PermissionManager.h
+    src/ui/PhotoWidget.h
+    src/ui/PhotoDialog.h
+    src/ui/InvoiceWidget.h
+    src/ui/InvoiceDialog.h
+    src/ui/TicketWidget.h
+    src/ui/TicketDialog.h
+    src/ui/AuditLogWidget.h
+    src/ui/RoleManagerWidget.h
+    src/ui/PermissionManager.h
     src/ui/SearchWidget.h
     src/ui/BackupWidget.h
     src/ui/SettingsWidget.h

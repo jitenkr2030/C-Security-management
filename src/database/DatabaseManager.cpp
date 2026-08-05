@@ -41,6 +41,7 @@ bool DatabaseManager::initialize(const QString& dbPath)
 
     createTables();
     seedDefaultAdmin();
+    seedDefaultPermissions();
 
     qInfo() << "Database initialized at:" << m_dbPath;
     return true;
@@ -494,6 +495,21 @@ void DatabaseManager::createTables()
     )";
 
 
+
+    // Role Permissions
+    statements << R"(
+        CREATE TABLE IF NOT EXISTS RolePermissions (
+                id              INTEGER PRIMARY KEY AUTOINCREMENT,
+                role_name       TEXT NOT NULL,
+                module_name     TEXT NOT NULL,
+                can_view        INTEGER DEFAULT 1,
+                can_create      INTEGER DEFAULT 1,
+                can_edit        INTEGER DEFAULT 1,
+                can_delete      INTEGER DEFAULT 0,
+                UNIQUE(role_name, module_name)
+            )
+    )";
+
     // Complaints / Feedback
     statements << R"(
         CREATE TABLE IF NOT EXISTS Complaints (
@@ -680,6 +696,78 @@ void DatabaseManager::createTables()
             qCritical() << "SQL:" << sql.left(100);
         }
     }
+}
+
+void DatabaseManager::seedDefaultPermissions()
+{
+    QSqlQuery check(m_db);
+    check.exec("SELECT COUNT(*) FROM RolePermissions");
+    if (check.next() && check.value(0).toInt() > 0) return;
+
+    QStringList modules = {"Dashboard", "Guards", "Clients", "Sites", "Attendance",
+                           "Duty", "Leave", "Salary", "Uniform", "Equipment",
+                           "Visitors", "Vehicles", "Incidents", "Training",
+                           "Documents", "Complaints", "Fines", "Alerts",
+                           "Payroll", "Announcements", "Photos", "Invoices",
+                           "Tickets", "AuditLog", "Reports", "Search",
+                           "Backup", "Settings"};
+
+    // Admin gets full access
+    for (const auto& mod : modules) {
+        QSqlQuery q(m_db);
+        q.prepare("INSERT INTO RolePermissions (role_name, module_name, can_view, can_create, can_edit, can_delete) VALUES ('Admin', :mod, 1, 1, 1, 1)");
+        q.bindValue(":mod", mod);
+        q.exec();
+    }
+
+    // Supervisor gets access except Settings, Backup, AuditLog, RoleManagement
+    QStringList supervisorDeny = {"Backup", "Settings"};
+    for (const auto& mod : modules) {
+        QSqlQuery q(m_db);
+        bool deny = supervisorDeny.contains(mod);
+        q.prepare("INSERT INTO RolePermissions (role_name, module_name, can_view, can_create, can_edit, can_delete) VALUES ('Supervisor', :mod, 1, :create, :edit, :del)");
+        q.bindValue(":mod", mod);
+        q.bindValue(":create", deny ? 0 : 1);
+        q.bindValue(":edit", deny ? 0 : 1);
+        q.bindValue(":del", deny ? 0 : (mod == "Attendance" || mod == "Duty" || mod == "Leave" ? 1 : 0));
+        q.exec();
+    }
+
+    // Operator gets limited access
+    QStringList operatorAllow = {"Dashboard", "Guards", "Clients", "Sites", "Attendance",
+                                  "Duty", "Leave", "Visitors", "Vehicles", "Incidents",
+                                  "Documents", "Complaints", "Alerts"};
+    QStringList operatorCreate = {"Attendance", "Leave", "Visitors", "Vehicles", "Incidents", "Complaints"};
+    QStringList operatorEdit = {"Attendance", "Leave", "Visitors", "Vehicles"};
+    for (const auto& mod : modules) {
+        QSqlQuery q(m_db);
+        bool allow = operatorAllow.contains(mod);
+        q.prepare("INSERT INTO RolePermissions (role_name, module_name, can_view, can_create, can_edit, can_delete) VALUES ('Operator', :mod, :view, :create, :edit, 0)");
+        q.bindValue(":mod", mod);
+        q.bindValue(":view", allow ? 1 : 0);
+        q.bindValue(":create", operatorCreate.contains(mod) ? 1 : 0);
+        q.bindValue(":edit", operatorEdit.contains(mod) ? 1 : 0);
+        q.exec();
+    }
+}
+
+bool DatabaseManager::hasPermission(const QString& role, const QString& module, const QString& action)
+{
+    QSqlQuery q(m_db);
+    q.prepare("SELECT " + action + " FROM RolePermissions WHERE role_name = :role AND module_name = :mod");
+    q.bindValue(":role", role);
+    q.bindValue(":mod", module);
+    if (q.exec() && q.next()) return q.value(0).toInt() == 1;
+    return false;
+}
+
+QSqlQuery DatabaseManager::getPermissions(const QString& role)
+{
+    QSqlQuery q(m_db);
+    q.prepare("SELECT module_name, can_view, can_create, can_edit, can_delete FROM RolePermissions WHERE role_name = :role ORDER BY module_name");
+    q.bindValue(":role", role);
+    q.exec();
+    return q;
 }
 
 void DatabaseManager::seedDefaultAdmin()

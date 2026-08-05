@@ -19,6 +19,11 @@
 #include "AlertWidget.h"
 #include "PayrollWidget.h"
 #include "AnnouncementWidget.h"
+#include "PhotoWidget.h"
+#include "InvoiceWidget.h"
+#include "TicketWidget.h"
+#include "AuditLogWidget.h"
+#include "RoleManagerWidget.h"
 #include "ReportsWidget.h"
 #include "SearchWidget.h"
 #include "BackupWidget.h"
@@ -71,24 +76,24 @@ void MainWindow::buildUI()
     m_alerts = new AlertWidget;              // 17
     m_payroll = new PayrollWidget;           // 18
     m_announcements = new AnnouncementWidget;// 19
-    m_reports = new ReportsWidget;           // 20
-    m_search = new SearchWidget;             // 21
-    m_backup = new BackupWidget;             // 22
-    m_settings = new SettingsWidget;         // 23
+    m_photos = new PhotoWidget;              // 20
+    m_invoices = new InvoiceWidget;          // 21
+    m_tickets = new TicketWidget;            // 22
+    m_auditLog = new AuditLogWidget;         // 23
+    m_roleManager = new RoleManagerWidget;   // 24
+    m_reports = new ReportsWidget;           // 25
+    m_search = new SearchWidget;             // 26
+    m_backup = new BackupWidget;             // 27
+    m_settings = new SettingsWidget;         // 28
 
-    for (auto* w : {static_cast<QWidget*>(m_dashboard), static_cast<QWidget*>(m_guards),
-         static_cast<QWidget*>(m_clients), static_cast<QWidget*>(m_sites),
-         static_cast<QWidget*>(m_attendance), static_cast<QWidget*>(m_duty),
-         static_cast<QWidget*>(m_leave), static_cast<QWidget*>(m_salary),
-         static_cast<QWidget*>(m_uniform), static_cast<QWidget*>(m_equipment),
-         static_cast<QWidget*>(m_visitors), static_cast<QWidget*>(m_vehicles),
-         static_cast<QWidget*>(m_incidents), static_cast<QWidget*>(m_training),
-         static_cast<QWidget*>(m_documents), static_cast<QWidget*>(m_complaints),
-         static_cast<QWidget*>(m_fines), static_cast<QWidget*>(m_alerts),
-         static_cast<QWidget*>(m_payroll), static_cast<QWidget*>(m_announcements),
-         static_cast<QWidget*>(m_reports), static_cast<QWidget*>(m_search),
-         static_cast<QWidget*>(m_backup), static_cast<QWidget*>(m_settings)})
-        m_stack->addWidget(w);
+    QList<QWidget*> widgets = {
+        m_dashboard, m_guards, m_clients, m_sites, m_attendance, m_duty,
+        m_leave, m_salary, m_uniform, m_equipment, m_visitors, m_vehicles,
+        m_incidents, m_training, m_documents, m_complaints, m_fines, m_alerts,
+        m_payroll, m_announcements, m_photos, m_invoices, m_tickets, m_auditLog,
+        m_roleManager, m_reports, m_search, m_backup, m_settings
+    };
+    for (auto* w : widgets) m_stack->addWidget(w);
 
     mainLayout->addWidget(m_stack, 1);
     setCentralWidget(centralWidget);
@@ -153,6 +158,9 @@ QWidget* MainWindow::createSidebar()
     m_btnDocuments = makeBtn("  Documents", idx++); m_btnComplaints = makeBtn("  Complaints", idx++);
     m_btnFines = makeBtn("  Fines & Deductions", idx++); m_btnAlerts = makeBtn("  Alerts", idx++);
     m_btnPayroll = makeBtn("  Payroll", idx++); m_btnAnnouncements = makeBtn("  Announcements", idx++);
+    m_btnPhotos = makeBtn("  Photo Gallery", idx++); m_btnInvoices = makeBtn("  Client Billing", idx++);
+    m_btnTickets = makeBtn("  Helpdesk", idx++); m_btnAuditLog = makeBtn("  Audit Log", idx++);
+    m_btnRoleManager = makeBtn("  Roles & Access", idx++);
 
     addSection("TOOLS");
     m_btnReports = makeBtn("  Reports", idx++); m_btnSearch = makeBtn("  Search", idx++);
@@ -186,6 +194,7 @@ void MainWindow::setActiveNavButton(QPushButton* activeBtn)
         m_btnAttendance, m_btnDuty, m_btnLeave, m_btnSalary, m_btnUniform, m_btnEquipment,
         m_btnVisitors, m_btnVehicles, m_btnIncidents, m_btnTraining, m_btnDocuments,
         m_btnComplaints, m_btnFines, m_btnAlerts, m_btnPayroll, m_btnAnnouncements,
+        m_btnPhotos, m_btnInvoices, m_btnTickets, m_btnAuditLog, m_btnRoleManager,
         m_btnReports, m_btnSearch, m_btnBackup, m_btnSettings };
     for (auto* btn : allBtns) { if (btn) btn->setChecked(btn == activeBtn); }
 }
@@ -210,13 +219,19 @@ void MainWindow::showFines()         { m_stack->setCurrentIndex(16); setActiveNa
 void MainWindow::showAlerts()        { m_stack->setCurrentIndex(17); setActiveNavButton(m_btnAlerts); m_alerts->refresh(); }
 void MainWindow::showPayroll()       { m_stack->setCurrentIndex(18); setActiveNavButton(m_btnPayroll); m_payroll->refresh(); }
 void MainWindow::showAnnouncements() { m_stack->setCurrentIndex(19); setActiveNavButton(m_btnAnnouncements); m_announcements->refresh(); }
-void MainWindow::showReports()       { m_stack->setCurrentIndex(20); setActiveNavButton(m_btnReports); m_reports->refresh(); }
-void MainWindow::showSearch()        { m_stack->setCurrentIndex(21); setActiveNavButton(m_btnSearch); m_search->refresh(); }
-void MainWindow::showBackup()        { m_stack->setCurrentIndex(22); setActiveNavButton(m_btnBackup); m_backup->refresh(); }
-void MainWindow::showSettings()      { m_stack->setCurrentIndex(23); setActiveNavButton(m_btnSettings); m_settings->refresh(); }
+void MainWindow::showPhotos()        { m_stack->setCurrentIndex(20); setActiveNavButton(m_btnPhotos); m_photos->refresh(); }
+void MainWindow::showInvoices()      { m_stack->setCurrentIndex(21); setActiveNavButton(m_btnInvoices); m_invoices->refresh(); }
+void MainWindow::showTickets()       { m_stack->setCurrentIndex(22); setActiveNavButton(m_btnTickets); m_tickets->refresh(); }
+void MainWindow::showAuditLog()      { m_stack->setCurrentIndex(23); setActiveNavButton(m_btnAuditLog); m_auditLog->refresh(); }
+void MainWindow::showRoleManager()   { m_stack->setCurrentIndex(24); setActiveNavButton(m_btnRoleManager); m_roleManager->refresh(); }
+void MainWindow::showReports()       { m_stack->setCurrentIndex(25); setActiveNavButton(m_btnReports); m_reports->refresh(); }
+void MainWindow::showSearch()        { m_stack->setCurrentIndex(26); setActiveNavButton(m_btnSearch); m_search->refresh(); }
+void MainWindow::showBackup()        { m_stack->setCurrentIndex(27); setActiveNavButton(m_btnBackup); m_backup->refresh(); }
+void MainWindow::showSettings()      { m_stack->setCurrentIndex(28); setActiveNavButton(m_btnSettings); m_settings->refresh(); }
 
 void MainWindow::handleLogout()
 {
-    auto result = QMessageBox::question(this, "Sign Out", "Are you sure you want to sign out?", QMessageBox::Yes | QMessageBox::No, QMessageBox::No);
+    auto result = QMessageBox::question(this, "Sign Out", "Are you sure you want to sign out?",
+        QMessageBox::Yes | QMessageBox::No, QMessageBox::No);
     if (result == QMessageBox::Yes) QApplication::quit();
 }

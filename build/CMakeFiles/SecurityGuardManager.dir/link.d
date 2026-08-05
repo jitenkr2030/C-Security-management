@@ -43,6 +43,15 @@ SecurityGuardManager: \
   CMakeFiles/SecurityGuardManager.dir/src/ui/PayrollWidget.cpp.o \
   CMakeFiles/SecurityGuardManager.dir/src/ui/AnnouncementWidget.cpp.o \
   CMakeFiles/SecurityGuardManager.dir/src/ui/AnnouncementDialog.cpp.o \
+  CMakeFiles/SecurityGuardManager.dir/src/ui/PhotoWidget.cpp.o \
+  CMakeFiles/SecurityGuardManager.dir/src/ui/PhotoDialog.cpp.o \
+  CMakeFiles/SecurityGuardManager.dir/src/ui/InvoiceWidget.cpp.o \
+  CMakeFiles/SecurityGuardManager.dir/src/ui/InvoiceDialog.cpp.o \
+  CMakeFiles/SecurityGuardManager.dir/src/ui/TicketWidget.cpp.o \
+  CMakeFiles/SecurityGuardManager.dir/src/ui/TicketDialog.cpp.o \
+  CMakeFiles/SecurityGuardManager.dir/src/ui/AuditLogWidget.cpp.o \
+  CMakeFiles/SecurityGuardManager.dir/src/ui/RoleManagerWidget.cpp.o \
+  CMakeFiles/SecurityGuardManager.dir/src/ui/PermissionManager.cpp.o \
   CMakeFiles/SecurityGuardManager.dir/src/ui/SearchWidget.cpp.o \
   CMakeFiles/SecurityGuardManager.dir/src/ui/BackupWidget.cpp.o \
   CMakeFiles/SecurityGuardManager.dir/src/ui/SettingsWidget.cpp.o \
@@ -205,6 +214,24 @@ CMakeFiles/SecurityGuardManager.dir/src/ui/PayrollWidget.cpp.o:
 CMakeFiles/SecurityGuardManager.dir/src/ui/AnnouncementWidget.cpp.o:
 
 CMakeFiles/SecurityGuardManager.dir/src/ui/AnnouncementDialog.cpp.o:
+
+CMakeFiles/SecurityGuardManager.dir/src/ui/PhotoWidget.cpp.o:
+
+CMakeFiles/SecurityGuardManager.dir/src/ui/PhotoDialog.cpp.o:
+
+CMakeFiles/SecurityGuardManager.dir/src/ui/InvoiceWidget.cpp.o:
+
+CMakeFiles/SecurityGuardManager.dir/src/ui/InvoiceDialog.cpp.o:
+
+CMakeFiles/SecurityGuardManager.dir/src/ui/TicketWidget.cpp.o:
+
+CMakeFiles/SecurityGuardManager.dir/src/ui/TicketDialog.cpp.o:
+
+CMakeFiles/SecurityGuardManager.dir/src/ui/AuditLogWidget.cpp.o:
+
+CMakeFiles/SecurityGuardManager.dir/src/ui/RoleManagerWidget.cpp.o:
+
+CMakeFiles/SecurityGuardManager.dir/src/ui/PermissionManager.cpp.o:
 
 CMakeFiles/SecurityGuardManager.dir/src/ui/SearchWidget.cpp.o:
 
