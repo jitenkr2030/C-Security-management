@@ -23,33 +23,29 @@ jobs:
         arch: 'win64_msvc2019_64'
         modules: 'qt5compat'
 
-    - name: Clean build
+    - name: Clean and configure
+      shell: pwsh
       run: |
         if (Test-Path build) { Remove-Item -Recurse -Force build }
-        mkdir build
-      shell: pwsh
-
-    - name: Configure CMake
-      run: |
+        New-Item -ItemType Directory -Path build | Out-Null
         cd build
         cmake .. -DCMAKE_BUILD_TYPE=Release
-      shell: cmd
 
     - name: Build
+      shell: pwsh
       run: |
         cd build
         cmake --build . --config Release -j 4
-      shell: cmd
 
     - name: Create distribution
+      shell: pwsh
       run: |
         if (Test-Path dist) { Remove-Item -Recurse -Force dist }
-        mkdir dist
-        copy build\Release\SecurityGuardManager.exe dist\
+        New-Item -ItemType Directory -Path dist | Out-Null
+        Copy-Item build/Release/SecurityGuardManager.exe dist/
         cd dist
         windeployqt SecurityGuardManager.exe --no-translations --no-opengl-sw --no-system-d3d-compiler
-        del /q *.qml 2>nul
-      shell: cmd
+        Get-ChildItem -Filter *.qml -ErrorAction SilentlyContinue | Remove-Item -ErrorAction SilentlyContinue
 
     - name: Upload artifact
       uses: actions/upload-artifact@v5
