@@ -23,9 +23,14 @@ jobs:
         arch: 'win64_msvc2019_64'
         modules: 'qt5compat'
 
+    - name: Clean build
+      run: |
+        if (Test-Path build) { Remove-Item -Recurse -Force build }
+        mkdir build
+      shell: pwsh
+
     - name: Configure CMake
       run: |
-        mkdir build
         cd build
         cmake .. -DCMAKE_BUILD_TYPE=Release
       shell: cmd
@@ -38,6 +43,7 @@ jobs:
 
     - name: Create distribution
       run: |
+        if (Test-Path dist) { Remove-Item -Recurse -Force dist }
         mkdir dist
         copy build\Release\SecurityGuardManager.exe dist\
         cd dist

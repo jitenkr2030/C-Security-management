@@ -1,0 +1,9 @@
+build/
+*.db
+*.db-shm
+*.db-wal
+photos/
+reports/
+backups/
+*.user
+CMakeCache.txt

@@ -1,5 +1,0 @@
-/root/cplusplus/C-Security-management/build/CMakeFiles/SecurityGuardManager.dir
-/root/cplusplus/C-Security-management/build/CMakeFiles/edit_cache.dir
-/root/cplusplus/C-Security-management/build/CMakeFiles/rebuild_cache.dir
-/root/cplusplus/C-Security-management/build/CMakeFiles/SecurityGuardManager_autogen_timestamp_deps.dir
-/root/cplusplus/C-Security-management/build/CMakeFiles/SecurityGuardManager_autogen.dir
