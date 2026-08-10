@@ -49,6 +49,7 @@ set(SOURCES
     src/ui/RoleManagerWidget.cpp
     src/ui/ComplianceWidget.cpp
     src/ui/ComplianceDialog.cpp
+    src/ui/LicenseDialog.cpp
     src/ui/PermissionManager.cpp
     src/ui/PhotoWidget.cpp
     src/ui/PhotoDialog.cpp
@@ -60,6 +61,7 @@ set(SOURCES
     src/ui/RoleManagerWidget.cpp
     src/ui/ComplianceWidget.cpp
     src/ui/ComplianceDialog.cpp
+    src/ui/LicenseDialog.cpp
     src/ui/PermissionManager.cpp
     src/ui/AlertWidget.cpp
     src/ui/PayrollWidget.cpp
@@ -75,6 +77,7 @@ set(SOURCES
     src/ui/RoleManagerWidget.cpp
     src/ui/ComplianceWidget.cpp
     src/ui/ComplianceDialog.cpp
+    src/ui/LicenseDialog.cpp
     src/ui/PermissionManager.cpp
     src/ui/PhotoWidget.cpp
     src/ui/PhotoDialog.cpp
@@ -86,6 +89,7 @@ set(SOURCES
     src/ui/RoleManagerWidget.cpp
     src/ui/ComplianceWidget.cpp
     src/ui/ComplianceDialog.cpp
+    src/ui/LicenseDialog.cpp
     src/ui/PermissionManager.cpp
     src/ui/SearchWidget.cpp
     src/ui/BackupWidget.cpp
@@ -129,6 +133,7 @@ set(HEADERS
     src/ui/RoleManagerWidget.h
     src/ui/ComplianceWidget.h
     src/ui/ComplianceDialog.h
+    src/ui/LicenseDialog.h
     src/ui/PermissionManager.h
     src/ui/PhotoWidget.h
     src/ui/PhotoDialog.h
@@ -140,6 +145,7 @@ set(HEADERS
     src/ui/RoleManagerWidget.h
     src/ui/ComplianceWidget.h
     src/ui/ComplianceDialog.h
+    src/ui/LicenseDialog.h
     src/ui/PermissionManager.h
     src/ui/AlertWidget.h
     src/ui/PayrollWidget.h
@@ -155,6 +161,7 @@ set(HEADERS
     src/ui/RoleManagerWidget.h
     src/ui/ComplianceWidget.h
     src/ui/ComplianceDialog.h
+    src/ui/LicenseDialog.h
     src/ui/PermissionManager.h
     src/ui/PhotoWidget.h
     src/ui/PhotoDialog.h
@@ -166,6 +173,7 @@ set(HEADERS
     src/ui/RoleManagerWidget.h
     src/ui/ComplianceWidget.h
     src/ui/ComplianceDialog.h
+    src/ui/LicenseDialog.h
     src/ui/PermissionManager.h
     src/ui/SearchWidget.h
     src/ui/BackupWidget.h

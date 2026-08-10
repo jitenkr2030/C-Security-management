@@ -4,6 +4,7 @@
 
 #include "database/DatabaseManager.h"
 #include "ui/StyleManager.h"
+#include "ui/LicenseDialog.h"
 #include "ui/LoginDialog.h"
 #include "ui/MainWindow.h"
 
@@ -28,6 +29,14 @@ int main(int argc, char* argv[])
     }
 
     qInfo() << "Database ready at:" << DatabaseManager::instance().databasePath();
+
+    // Check license first
+    if (!LicenseDialog::isLicenseValid()) {
+        LicenseDialog licenseDialog;
+        if (licenseDialog.exec() != QDialog::Accepted) {
+            return 0;
+        }
+    }
 
     LoginDialog loginDialog;
     if (loginDialog.exec() != QDialog::Accepted) {
